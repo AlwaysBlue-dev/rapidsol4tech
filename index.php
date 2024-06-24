@@ -187,7 +187,8 @@
                         <p class="cta-text"> Elevate your digital presence with us today.</p>
                     </div>
                     <div class="col-lg-3 cta-btn-container text-center">
-                        <a class="cta-btn align-middle" href="contact.php">Call To Action</a>
+                        <a class="cta-btn align-middle" href="https://tawk.to/chat/6676f1f69d7f358570d2570e/1i10a2bmc"
+                            target="_blank">Let's have a chat</a>
                     </div>
                 </div>
 
