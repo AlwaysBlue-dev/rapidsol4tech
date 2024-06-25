@@ -83,19 +83,21 @@
                             unique needs.</p> -->
                         <form action="https://formsubmit.co/a412ce7f5c5de5eb02fb2dd45e5d0b61" method="POST">
                             <div class="form-group col-md-12 col-10">
-                                <input type="text" name="name" class="form-control" placeholder="Your Name" />
+                                <input type="text" name="name" class="form-control" placeholder="Your Name" required />
 
                             </div>
                             <div class="form-group col-md-12 col-10">
-                                <input type="email" class="form-control" name="email" placeholder="Your Email" />
+                                <input type="email" class="form-control" name="email" placeholder="Your Email"
+                                    required />
 
                             </div>
                             <div class="form-group col-md-12 col-10">
-                                <input type="text" class="form-control" name="subject" placeholder="Subject" />
+                                <input type="text" class="form-control" name="subject" placeholder="Subject" required />
 
                             </div>
                             <div class="form-group col-md-12 col-10">
-                                <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
+                                <textarea class="form-control" name="message" rows="5" placeholder="Message"
+                                    required></textarea>
 
                             </div>
 

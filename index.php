@@ -448,7 +448,7 @@
                         <form action="" method="post" role="form">
                             <div class="form-row">
                                 <!-- Name -->
-                                <div class="form-group col-md-6 col-10">
+                                <div class="form-group col-md-12 col-10">
                                     <label for="formName">
                                         <i class="icon" data-feather="user"></i> Name
                                     </label>
@@ -457,7 +457,7 @@
                                 </div>
 
                                 <!-- E-mail -->
-                                <div class="form-group col-md-6 col-10">
+                                <div class="form-group col-md-12 col-10">
                                     <label for="formEmail">
                                         <i class="icon" data-feather="mail"></i> E-mail
                                     </label>

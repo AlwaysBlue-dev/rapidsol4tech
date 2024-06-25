@@ -22,21 +22,21 @@
                     <form action="send_email.php" method="post" role="form">
                         <div class="form-row">
                             <!-- Name -->
-                            <div class="form-group col-md-6 col-10">
+                            <div class="form-group col-md-12 col-10">
                                 <label for="formName">
                                     <i class="icon" data-feather="user"></i> Name
                                 </label>
                                 <input type="text" name="name" id="formName" class="form-control form-control-lg thick"
-                                    placeholder="Name">
+                                    placeholder="Name" required>
                             </div>
 
                             <!-- E-mail -->
-                            <div class="form-group col-md-6 col-10">
+                            <div class="form-group col-md-12 col-10">
                                 <label for="formEmail">
                                     <i class="icon" data-feather="mail"></i> E-mail
                                 </label>
                                 <input type="email" name="email" id="formEmail"
-                                    class="form-control form-control-lg thick" placeholder="E-mail">
+                                    class="form-control form-control-lg thick" placeholder="E-mail" required>
                             </div>
                         </div>
 
@@ -46,7 +46,8 @@
                                 <label for="formService">
                                     <i class="icon" data-feather="briefcase"></i> Service
                                 </label>
-                                <select id="formService" name="service" class="form-control form-control-lg thick">
+                                <select id="formService" name="service" class="form-control form-control-lg thick"
+                                    required>
                                     <option value="" disabled selected>Select Service</option>
                                     <option value="Sharepoint Development">Sharepoint Development</option>
                                     <option value="Web development">Web development</option>
@@ -60,7 +61,8 @@
                                 <label for="formReferral">
                                     <i class="icon" data-feather="info"></i> How did you hear about us?
                                 </label>
-                                <select id="formReferral" name="referral" class="form-control form-control-lg thick">
+                                <select id="formReferral" name="referral" class="form-control form-control-lg thick"
+                                    required>
                                     <option value="" disabled selected>How did you hear about us?</option>
                                     <option value="Google">Google</option>
                                     <option value="Friend or colleague">Friend or colleague</option>
@@ -76,7 +78,7 @@
                         <div class="form-group col-md-12 col-10">
                             <label for="formMessage">About Project</label>
                             <textarea id="formMessage" name="message" class="form-control form-control-lg" rows="7"
-                                placeholder="About Project"></textarea>
+                                placeholder="About Project" required></textarea>
                         </div>
 
                         <!-- Submit btn -->
