@@ -1,0 +1,29 @@
+
+
+.thankyou_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.thankyou_box img {
+    width: 200px;
+}
+
+section.thankyou {
+    background: #eceef0;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.head_btn {
+  background-image: linear-gradient(to right, #4db171, #050830, #050830, #4db171);
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  background-size: 200% 100%;
+  transition: 0.3s all ease-in-out;
+  border: none;
+}

@@ -11,7 +11,7 @@
 
     <!-- Favicons -->
     <link href="img/favicon.png" rel="icon">
-    <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="img/favicon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link
@@ -42,7 +42,7 @@
     <div id="topbar">
         <div class="container">
             <div class="social-links">
-                <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                <!-- <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> -->
                 <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
                 <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
                 <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
@@ -50,12 +50,13 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container ">
 
         <div class="logo float-left">
-            <!-- Uncomment below if you prefer to use an image logo -->
-            <h1 class="text-light"><a href="index.php" class="scrollto"><span>Rapid</span></a></h1>
-            <!-- <a href="#header" class="scrollto"><img src="img/logo.png" alt="" class="img-fluid"></a> -->
+            <!-- <h1 class="text-light"><a href="index.php" class="scrollto"><span>RapidSol4Tech</span></a></h1> -->
+            <a href="index.php" class="scrollto">
+                <img src="img/favicon.png" alt="RapidSol4Tech Logo" style="height: auto;">
+            </a>
         </div>
 
         <nav class="main-nav float-right d-none d-lg-block">
@@ -69,7 +70,7 @@
                 </li>
                 <li class="<?= ($currentPage == 'portfolio.php') ? 'active' : '' ?>"><a href="portfolio.php">Our
                         Projects</a></li>
-                <li class="<?= ($currentPage == 'contact.php') ? 'active' : '' ?>"><a href="contact.php">Let's Talk</a>
+                <li class="<?= ($currentPage == 'contact.php') ? 'active' : '' ?>"><a href="contact.php">Let's Start</a>
                 </li>
 
                 <!-- <li><a href="#team">Team</a></li> -->

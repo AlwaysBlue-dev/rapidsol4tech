@@ -14,7 +14,7 @@
                         <div class="col-sm-6">
 
                             <div class="footer-info">
-                                <h3>Rapid</h3>
+                                <h3>RapidSol4Tech</h3>
                                 <p>RapidSol4Tech is a forward-thinking software company dedicated to delivering
                                     cutting-edge web
                                     development,
@@ -34,7 +34,7 @@
                   </div> -->
 
                             <div class="social-links">
-                                <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                                <!-- <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> -->
                                 <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
                                 <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
                                 <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
@@ -49,19 +49,19 @@
                                     <li><a href="index.php">Home</a></li>
                                     <li><a href="about.php">About us</a></li>
                                     <li><a href="services.php">Services</a></li>
-                                    <li><a href="#">Terms of service</a></li>
-                                    <li><a href="#">Privacy policy</a></li>
+                                    <!-- <li><a href="#">Terms of service</a></li>
+                                    <li><a href="#">Privacy policy</a></li> -->
                                 </ul>
                             </div>
 
                             <div class="footer-links">
                                 <h4>Contact Us</h4>
                                 <p>
-                                    A108 Adam Street <br>
-                                    New York, NY 535022<br>
-                                    United States <br>
-                                    <strong>Phone:</strong> +1 5589 55488 55<br>
-                                    <strong>Email:</strong> info@example.com<br>
+                                    Gulistan-e-Jauhar<br>
+                                    Karachi, 75290<br>
+                                    Pakistan<br>
+                                    <strong>Phone:</strong> +923123634163<br>
+                                    <strong>Email:</strong> info@rapidsol4tech.com<br>
                                 </p>
                             </div>
 
@@ -78,37 +78,41 @@
                     <div class="form">
 
                         <h4>Send us a message</h4>
-                        <p>Reach out and send us a message today to discuss how we can tailor our services to meet your
+                        <!-- <p>Reach out and send us a message today to discuss how we can tailor our services to meet your
                             business's
-                            unique needs.</p>
-                        <form action="" method="post" role="form" class="contactForm">
-                            <div class="form-group">
+                            unique needs.</p> -->
+                        <form class="contactForm" action="https://formsubmit.co/a412ce7f5c5de5eb02fb2dd45e5d0b61"
+                            method="POST">
+                            <div class="form-group col-md-12 col-10">
                                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
                                     data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                                 <div class="validation"></div>
                             </div>
-                            <div class="form-group">
+                            <div class="form-group col-md-12 col-10">
                                 <input type="email" class="form-control" name="email" id="email"
                                     placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
                                 <div class="validation"></div>
                             </div>
-                            <div class="form-group">
+                            <div class="form-group col-md-12 col-10">
                                 <input type="text" class="form-control" name="subject" id="subject"
                                     placeholder="Subject" data-rule="minlen:4"
                                     data-msg="Please enter at least 8 chars of subject" />
                                 <div class="validation"></div>
                             </div>
-                            <div class="form-group">
+                            <div class="form-group col-md-12 col-10">
                                 <textarea class="form-control" name="message" rows="5" data-rule="required"
                                     data-msg="Please write something for us" placeholder="Message"></textarea>
                                 <div class="validation"></div>
                             </div>
 
-                            <div id="sendmessage">Your message has been sent. Thank you!</div>
-                            <div id="errormessage"></div>
+                            <!-- <div id="sendmessage">Your message has been sent. Thank you!</div>
+                            <div id="errormessage"></div> -->
 
-                            <div class="text-center"><button type="submit" title="Send Message">Send Message</button>
+                            <div class="text-center col-md-12 col-10"><button type="submit" title="Send Message">Send
+                                    Message</button>
                             </div>
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_next" value="https://www.rapidsol4tech.com/">
                         </form>
                     </div>
 
@@ -123,13 +127,13 @@
 
     <div class="container">
         <div class="copyright">
-            &copy; Copyright <strong>Rapid</strong>. All Rights Reserved
+            &copy; Copyright <strong>RapidSol4Tech</strong>. All Rights Reserved
         </div>
     </div>
 </footer><!-- #footer -->
 
 <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-<!-- Uncomment below i you want to use a preloader -->
+<!-- preloader -->
 <div id="preloader"></div>
 
 <!--Start of Tawk.to Script-->

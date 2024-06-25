@@ -42,13 +42,15 @@
                     <div class="col-lg-7 col-md-6">
                         <div class="about-content">
                             <h2>About Us</h2>
-                            <h3>Welcome to Rapid, Your One-Stop Solution</h3>
+                            <h3>Welcome to RapidSol4Tech, Your One-Stop Solution</h3>
                             <p>Your one-stop solution for all your web development, hosting, and SharePoint development
                                 needs. At
-                                Rapid, we specialize in creating dynamic, scalable, and user-friendly web applications
+                                RapidSol4Tech, we specialize in creating dynamic, scalable, and user-friendly web
+                                applications
                                 that drive growth
                                 and innovation for businesses of all sizes.</p>
-                            <p>Rapid is a forward-thinking software company dedicated to delivering cutting-edge web
+                            <p>RapidSol4Tech is a forward-thinking software company dedicated to delivering cutting-edge
+                                web
                                 development,
                                 reliable hosting services, and expert SharePoint development. Our team of experienced
                                 professionals is
@@ -86,7 +88,7 @@
 
                 <header class="section-header">
                     <h3>Services</h3>
-                    <p>Transform your digital presence with Rapid</p>
+                    <p>Transform your digital presence with RapidSol4Tech</p>
                 </header>
 
                 <div class="row">
@@ -214,49 +216,91 @@
                         <div class="owl-carousel testimonials-carousel wow fadeInUp">
 
                             <div class="testimonial-item">
-                                <img src="img/testimonial-1.jpg" class="testimonial-img" alt="">
-                                <h3>Saul Goodman</h3>
-                                <h4>Ceo &amp; Founder</h4>
+                                <img src="img/testimonial-9.jpeg" class="testimonial-img" alt="">
+                                <h3>Jessica</h3>
+                                <h4>SharePoint Development</h4>
                                 <p>
-                                    Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit
-                                    rhoncus. Accusantium
-                                    quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                                </p>
-                            </div>
-
-                            <div class="testimonial-item">
-                                <img src="img/testimonial-2.jpg" class="testimonial-img" alt="">
-                                <h3>Sara Wilsson</h3>
-                                <h4>Designer</h4>
-                                <p>
-                                    Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid
-                                    cillum eram malis
-                                    quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                                    RapidSol4Techsol4tech delivered outstanding SharePoint development work for our
+                                    project.
+                                    Their expertise and professionalism greatly improved our workflow and team
+                                    collaboration. The project was completed on time and within budget. Highly
+                                    recommend!"
                                 </p>
                             </div>
 
                             <div class="testimonial-item">
                                 <img src="img/testimonial-3.jpg" class="testimonial-img" alt="">
-                                <h3>Jena Karlis</h3>
-                                <h4>Store Owner</h4>
+                                <h3>Svjelnicpohl_dm</h3>
+                                <h4>SharePoint Development</h4>
                                 <p>
-                                    Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem
-                                    veniam duis minim
-                                    tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                                    Great work done! Very understanding and patient. Understood every requirements and
+                                    delivered solid work. 👍👍
                                 </p>
                             </div>
 
                             <div class="testimonial-item">
-                                <img src="img/testimonial-4.jpg" class="testimonial-img" alt="">
-                                <h3>Matt Brandon</h3>
-                                <h4>Freelancer</h4>
+                                <img src="img/testimonial-5.jpg" class="testimonial-img" alt="">
+                                <h3>Peterripperger</h3>
+                                <h4>Web Development + hosting</h4>
                                 <p>
-                                    Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim
-                                    fugiat minim velit
-                                    minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore
-                                    illum veniam.
+                                    RapidSol4Techsol4tech delivered ahead of time and with high quality. I also commend
+                                    them for
+                                    the
+                                    patience and understanding as we iterated in the revisions process. Good job again.
+                                    Enjoying working together
                                 </p>
                             </div>
+
+
+                            <div class="testimonial-item">
+                                <img src="img/testimonial-4.jpg" class="testimonial-img" alt="">
+                                <h3>Davidvelazqu884</h3>
+                                <h4>SharePoint Development</h4>
+                                <p>
+                                    Work was done exactly as I requested and had good communication throughout. I also
+                                    appreciate the ability to make adjustments mid project
+                                </p>
+                            </div>
+                            <div class="testimonial-item">
+                                <img src="img/testimonial-1.jpg" class="testimonial-img" alt="">
+                                <h3>Nicolaipetterse</h3>
+                                <h4>Web Development + hosting</h4>
+                                <p>
+                                    Very good, always keeps me updated and answer every question.</p>
+                            </div>
+
+                            <div class="testimonial-item">
+                                <img src="img/testimonial-8.jpg" class="testimonial-img" alt="">
+                                <h3>Henriquearajo</h3>
+                                <h4>Web Development</h4>
+                                <p>
+                                    Great comunication, a professional company. Recommended.
+                                </p>
+                            </div>
+
+
+
+                            <div class="testimonial-item">
+                                <img src="img/testimonial-7.jpg" class="testimonial-img" alt="">
+                                <h3>Bashaeir</h3>
+                                <h4>Web Development + hosting</h4>
+                                <p>
+                                    They solved the problem of the very quickly. Theay are a cooperative
+                                    employees and can be trusted! All thanks to RapidSol4Techsol4tech.
+                                </p>
+                            </div>
+
+
+                            <div class="testimonial-item">
+                                <img src="img/testimonial-6.jpg" class="testimonial-img" alt="">
+                                <h3>Luis</h3>
+                                <h4>Web Development</h4>
+                                <p>
+                                    I recommend to work with RapidSol4Techsol4tech.
+                                </p>
+                            </div>
+
+
 
                         </div>
 
@@ -402,63 +446,69 @@
                     </div>
                     <div class="col-md-6">
                         <form action="" method="post" role="form">
-                            <!-- Name -->
-                            <div class="form-group position-relative">
-                                <label for="formName" class="d-block">
-                                    <i class="icon" data-feather="user"></i>
-                                </label>
-                                <input type="text" name="name" id="formName" class="form-control form-control-lg thick"
-                                    placeholder="Name">
+                            <div class="form-row">
+                                <!-- Name -->
+                                <div class="form-group col-md-6 col-10">
+                                    <label for="formName">
+                                        <i class="icon" data-feather="user"></i> Name
+                                    </label>
+                                    <input type="text" name="name" id="formName"
+                                        class="form-control form-control-lg thick" placeholder="Name">
+                                </div>
+
+                                <!-- E-mail -->
+                                <div class="form-group col-md-6 col-10">
+                                    <label for="formEmail">
+                                        <i class="icon" data-feather="mail"></i> E-mail
+                                    </label>
+                                    <input type="email" name="email" id="formEmail"
+                                        class="form-control form-control-lg thick" placeholder="E-mail">
+                                </div>
                             </div>
 
-                            <!-- E-mail -->
-                            <div class="form-group position-relative">
-                                <label for="formEmail" class="d-block">
-                                    <i class="icon" data-feather="mail"></i>
-                                </label>
-                                <input type="email" name="email" id="formEmail"
-                                    class="form-control form-control-lg thick" placeholder="E-mail">
-                            </div>
+                            <div class="form-row">
+                                <!-- Service -->
+                                <div class="form-group col-md-12 col-10">
+                                    <label for="formService">
+                                        <i class="icon" data-feather="briefcase"></i> Service
+                                    </label>
+                                    <select id="formService" name="service" class="form-control form-control-lg thick">
+                                        <option value="" disabled selected>Select Service</option>
+                                        <option value="Sharepoint Development">Sharepoint Development</option>
+                                        <option value="Web development">Web development</option>
+                                        <option value="Hosting">Hosting</option>
+                                        <option value="Web development + Hosting">Web development + Hosting</option>
+                                    </select>
+                                </div>
 
-                            <!-- Service -->
-                            <div class="form-group position-relative">
-                                <label for="formService" class="d-block">
-                                    <i class="icon" data-feather="briefcase"></i>
-                                </label>
-                                <select id="formService" name="service" class="form-control form-control-lg thick">
-                                    <option value="" disabled selected>Select Service</option>
-                                    <option value="Sharepoint Development">Sharepoint Development</option>
-                                    <option value="Web development">Web development</option>
-                                    <option value="Hosting">Hosting</option>
-                                    <option value="Web development + Hosting">Web development + Hosting</option>
-                                </select>
-                            </div>
-
-                            <!-- How did you hear about us? -->
-                            <div class="form-group position-relative">
-                                <label for="formReferral" class="d-block">
-                                    <i class="icon" data-feather="info"></i>
-                                </label>
-                                <select id="formReferral" name="service" class="form-control form-control-lg thick">
-                                    <option value="" disabled selected>How did you hear about us?</option>
-                                    <option value="Google">Google</option>
-                                    <option value="Friend or colleague">Friend or colleague</option>
-                                    <option value="Instagram">Instagram</option>
-                                    <option value="Facebook">Facebook</option>
-                                    <option value="LinkedIn">LinkedIn</option>
-                                    <option value="Email">Email</option>
-                                </select>
+                                <!-- How did you hear about us? -->
+                                <div class="form-group col-md-12 col-10">
+                                    <label for="formReferral">
+                                        <i class="icon" data-feather="info"></i> How did you hear about us?
+                                    </label>
+                                    <select id="formReferral" name="referral"
+                                        class="form-control form-control-lg thick">
+                                        <option value="" disabled selected>How did you hear about us?</option>
+                                        <option value="Google">Google</option>
+                                        <option value="Friend or colleague">Friend or colleague</option>
+                                        <option value="Instagram">Instagram</option>
+                                        <option value="Facebook">Facebook</option>
+                                        <option value="LinkedIn">LinkedIn</option>
+                                        <option value="Email">Email</option>
+                                    </select>
+                                </div>
                             </div>
 
                             <!-- Message -->
-                            <div class="form-group message">
+                            <div class="form-group col-md-12 col-10">
+                                <label for="formMessage">About Project</label>
                                 <textarea id="formMessage" name="message" class="form-control form-control-lg" rows="7"
                                     placeholder="About Project"></textarea>
                             </div>
 
                             <!-- Submit btn -->
-                            <div class="text-center">
-                                <button type="submit" class="btn btn-primary" tabIndex="-1">Let's Start </button>
+                            <div class="text-center col-md-12 col-10">
+                                <button type="submit" class="btn btn-primary">Let's Start</button>
                             </div>
                         </form>
                     </div>
@@ -485,7 +535,7 @@
                             <i class="ion-android-remove"></i></a>
                         <div id="faq1" class="collapse" data-parent="#faq-list">
                             <p>
-                                At Rapid, we specialize in web development, hosting solutions, and SharePoint
+                                At RapidSol4Tech, we specialize in web development, hosting solutions, and SharePoint
                                 development. We create
                                 custom websites, provide reliable hosting services, and develop SharePoint solutions
                                 tailored to meet
@@ -573,8 +623,10 @@
                             services?<i class="ion-android-remove"></i></a>
                         <div id="faq7" class="collapse" data-parent="#faq-list">
                             <p>
-                                Getting started with Rapid is easy! Simply contact us through our website or email us at
-                                [contact@email.com]. We'll schedule a consultation to discuss your project requirements
+                                Getting started with RapidSol4Tech is easy! Simply contact us through our website or
+                                email us at
+                                <b>info@rapidsol4tech.com</b>. We'll schedule a consultation to discuss your project
+                                requirements
                                 and provide a
                                 tailored solution that meets your business goals.
                             </p>
@@ -583,12 +635,14 @@
 
 
                     <li>
-                        <a data-toggle="collapse" href="#faq8" class="collapsed"> What sets Rapid apart from other web
+                        <a data-toggle="collapse" href="#faq8" class="collapsed"> What sets RapidSol4Tech apart from
+                            other web
                             development
                             companies?<i class="ion-android-remove"></i></a>
                         <div id="faq8" class="collapse" data-parent="#faq-list">
                             <p>
-                                At Rapid, we combine technical expertise with a customer-centric approach. We prioritize
+                                At RapidSol4Tech, we combine technical expertise with a customer-centric approach. We
+                                prioritize
                                 innovation,
                                 quality, and personalized service to deliver solutions that drive growth and success for
                                 our clients.
@@ -603,11 +657,13 @@
                             work?<i class="ion-android-remove"></i></a>
                         <div id="faq9" class="collapse" data-parent="#faq-list">
                             <p>
-                                Certainly! Visit our portfolio page [link to portfolio] to view examples of our past
-                                projects and
-                                success stories. We showcase a variety of web development, hosting, and SharePoint
+                                Certainly! Visit our projects page to
+                                view examples of our past
+                                projects. We showcase a variety of web development, hosting, and
+                                SharePoint
                                 solutions that
                                 demonstrate our capabilities and expertise.
+                                <a href="portfolio.php" target="_blank">You can visit by clicking here</a>
                             </p>
                         </div>
                     </li>
@@ -618,7 +674,7 @@
                         <div id="faq10" class="collapse" data-parent="#faq-list">
                             <p>
                                 To request a quote, simply fill out the contact form on our website or email us at
-                                [contact@email.com].
+                                info@rapidsol4tech.com.
                                 Provide us with details about your project requirements, and we'll promptly get back to
                                 you with a
                                 personalized quote and proposal.

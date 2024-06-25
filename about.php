@@ -11,7 +11,7 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-lg-5 col-md-6">
+                <div class="col-lg-5 col-md-6 mt-5">
                     <div class="about-img">
                         <img src="img/about-img.jpg" alt="">
                     </div>
@@ -20,13 +20,14 @@
                 <div class="col-lg-7 col-md-6">
                     <div class="about-content">
                         <h2>About Us</h2>
-                        <h3>Welcome to Rapid, Your One-Stop Solution</h3>
+                        <h3>Welcome to RapidSol4Tech, Your One-Stop Solution</h3>
                         <p>Your one-stop solution for all your web development, hosting, and SharePoint development
                             needs. At
-                            Rapid, we specialize in creating dynamic, scalable, and user-friendly web applications
+                            RapidSol4Tech, we specialize in creating dynamic, scalable, and user-friendly web
+                            applications
                             that drive growth
                             and innovation for businesses of all sizes.</p>
-                        <p>Rapid is a forward-thinking software company dedicated to delivering cutting-edge web
+                        <p>RapidSol4Tech is a forward-thinking software company dedicated to delivering cutting-edge web
                             development,
                             reliable hosting services, and expert SharePoint development. Our team of experienced
                             professionals is
@@ -78,11 +79,11 @@
 
                 <div class="col-lg-6">
                     <div class="why-us-content">
-                        <p>At Rapid, we combine technical expertise with a customer-focused approach to deliver
+                        <p>At RapidSol4Tech, we combine technical expertise with a customer-focused approach to deliver
                             solutions that not
                             only meet but exceed your expectations.</p>
                         <p>
-                            Here’s why Rapid stands out in the crowded digital landscape:
+                            Here’s why RapidSol4Tech stands out in the crowded digital landscape:
                         </p>
 
                         <div class="features wow bounceInUp clearfix">
@@ -127,7 +128,7 @@
                         <div class="features wow bounceInUp clearfix">
                             <i class="fa fa-tasks" style="color:#ff00ff;"></i>
                             <h4>Comprehensive Services</h4>
-                            <p>From initial consultation to deployment and ongoing support, Rapid provides
+                            <p>From initial consultation to deployment and ongoing support, RapidSol4Tech provides
                                 end-to-end services to
                                 ensure your digital presence is robust and effective.</p>
                         </div>

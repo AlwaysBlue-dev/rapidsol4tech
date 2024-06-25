@@ -34,8 +34,8 @@
                             <div>
                                 <a href="img/portfolio/sharepoint7.PNG" data-lightbox="portfolio" data-title="App 1"
                                     class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
-                                <a href="#" class="link-details" title="More Details"><i
-                                        class="ion ion-android-open"></i></a>
+                                <!-- <a href="#" class="link-details" title="More Details"><i
+                                        class="ion ion-android-open"></i></a> -->
                             </div>
                         </div>
                     </div>
@@ -51,8 +51,8 @@
                             <div>
                                 <a href="img/portfolio/sharepoint8.PNG" data-lightbox="portfolio" data-title="App 1"
                                     class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
-                                <a href="#" class="link-details" title="More Details"><i
-                                        class="ion ion-android-open"></i></a>
+                                <!-- <a href="#" class="link-details" title="More Details"><i
+                                        class="ion ion-android-open"></i></a> -->
                             </div>
                         </div>
                     </div>
@@ -67,8 +67,8 @@
                             <div>
                                 <a href="img/portfolio/web6.PNG" class="link-preview" data-lightbox="portfolio"
                                     data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
-                                <a href="#" class="link-details" title="More Details"><i
-                                        class="ion ion-android-open"></i></a>
+                                <!-- <a href="#" class="link-details" title="More Details"><i
+                                        class="ion ion-android-open"></i></a> -->
                             </div>
                         </div>
                     </div>
@@ -83,8 +83,8 @@
                             <div>
                                 <a href="img/portfolio/sharepoint9.PNG" data-lightbox="portfolio" data-title="App 1"
                                     class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
-                                <a href="#" class="link-details" title="More Details"><i
-                                        class="ion ion-android-open"></i></a>
+                                <!-- <a href="#" class="link-details" title="More Details"><i
+                                        class="ion ion-android-open"></i></a> -->
                             </div>
                         </div>
                     </div>
@@ -100,8 +100,8 @@
                             <div>
                                 <a href="img/portfolio/sharepoint1.jpg" class="link-preview" data-lightbox="portfolio"
                                     data-title="App 2" title="Preview"><i class="ion ion-eye"></i></a>
-                                <a href="#" class="link-details" title="More Details"><i
-                                        class="ion ion-android-open"></i></a>
+                                <!-- <a href="#" class="link-details" title="More Details"><i
+                                        class="ion ion-android-open"></i></a> -->
                             </div>
                         </div>
                     </div>
@@ -116,8 +116,8 @@
                             <div>
                                 <a href="img/portfolio/web8.PNG" class="link-preview" data-lightbox="portfolio"
                                     data-title="Web 1" title="Preview"><i class="ion ion-eye"></i></a>
-                                <a href="#" class="link-details" title="More Details"><i
-                                        class="ion ion-android-open"></i></a>
+                                <!-- <a href="#" class="link-details" title="More Details"><i
+                                        class="ion ion-android-open"></i></a> -->
                             </div>
                         </div>
                     </div>
@@ -133,8 +133,8 @@
                             <div>
                                 <a href="img/portfolio/sharepoint2.jpg" class="link-preview" data-lightbox="portfolio"
                                     data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
-                                <a href="#" class="link-details" title="More Details"><i
-                                        class="ion ion-android-open"></i></a>
+                                <!-- <a href="#" class="link-details" title="More Details"><i
+                                        class="ion ion-android-open"></i></a> -->
                             </div>
                         </div>
                     </div>
@@ -150,8 +150,8 @@
                             <div>
                                 <a href="img/portfolio/sharepoint3.jpeg" class="link-preview" data-lightbox="portfolio"
                                     data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
-                                <a href="#" class="link-details" title="More Details"><i
-                                        class="ion ion-android-open"></i></a>
+                                <!-- <a href="#" class="link-details" title="More Details"><i
+                                        class="ion ion-android-open"></i></a> -->
                             </div>
                         </div>
                     </div>
@@ -169,8 +169,8 @@
                             <div>
                                 <a href="img/portfolio/sharepoint5.png" class="link-preview" data-lightbox="portfolio"
                                     data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
-                                <a href="#" class="link-details" title="More Details"><i
-                                        class="ion ion-android-open"></i></a>
+                                <!-- <a href="#" class="link-details" title="More Details"><i
+                                        class="ion ion-android-open"></i></a> -->
                             </div>
                         </div>
                     </div>
@@ -186,8 +186,8 @@
                             <div>
                                 <a href="img/portfolio/sharepoint6.PNG" class="link-preview" data-lightbox="portfolio"
                                     data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
-                                <a href="#" class="link-details" title="More Details"><i
-                                        class="ion ion-android-open"></i></a>
+                                <!-- <a href="#" class="link-details" title="More Details"><i
+                                        class="ion ion-android-open"></i></a> -->
                             </div>
                         </div>
                     </div>
@@ -206,8 +206,8 @@
                             <div>
                                 <a href="img/portfolio/web7.PNG" class="link-preview" data-lightbox="portfolio"
                                     data-title="Web 2" title="Preview"><i class="ion ion-eye"></i></a>
-                                <a href="#" class="link-details" title="More Details"><i
-                                        class="ion ion-android-open"></i></a>
+                                <!-- <a href="#" class="link-details" title="More Details"><i
+                                        class="ion ion-android-open"></i></a> -->
                             </div>
                         </div>
                     </div>
@@ -224,8 +224,8 @@
                             <div>
                                 <a href="img/portfolio/web4.jpg" class="link-preview" data-lightbox="portfolio"
                                     data-title="Web 1" title="Preview"><i class="ion ion-eye"></i></a>
-                                <a href="#" class="link-details" title="More Details"><i
-                                        class="ion ion-android-open"></i></a>
+                                <!-- <a href="#" class="link-details" title="More Details"><i
+                                        class="ion ion-android-open"></i></a> -->
                             </div>
                         </div>
                     </div>
@@ -240,8 +240,8 @@
                             <div>
                                 <a href="img/portfolio/web5.PNG" class="link-preview" data-lightbox="portfolio"
                                     data-title="Web 1" title="Preview"><i class="ion ion-eye"></i></a>
-                                <a href="#" class="link-details" title="More Details"><i
-                                        class="ion ion-android-open"></i></a>
+                                <!-- <a href="#" class="link-details" title="More Details"><i
+                                        class="ion ion-android-open"></i></a> -->
                             </div>
                         </div>
                     </div>
@@ -256,8 +256,8 @@
                             <div>
                                 <a href="img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio"
                                     data-title="Web 1" title="Preview"><i class="ion ion-eye"></i></a>
-                                <a href="#" class="link-details" title="More Details"><i
-                                        class="ion ion-android-open"></i></a>
+                                <!-- <a href="#" class="link-details" title="More Details"><i
+                                        class="ion ion-android-open"></i></a> -->
                             </div>
                         </div>
                     </div>
@@ -272,8 +272,8 @@
                             <div>
                                 <a href="img/portfolio/web1.PNG" class="link-preview" data-lightbox="portfolio"
                                     data-title="Web 1" title="Preview"><i class="ion ion-eye"></i></a>
-                                <a href="#" class="link-details" title="More Details"><i
-                                        class="ion ion-android-open"></i></a>
+                                <!-- <a href="#" class="link-details" title="More Details"><i
+                                        class="ion ion-android-open"></i></a> -->
                             </div>
                         </div>
                     </div>
@@ -288,8 +288,8 @@
                             <div>
                                 <a href="img/portfolio/sharepoint4.jpeg" class="link-preview" data-lightbox="portfolio"
                                     data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
-                                <a href="#" class="link-details" title="More Details"><i
-                                        class="ion ion-android-open"></i></a>
+                                <!-- <a href="#" class="link-details" title="More Details"><i
+                                        class="ion ion-android-open"></i></a> -->
                             </div>
                         </div>
                     </div>
@@ -304,8 +304,8 @@
                             <div>
                                 <a href="img/portfolio/web2.PNG" class="link-preview" data-lightbox="portfolio"
                                     data-title="Web 1" title="Preview"><i class="ion ion-eye"></i></a>
-                                <a href="#" class="link-details" title="More Details"><i
-                                        class="ion ion-android-open"></i></a>
+                                <!-- <a href="#" class="link-details" title="More Details"><i
+                                        class="ion ion-android-open"></i></a> -->
                             </div>
                         </div>
                     </div>
