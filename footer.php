@@ -81,38 +81,33 @@
                         <!-- <p>Reach out and send us a message today to discuss how we can tailor our services to meet your
                             business's
                             unique needs.</p> -->
-                        <form class="contactForm" action="https://formsubmit.co/a412ce7f5c5de5eb02fb2dd45e5d0b61"
-                            method="POST">
+                        <form action="https://formsubmit.co/a412ce7f5c5de5eb02fb2dd45e5d0b61" method="POST">
                             <div class="form-group col-md-12 col-10">
-                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
-                                    data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                                <div class="validation"></div>
+                                <input type="text" name="name" class="form-control" placeholder="Your Name" />
+
                             </div>
                             <div class="form-group col-md-12 col-10">
-                                <input type="email" class="form-control" name="email" id="email"
-                                    placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                                <div class="validation"></div>
+                                <input type="email" class="form-control" name="email" placeholder="Your Email" />
+
                             </div>
                             <div class="form-group col-md-12 col-10">
-                                <input type="text" class="form-control" name="subject" id="subject"
-                                    placeholder="Subject" data-rule="minlen:4"
-                                    data-msg="Please enter at least 8 chars of subject" />
-                                <div class="validation"></div>
+                                <input type="text" class="form-control" name="subject" placeholder="Subject" />
+
                             </div>
                             <div class="form-group col-md-12 col-10">
-                                <textarea class="form-control" name="message" rows="5" data-rule="required"
-                                    data-msg="Please write something for us" placeholder="Message"></textarea>
-                                <div class="validation"></div>
+                                <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
+
                             </div>
 
                             <!-- <div id="sendmessage">Your message has been sent. Thank you!</div>
                             <div id="errormessage"></div> -->
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_next" value="https://www.rapidsol4tech.com/thank-you.php">
 
                             <div class="text-center col-md-12 col-10"><button type="submit" title="Send Message">Send
                                     Message</button>
                             </div>
-                            <input type="hidden" name="_captcha" value="false">
-                            <input type="hidden" name="_next" value="https://www.rapidsol4tech.com/">
+
                         </form>
                     </div>
 
