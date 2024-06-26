@@ -43,9 +43,9 @@
         <div class="container">
             <div class="social-links">
                 <!-- <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> -->
-                <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-                <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-                <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=61561315598597" class="facebook"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/company/rapidsol4tech" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                <!-- <a href="#" class="instagram"><i class="fa fa-instagram"></i></a> -->
             </div>
         </div>
     </div>
