@@ -81,35 +81,29 @@
                         <!-- <p>Reach out and send us a message today to discuss how we can tailor our services to meet your
                             business's
                             unique needs.</p> -->
-                        <form action="https://formsubmit.co/a412ce7f5c5de5eb02fb2dd45e5d0b61" method="POST">
+                        <form id="contact-form" action="send_email.php" method="post" role="form">
                             <div class="form-group col-md-12 col-10">
                                 <input type="text" name="name" class="form-control" placeholder="Your Name" required />
-
                             </div>
                             <div class="form-group col-md-12 col-10">
                                 <input type="email" class="form-control" name="email" placeholder="Your Email"
                                     required />
-
                             </div>
                             <div class="form-group col-md-12 col-10">
                                 <input type="text" class="form-control" name="subject" placeholder="Subject" required />
-
                             </div>
                             <div class="form-group col-md-12 col-10">
                                 <textarea class="form-control" name="message" rows="5" placeholder="Message"
                                     required></textarea>
-
                             </div>
 
-                            <!-- <div id="sendmessage">Your message has been sent. Thank you!</div>
-                            <div id="errormessage"></div> -->
-                            <input type="hidden" name="_captcha" value="false">
-                            <input type="hidden" name="_next" value="https://www.rapidsol4tech.com/thank-you.php">
-
-                            <div class="text-center col-md-12 col-10"><button type="submit" title="Send Message">Send
-                                    Message</button>
+                            <div class="text-center col-md-12 col-10">
+                                <button type="submit" title="Send Message" id="submit-btn">Send Message</button>
+                                <div id="talk" style="display:none;">
+                                    <!-- Loader animation -->
+                                    <img src="img/loader.gif" alt="Loading..." />
+                                </div>
                             </div>
-
                         </form>
                     </div>
 
@@ -148,6 +142,21 @@ var Tawk_API = Tawk_API || {},
 })();
 </script>
 <!--End of Tawk.to Script-->
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const form = document.getElementById('contact-form');
+    const submitBtn = document.getElementById('submit-btn');
+    const loader = document.getElementById('talk');
+
+    form.addEventListener('submit', (e) => {
+        // Hide the submit button and show the loader
+        submitBtn.style.display = 'none';
+        loader.style.display = 'block';
+    });
+});
+</script>
+
 
 <!-- JavaScript Libraries -->
 <script src="lib/jquery/jquery.min.js"></script>

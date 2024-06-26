@@ -19,7 +19,7 @@
                     <img src="img/contact.png" class="img-fluid mt-3" alt="Contact Us">
                 </div>
                 <div class="col-md-6">
-                    <form action="send_email.php" method="post" role="form">
+                    <form id="contact-form-talk" action="send_email.php" method="post" role="form">
                         <div class="form-row">
                             <!-- Name -->
                             <div class="form-group col-md-12 col-10">
@@ -83,7 +83,11 @@
 
                         <!-- Submit btn -->
                         <div class="text-center col-md-12 col-10">
-                            <button type="submit" class="btn btn-primary">Let's Start</button>
+                            <button type="submit" class="btn btn-primary" id="submit">Let's Start</button>
+                            <div id="loader" class="loader" style="display:none;">
+                                <!-- Loader animation -->
+                                <img src="img/loader.gif" alt="Loading..." />
+                            </div>
                         </div>
                     </form>
                 </div>
@@ -92,4 +96,25 @@
 
     </section><!-- #pricing -->
     <?php include 'footer.php'; ?>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+        const form = document.getElementById('contact-form-talk'); // Make sure to select your form
+        const submitBtn = document.getElementById('submit');
+        const loader = document.getElementById('loader');
+
+        form.addEventListener('submit', (e) => {
+            // Prevent the default form submission
+            // e.preventDefault(); // Uncomment if you need to prevent actual form submission for testing
+
+            // Hide the submit button and show the loader
+            submitBtn.style.display = 'none';
+            loader.style.display = 'block';
+
+            // Allow the form to be submitted
+            // form.submit(); // Uncomment this line if you uncommented e.preventDefault()
+        });
+    });
+    </script>
+
 </body>

@@ -15,7 +15,7 @@
                     <img src="img/features-5.png" class="mt-2 img-fluid d-none d-lg-block" alt="">
                 </div>
                 <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0 mt-5">
-                    <h4>Our SharePoint Development Services</h4>
+                    <h4><b>Our SharePoint Development Service</b></h4>
                     <p>
                         <b>SharePoint Framework (SPFx) Development:</b> We specialize in SPFx development to build
                         modern,
@@ -75,7 +75,7 @@
 
 
                 <div class="col-lg-6 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
-                    <h4>Our Web Development and Hosting Services</h4>
+                    <h4><b>Our Web Development and Hosting Service</b></h4>
                     <p>
                         <b>Custom Web Development:</b> We specialize in creating custom websites and web applications
                         tailored to

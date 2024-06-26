@@ -71,10 +71,10 @@
                 <li class="<?= ($currentPage == 'portfolio.php') ? 'active' : '' ?>"><a href="portfolio.php">Our
                         Projects</a></li>
                 <li class="<?= ($currentPage == 'contact.php') ? 'active' : '' ?>"><a href="contact.php">Let's Start</a>
-                </li>
+                <li class="<?= ($currentPage == 'faqs.php') ? 'active' : '' ?>"><a href="faqs.php">FAQ's</a>
 
-                <!-- <li><a href="#team">Team</a></li> -->
-                <!-- <li class="drop-down"><a href="">Drop Down</a>
+                    <!-- <li><a href="#team">Team</a></li> -->
+                    <!-- <li class="drop-down"><a href="">Drop Down</a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
               <li class="drop-down"><a href="#">Drop Down 2</a>

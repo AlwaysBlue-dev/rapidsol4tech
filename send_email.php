@@ -10,9 +10,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Retrieve form data and sanitize inputs
     $name = htmlspecialchars($_POST['name']);
     $email = htmlspecialchars($_POST['email']);
-    $service = htmlspecialchars($_POST['service']);
-    $referral = htmlspecialchars($_POST['referral']);
+    $subject = isset($_POST['subject']) ? htmlspecialchars($_POST['subject']) : 'New Form Submission';
     $message = htmlspecialchars($_POST['message']);
+    $service = isset($_POST['service']) ? htmlspecialchars($_POST['service']) : '';
+    $referral = isset($_POST['referral']) ? htmlspecialchars($_POST['referral']) : '';
 
     // Create a new PHPMailer instance
     $mail = new PHPMailer(true);
@@ -28,32 +29,41 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->Port = 587; // Titan Email SMTP port
 
         // Recipients
-        $mail->setFrom($email, $name);
+        $mail->setFrom('info@rapidsol4tech.com', 'RapidSol4Tech'); // Your company's email address
         $mail->addAddress('info@rapidsol4tech.com'); // Your company's email address
+        $mail->addReplyTo($email, $name); // Add the form submitter's email as Reply-To
 
         // Content
         $mail->isHTML(true);
-        $mail->Subject = 'New Form Submission';
+        $mail->Subject = $subject;
         $mail->Body = "
             <html>
             <head>
-                <title>Form Submission</title>
+                <title>{$subject}</title>
             </head>
             <body>
                 <p><strong>Name:</strong> {$name}</p>
                 <p><strong>Email:</strong> {$email}</p>
-                <p><strong>Service:</strong> {$service}</p>
-                <p><strong>Referral:</strong> {$referral}</p>
-                <p><strong>Message:</strong> {$message}</p>
+                <p><strong>Subject:</strong> {$subject}</p>
+                <p><strong>Message:</strong> {$message}</p>";
+                
+        if ($service) {
+            $mail->Body .= "<p><strong>Service:</strong> {$service}</p>";
+        }
+        if ($referral) {
+            $mail->Body .= "<p><strong>Referral:</strong> {$referral}</p>";
+        }
+        
+        $mail->Body .= "
             </body>
             </html>
         ";
 
         // Send email
         $mail->send();
-        
+
         // Redirect to thank you page or index
-        header("Location: index.php");
+        header("Location: thank-you.php");
         exit();
     } catch (Exception $e) {
         echo "Sorry, there was an error sending your message. Please try again later. Error: {$mail->ErrorInfo}";
