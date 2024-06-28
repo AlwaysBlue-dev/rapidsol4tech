@@ -66,8 +66,8 @@
     <div class="container ">
 
         <div class="logo float-left">
-            <!-- <h1 class="text-light"><a href="index.php" class="scrollto"><span>RapidSol4Tech</span></a></h1> -->
-            <a href="index.php" class="scrollto">
+          
+            <a href="/" class="scrollto">
                 <img src="img/favicon.png" alt="RapidSol4Tech Logo" style="height: auto;">
             </a>
         </div>
@@ -77,7 +77,7 @@
                 <?php 
                 $currentPage = basename($_SERVER['SCRIPT_FILENAME']); 
                 ?>
-                <li class="<?= ($currentPage == 'index.php') ? 'active' : '' ?>"><a href="index.php">Home</a></li>
+                <li class="<?= ($currentPage == 'index.php') ? 'active' : '' ?>"><a href="/">Home</a></li>
                 <li class="<?= ($currentPage == 'about.php') ? 'active' : '' ?>"><a href="about.php">About Us</a></li>
                 <li class="<?= ($currentPage == 'services.php') ? 'active' : '' ?>"><a href="services.php">Services</a>
                 </li>

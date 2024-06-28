@@ -63,7 +63,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->send();
 
         // Redirect to thank you page or index
-        header("Location: thank-you.php");
+        header("Location: ../thank-you.php");
         exit();
     } catch (Exception $e) {
         echo "Sorry, there was an error sending your message. Please try again later. Error: {$mail->ErrorInfo}";

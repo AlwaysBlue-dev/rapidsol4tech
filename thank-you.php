@@ -43,7 +43,7 @@ include 'header.php';
 
 
                     </p>
-                    <a href="index.php" class="head_btn">Go Back</a>
+                    <a href="/" class="head_btn">Go Back</a>
                 </div>
             </div>
         </section>

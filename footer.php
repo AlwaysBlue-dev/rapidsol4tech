@@ -41,7 +41,7 @@
                             <div class="footer-links">
                                 <h4>Useful Links</h4>
                                 <ul>
-                                    <li><a href="index.php">Home</a></li>
+                                    <li><a href="/">Home</a></li>
                                     <li><a href="about.php">About us</a></li>
                                     <li><a href="services.php">Services</a></li>
 
