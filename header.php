@@ -43,6 +43,22 @@
     <!-- Main Stylesheet File -->
     <link href="css/style.css" rel="stylesheet">
 
+    <!-- JSON-LD structured data for organization -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "RapidSol4Tech",
+        "url": "https://www.rapidsol4tech.com/",
+        "logo": "https://www.rapidsol4tech.com/img/logo.png",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+923123634163",
+            "contactType": "Customer Service"
+        }
+    }
+    </script>
+
 </head>
 
 <!--==========================
@@ -66,7 +82,7 @@
     <div class="container ">
 
         <div class="logo float-left">
-          
+
             <a href="/" class="scrollto">
                 <img src="img/favicon.png" alt="RapidSol4Tech Logo" style="height: auto;">
             </a>
