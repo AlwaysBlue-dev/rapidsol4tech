@@ -1,5 +1,17 @@
 <!DOCTYPE html>
-<?php include 'header.php'; ?>
+<?php
+// Meta tags
+$pageTitle = "RapidSol4Tech - Rapid Solutions For Your Business";
+$pageDescription = "Welcome to RapidSol4Tech. Your one-stop solution for web development, hosting, and SharePoint development needs.";
+$pageKeywords = "RapidSol4Tech, web development, hosting, SharePoint development, software company, digital solutions";
+$ogTitle = "RapidSol4Tech - Home";
+$ogDescription = "Welcome to RapidSol4Tech. Your one-stop solution for web development, hosting, and SharePoint development needs.";
+$ogImage = "https://rapidsol4tech.com/img/logo.png";
+$ogUrl = "https://rapidsol4tech.com/";
+
+// Include header.php for consistent structure
+include 'header.php';
+?>
 
 <body>
     <!--==========================
@@ -216,7 +228,7 @@
                         <div class="owl-carousel testimonials-carousel wow fadeInUp">
 
                             <div class="testimonial-item">
-                                <img src="img/testimonial-9.jpeg" class="testimonial-img" alt="">
+                                <img src="img/testimonials/testimonial-9.jpeg" class="testimonial-img" alt="">
                                 <h3>Jessica</h3>
                                 <h4>SharePoint Development</h4>
                                 <p>
@@ -229,7 +241,7 @@
                             </div>
 
                             <div class="testimonial-item">
-                                <img src="img/testimonial-3.jpg" class="testimonial-img" alt="">
+                                <img src="img/testimonials/testimonial-3.jpg" class="testimonial-img" alt="">
                                 <h3>Svjelnicpohl_dm</h3>
                                 <h4>SharePoint Development</h4>
                                 <p>
@@ -239,7 +251,7 @@
                             </div>
 
                             <div class="testimonial-item">
-                                <img src="img/testimonial-5.jpg" class="testimonial-img" alt="">
+                                <img src="img/testimonials/testimonial-5.jpg" class="testimonial-img" alt="">
                                 <h3>Peterripperger</h3>
                                 <h4>Web Development + hosting</h4>
                                 <p>
@@ -253,7 +265,7 @@
 
 
                             <div class="testimonial-item">
-                                <img src="img/testimonial-4.jpg" class="testimonial-img" alt="">
+                                <img src="img/testimonials/testimonial-4.jpg" class="testimonial-img" alt="">
                                 <h3>Davidvelazqu884</h3>
                                 <h4>SharePoint Development</h4>
                                 <p>
@@ -262,7 +274,7 @@
                                 </p>
                             </div>
                             <div class="testimonial-item">
-                                <img src="img/testimonial-1.jpg" class="testimonial-img" alt="">
+                                <img src="img/testimonials/testimonial-1.jpg" class="testimonial-img" alt="">
                                 <h3>Nicolaipetterse</h3>
                                 <h4>Web Development + hosting</h4>
                                 <p>
@@ -270,7 +282,7 @@
                             </div>
 
                             <div class="testimonial-item">
-                                <img src="img/testimonial-8.jpg" class="testimonial-img" alt="">
+                                <img src="img/testimonials/testimonial-8.jpg" class="testimonial-img" alt="">
                                 <h3>Henriquearajo</h3>
                                 <h4>Web Development</h4>
                                 <p>
@@ -281,7 +293,7 @@
 
 
                             <div class="testimonial-item">
-                                <img src="img/testimonial-7.jpg" class="testimonial-img" alt="">
+                                <img src="img/testimonials/testimonial-7.jpg" class="testimonial-img" alt="">
                                 <h3>Bashaeir</h3>
                                 <h4>Web Development + hosting</h4>
                                 <p>
@@ -292,7 +304,7 @@
 
 
                             <div class="testimonial-item">
-                                <img src="img/testimonial-6.jpg" class="testimonial-img" alt="">
+                                <img src="img/testimonials/testimonial-6.jpg" class="testimonial-img" alt="">
                                 <h3>Luis</h3>
                                 <h4>Web Development</h4>
                                 <p>
@@ -311,95 +323,6 @@
             </div>
         </section><!-- #testimonials -->
 
-        <!--==========================
-      Team Section
-    ============================-->
-        <!-- <section id="team" class="section-bg">
-      <div class="container">
-        <div class="section-header">
-          <h3>Team</h3>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 wow fadeInUp">
-            <div class="member">
-              <img src="img/team-1.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Walter White</h4>
-                  <span>Chief Executive Officer</span>
-                  <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="member">
-              <img src="img/team-2.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Sarah Jhonson</h4>
-                  <span>Product Manager</span>
-                  <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-            <div class="member">
-              <img src="img/team-3.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>William Anderson</h4>
-                  <span>CTO</span>
-                  <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-            <div class="member">
-              <img src="img/team-4.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Amanda Jepson</h4>
-                  <span>Accountant</span>
-                  <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section> -->
-        <!-- #team -->
 
 
         <!--==========================
@@ -419,7 +342,7 @@
                         <img src="img/contact.png" class="img-fluid mt-3" alt="Contact Us">
                     </div>
                     <div class="col-md-6">
-                        <form action="send_email.php" method="post" role="form">
+                        <form action="actions/send_email.php" method="post" role="form">
                             <div class="form-row">
                                 <!-- Name -->
                                 <div class="form-group col-md-12 col-10">
@@ -503,17 +426,17 @@
                 </header>
 
                 <div class="owl-carousel clients-carousel">
-                    <img src="img/clients/tech-1.png" alt="">
-                    <img src="img/clients/tech-2.png" alt="">
-                    <img src="img/clients/tech-3.png" alt="">
-                    <img src="img/clients/tech-4.png" alt="">
-                    <img src="img/clients/tech-5.png" alt="">
-                    <img src="img/clients/tech-6.png" alt="">
-                    <img src="img/clients/tech-7.webp" alt="">
-                    <img src="img/clients/tech-8.png" alt="">
-                    <img src="img/clients/tech-9.png" alt="">
-                    <img src="img/clients/tech-10.jpg" alt="">
-                    <img src="img/clients/tech-11.png" alt="">
+                    <img src="img/techstack/tech-1.png" alt="">
+                    <img src="img/techstack/tech-2.png" alt="">
+                    <img src="img/techstack/tech-3.png" alt="">
+                    <img src="img/techstack/tech-4.png" alt="">
+                    <img src="img/techstack/tech-5.png" alt="">
+                    <img src="img/techstack/tech-6.png" alt="">
+                    <img src="img/techstack/tech-7.webp" alt="">
+                    <img src="img/techstack/tech-8.png" alt="">
+                    <img src="img/techstack/tech-9.png" alt="">
+                    <img src="img/techstack/tech-10.jpg" alt="">
+                    <img src="img/techstack/tech-11.png" alt="">
                 </div>
 
             </div>
@@ -523,6 +446,22 @@
 
     </main>
     <?php include 'footer.php'; ?>
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+    var Tawk_API = Tawk_API || {},
+        Tawk_LoadStart = new Date();
+    (function() {
+        var s1 = document.createElement("script"),
+            s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = 'https://embed.tawk.to/6676f1f69d7f358570d2570e/1i10a2bmc';
+        s1.charset = 'UTF-8';
+        s1.setAttribute('crossorigin', '*');
+        s0.parentNode.insertBefore(s1, s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
+
 
 </body>
 

@@ -25,19 +25,14 @@
                                     meet your specific requirements.</p>
                             </div>
 
-                            <!-- <div class="footer-newsletter">
-                    <h4>Our Newsletter</h4>
-                    <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem.</p>
-                    <form action="" method="post">
-                      <input type="email" name="email"><input type="submit"  value="Subscribe">
-                    </form>
-                  </div> -->
 
                             <div class="social-links">
                                 <!-- <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> -->
-                                <a href="https://www.facebook.com/profile.php?id=61561315598597" class="facebook"><i class="fa fa-facebook"></i></a>
+                                <a href="https://www.facebook.com/profile.php?id=61561315598597" class="facebook"
+                                    target="_blank"><i class="fa fa-facebook"></i></a>
                                 <!-- <a href="#" class="instagram"><i class="fa fa-instagram"></i></a> -->
-                                <a href="https://www.linkedin.com/company/rapidsol4tech" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                                <a href="https://www.linkedin.com/company/rapidsol4tech" class="linkedin"
+                                    target="_blank"><i class="fa fa-linkedin"></i></a>
                             </div>
 
                         </div>
@@ -49,8 +44,7 @@
                                     <li><a href="index.php">Home</a></li>
                                     <li><a href="about.php">About us</a></li>
                                     <li><a href="services.php">Services</a></li>
-                                    <!-- <li><a href="#">Terms of service</a></li>
-                                    <li><a href="#">Privacy policy</a></li> -->
+
                                 </ul>
                             </div>
 
@@ -78,10 +72,8 @@
                     <div class="form">
 
                         <h4>Send us a message</h4>
-                        <!-- <p>Reach out and send us a message today to discuss how we can tailor our services to meet your
-                            business's
-                            unique needs.</p> -->
-                        <form id="contact-form" action="send_email.php" method="post" role="form">
+
+                        <form id="contact-form" action="actions/send_email.php" method="post" role="form">
                             <div class="form-group col-md-12 col-10">
                                 <input type="text" name="name" class="form-control" placeholder="Your Name" required />
                             </div>
@@ -127,21 +119,7 @@
 <!-- preloader -->
 <div id="preloader"></div>
 
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API = Tawk_API || {},
-    Tawk_LoadStart = new Date();
-(function() {
-    var s1 = document.createElement("script"),
-        s0 = document.getElementsByTagName("script")[0];
-    s1.async = true;
-    s1.src = 'https://embed.tawk.to/6676f1f69d7f358570d2570e/1i10a2bmc';
-    s1.charset = 'UTF-8';
-    s1.setAttribute('crossorigin', '*');
-    s0.parentNode.insertBefore(s1, s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
+
 
 <script>
 document.addEventListener('DOMContentLoaded', () => {

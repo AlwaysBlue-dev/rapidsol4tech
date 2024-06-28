@@ -1,5 +1,17 @@
 <!DOCTYPE html>
-<?php include 'header.php'; ?>
+<?php
+// Meta tags
+$pageTitle = "RapidSol4Tech - Contact Us";
+$pageDescription = "Get in touch with RapidSol4Tech for all your web development, hosting, and SharePoint development needs.";
+$pageKeywords = "RapidSol4Tech, contact us, web development, hosting, SharePoint development";
+$ogTitle = "RapidSol4Tech - Contact Us";
+$ogDescription = "Get in touch with RapidSol4Tech for all your web development, hosting, and SharePoint development needs.";
+$ogImage = "https://rapidsol4tech.com/img/contact.png";
+$ogUrl = "https://rapidsol4tech.com/contact";
+
+// Include header.php for consistent structure
+include 'header.php';
+?>
 <!--==========================
      Contact Section
     ============================-->
@@ -16,10 +28,10 @@
 
             <div class="row">
                 <div class="col-md-6">
-                    <img src="img/contact.png" class="img-fluid mt-3" alt="Contact Us">
+                    <img src="img/contact.png" class="img-fluid mt-3" alt="Contact RapidSol4Tech">
                 </div>
                 <div class="col-md-6">
-                    <form id="contact-form-talk" action="send_email.php" method="post" role="form">
+                    <form id="contact-form-talk" action="actions/send_email.php" method="post" role="form">
                         <div class="form-row">
                             <!-- Name -->
                             <div class="form-group col-md-12 col-10">
@@ -94,8 +106,24 @@
             </div>
         </div>
 
-    </section><!-- #pricing -->
+    </section><!-- #contact-->
     <?php include 'footer.php'; ?>
+
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+    var Tawk_API = Tawk_API || {},
+        Tawk_LoadStart = new Date();
+    (function() {
+        var s1 = document.createElement("script"),
+            s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = 'https://embed.tawk.to/6676f1f69d7f358570d2570e/1i10a2bmc';
+        s1.charset = 'UTF-8';
+        s1.setAttribute('crossorigin', '*');
+        s0.parentNode.insertBefore(s1, s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
 
     <script>
     document.addEventListener('DOMContentLoaded', (event) => {
@@ -104,15 +132,13 @@
         const loader = document.getElementById('loader');
 
         form.addEventListener('submit', (e) => {
-            // Prevent the default form submission
-            // e.preventDefault(); // Uncomment if you need to prevent actual form submission for testing
+
 
             // Hide the submit button and show the loader
             submitBtn.style.display = 'none';
             loader.style.display = 'block';
 
-            // Allow the form to be submitted
-            // form.submit(); // Uncomment this line if you uncommented e.preventDefault()
+
         });
     });
     </script>

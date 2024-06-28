@@ -3,11 +3,22 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>RapidSol4Tech - Rapid solutions for your business</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="<?php echo isset($pageDescription) ? $pageDescription : 'Welcome to RapidSol4Tech. Your one-stop solution for web development, hosting, and SharePoint development needs.'; ?>">
+    <meta name="keywords"
+        content="<?php echo isset($pageKeywords) ? $pageKeywords : 'RapidSol4Tech, web development, hosting, SharePoint development, software company, digital solutions'; ?>">
+    <meta name="author" content="RapidSol4Tech">
+    <title><?php echo isset($pageTitle) ? $pageTitle : 'RapidSol4Tech'; ?></title>
+
+    <!-- Open Graph tags -->
+    <meta property="og:title"
+        content="<?php echo isset($ogTitle) ? $ogTitle : 'RapidSol4Tech - Rapid Solutions For Your Business'; ?>">
+    <meta property="og:description"
+        content="<?php echo isset($ogDescription) ? $ogDescription : 'Learn more about RapidSol4Tech, a forward-thinking software company dedicated to delivering cutting-edge web development and hosting services.'; ?>">
+    <meta property="og:image" content="<?php echo isset($ogImage) ? $ogImage : 'https://rapidsol4tech.com/img/'; ?>">
+    <meta property="og:url" content="<?php echo isset($ogUrl) ? $ogUrl : 'https://rapidsol4tech.com'; ?>">
 
     <!-- Favicons -->
     <link href="img/favicon.png" rel="icon">
@@ -43,8 +54,10 @@
         <div class="container">
             <div class="social-links">
                 <!-- <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> -->
-                <a href="https://www.facebook.com/profile.php?id=61561315598597" class="facebook"><i class="fa fa-facebook"></i></a>
-                <a href="https://www.linkedin.com/company/rapidsol4tech" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=61561315598597" class="facebook" target="_blank"><i
+                        class="fa fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/company/rapidsol4tech" class="linkedin" target="_blank"><i
+                        class="fa fa-linkedin"></i></a>
                 <!-- <a href="#" class="instagram"><i class="fa fa-instagram"></i></a> -->
             </div>
         </div>
@@ -69,28 +82,9 @@
                 <li class="<?= ($currentPage == 'services.php') ? 'active' : '' ?>"><a href="services.php">Services</a>
                 </li>
                 <li class="<?= ($currentPage == 'portfolio.php') ? 'active' : '' ?>"><a href="portfolio.php">Our
-                        Projects</a></li>
+                        Portfolio</a></li>
                 <li class="<?= ($currentPage == 'contact.php') ? 'active' : '' ?>"><a href="contact.php">Let's Start</a>
                 <li class="<?= ($currentPage == 'faqs.php') ? 'active' : '' ?>"><a href="faqs.php">FAQ's</a>
-
-                    <!-- <li><a href="#team">Team</a></li> -->
-                    <!-- <li class="drop-down"><a href="">Drop Down</a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="drop-down"><a href="#">Drop Down 2</a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-              <li><a href="#">Drop Down 5</a></li>
-            </ul>
-          </li> -->
 
             </ul>
         </nav><!-- .main-nav -->

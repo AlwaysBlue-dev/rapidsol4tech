@@ -1,5 +1,17 @@
 <!DOCTYPE html>
-<?php include 'header.php'; ?>
+<?php
+// Meta tags
+$pageTitle = "RapidSol4Tech - Services";
+$pageDescription = "Discover RapidSol4Tech's comprehensive range of services including web development, hosting, and SharePoint development.";
+$pageKeywords = "RapidSol4Tech, services, web development, hosting, SharePoint development";
+$ogTitle = "RapidSol4Tech - Services";
+$ogDescription = "Discover RapidSol4Tech's comprehensive range of services including web development, hosting, and SharePoint development.";
+$ogImage = "https://rapidsol4tech.com/img/features-4.png";
+$ogUrl = "https://rapidsol4tech.com/services";
+
+// Include header.php for consistent structure
+include 'header.php';
+?>
 <!--==========================
       Features Section
     ============================-->
@@ -118,4 +130,20 @@
     </section>
 
     <?php include 'footer.php'; ?>
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+    var Tawk_API = Tawk_API || {},
+        Tawk_LoadStart = new Date();
+    (function() {
+        var s1 = document.createElement("script"),
+            s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = 'https://embed.tawk.to/6676f1f69d7f358570d2570e/1i10a2bmc';
+        s1.charset = 'UTF-8';
+        s1.setAttribute('crossorigin', '*');
+        s0.parentNode.insertBefore(s1, s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
+
 </body>
