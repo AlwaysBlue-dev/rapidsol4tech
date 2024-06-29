@@ -40,7 +40,7 @@ include 'header.php';
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                     <div class="portfolio-wrap">
-                        <img src="img/portfolio/sharepoint7.PNG" class="img-fluid" alt="">
+                        <img src="img/portfolio/sharepoint7.PNG" loading="lazy" class="img-fluid" alt="portfolio-1">
                         <div class="portfolio-info">
                             <h4><a href="#">App 1</a></h4>
                             <p>App</p>
@@ -57,7 +57,7 @@ include 'header.php';
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                     <div class="portfolio-wrap">
-                        <img src="img/portfolio/sharepoint8.PNG" class="img-fluid" alt="">
+                        <img src="img/portfolio/sharepoint8.PNG" loading="lazy" class="img-fluid" alt="portfolio-2">
                         <div class="portfolio-info">
                             <h4><a href="#">App 1</a></h4>
                             <p>App</p>
@@ -73,7 +73,7 @@ include 'header.php';
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
                     <div class="portfolio-wrap">
-                        <img src="img/portfolio/web6.PNG" class="img-fluid" alt="">
+                        <img src="img/portfolio/web6.PNG" loading="lazy" class="img-fluid" alt="portfolio-3">
                         <div class="portfolio-info">
                             <h4><a href="#">Web 3</a></h4>
                             <p>Web</p>
@@ -89,7 +89,7 @@ include 'header.php';
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                     <div class="portfolio-wrap">
-                        <img src="img/portfolio/sharepoint9.PNG" class="img-fluid" alt="">
+                        <img src="img/portfolio/sharepoint9.PNG" loading="lazy" class="img-fluid" alt="portfolio-4">
                         <div class="portfolio-info">
                             <h4><a href="#">App 1</a></h4>
                             <p>App</p>
@@ -106,7 +106,7 @@ include 'header.php';
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s">
                     <div class="portfolio-wrap">
-                        <img src="img/portfolio/sharepoint1.jpg" class="img-fluid" alt="">
+                        <img src="img/portfolio/sharepoint1.jpg" loading="lazy" class="img-fluid" alt="portfolio-5">
                         <div class="portfolio-info">
                             <h4><a href="#">App 2</a></h4>
                             <p>App</p>
@@ -122,7 +122,7 @@ include 'header.php';
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.2s">
                     <div class="portfolio-wrap">
-                        <img src="img/portfolio/web8.PNG" class="img-fluid" alt="">
+                        <img src="img/portfolio/web8.PNG" loading="lazy" class="img-fluid" alt="portfolio-6">
                         <div class="portfolio-info">
                             <h4><a href="#">Web 1</a></h4>
                             <p>Web</p>
@@ -139,7 +139,7 @@ include 'header.php';
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s">
                     <div class="portfolio-wrap">
-                        <img src="img/portfolio/sharepoint2.jpg" class="img-fluid" alt="">
+                        <img src="img/portfolio/sharepoint2.jpg" loading="lazy" class="img-fluid" alt="portfolio-7">
                         <div class="portfolio-info">
                             <h4><a href="#">App 3</a></h4>
                             <p>App</p>
@@ -156,7 +156,7 @@ include 'header.php';
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s">
                     <div class="portfolio-wrap">
-                        <img src="img/portfolio/sharepoint3.jpeg" class="img-fluid" alt="">
+                        <img src="img/portfolio/sharepoint3.jpeg" loading="lazy" class="img-fluid" alt="portfoli-8">
                         <div class="portfolio-info">
                             <h4><a href="#">App 3</a></h4>
                             <p>App</p>
@@ -175,7 +175,7 @@ include 'header.php';
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s">
                     <div class="portfolio-wrap">
-                        <img src="img/portfolio/sharepoint5.png" class="img-fluid" alt="">
+                        <img src="img/portfolio/sharepoint5.png" loading="lazy" class="img-fluid" alt="portfolio-9">
                         <div class="portfolio-info">
                             <h4><a href="#">App 3</a></h4>
                             <p>App</p>
@@ -192,7 +192,7 @@ include 'header.php';
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s">
                     <div class="portfolio-wrap">
-                        <img src="img/portfolio/sharepoint6.PNG" class="img-fluid" alt="">
+                        <img src="img/portfolio/sharepoint6.PNG" loading="lazy" class="img-fluid" alt="portfolio-10">
                         <div class="portfolio-info">
                             <h4><a href="#">App 3</a></h4>
                             <p>App</p>
@@ -212,7 +212,7 @@ include 'header.php';
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
                     <div class="portfolio-wrap">
-                        <img src="img/portfolio/web7.PNG" class="img-fluid" alt="">
+                        <img src="img/portfolio/web7.PNG" loading="lazy" class="img-fluid" alt="portfolio-11">
                         <div class="portfolio-info">
                             <h4><a href="#">Web 2</a></h4>
                             <p>Web</p>
@@ -230,7 +230,7 @@ include 'header.php';
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.2s">
                     <div class="portfolio-wrap">
-                        <img src="img/portfolio/web4.jpg" class="img-fluid" alt="">
+                        <img src="img/portfolio/web4.jpg" loading="lazy" class="img-fluid" alt="portfolio-12">
                         <div class="portfolio-info">
                             <h4><a href="#">Web 1</a></h4>
                             <p>Web</p>
@@ -246,7 +246,7 @@ include 'header.php';
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.2s">
                     <div class="portfolio-wrap">
-                        <img src="img/portfolio/web5.PNG" class="img-fluid" alt="">
+                        <img src="img/portfolio/web5.PNG" loading="lazy" class="img-fluid" alt="portfolio-13">
                         <div class="portfolio-info">
                             <h4><a href="#">Web 1</a></h4>
                             <p>Web</p>
@@ -262,7 +262,7 @@ include 'header.php';
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.2s">
                     <div class="portfolio-wrap">
-                        <img src="img/portfolio/web3.jpg" class="img-fluid" alt="">
+                        <img src="img/portfolio/web3.jpg" loading="lazy" class="img-fluid" alt="portfolio-14">
                         <div class="portfolio-info">
                             <h4><a href="#">Web 1</a></h4>
                             <p>Web</p>
@@ -278,7 +278,7 @@ include 'header.php';
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.2s">
                     <div class="portfolio-wrap">
-                        <img src="img/portfolio/web1.PNG" class="img-fluid" alt="">
+                        <img src="img/portfolio/web1.PNG" loading="lazy" class="img-fluid" alt="portfolio-15">
                         <div class="portfolio-info">
                             <h4><a href="#">Web 1</a></h4>
                             <p>Web</p>
@@ -294,7 +294,7 @@ include 'header.php';
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s">
                     <div class="portfolio-wrap">
-                        <img src="img/portfolio/sharepoint4.jpeg" class="img-fluid" alt="">
+                        <img src="img/portfolio/sharepoint4.jpeg" loading="lazy" class="img-fluid" alt="portfolio-16">
                         <div class="portfolio-info">
                             <h4><a href="#">App 3</a></h4>
                             <p>App</p>
@@ -310,7 +310,7 @@ include 'header.php';
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.2s">
                     <div class="portfolio-wrap">
-                        <img src="img/portfolio/web2.PNG" class="img-fluid" alt="">
+                        <img src="img/portfolio/web2.PNG" loading="lazy" class="img-fluid" alt="portfolio-17">
                         <div class="portfolio-info">
                             <h4><a href="#">Web 1</a></h4>
                             <p>Web</p>

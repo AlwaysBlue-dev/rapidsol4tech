@@ -28,7 +28,7 @@ include 'header.php';
 
             <div class="row">
                 <div class="col-md-6">
-                    <img src="img/contact.png" class="img-fluid mt-3" alt="Contact RapidSol4Tech">
+                    <img src="img/contact.png" loading="lazy" class="img-fluid mt-3" alt="Contact RapidSol4Tech">
                 </div>
                 <div class="col-md-6">
                     <form id="contact-form-talk" action="actions/send_email.php" method="post" role="form">
@@ -98,7 +98,7 @@ include 'header.php';
                             <button type="submit" class="btn btn-primary" id="submit">Let's Start</button>
                             <div id="loader" class="loader" style="display:none;">
                                 <!-- Loader animation -->
-                                <img src="img/loader.gif" alt="Loading..." />
+                                <img src="img/loader.gif"  alt="Loading..." />
                             </div>
                         </div>
                     </form>

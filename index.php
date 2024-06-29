@@ -28,7 +28,7 @@ include 'header.php';
                 </div>
 
                 <div class="col-md-6 intro-img order-md-last order-first">
-                    <img src="img/intro-img.svg" alt="" class="img-fluid">
+                    <img src="img/intro-img.webp" loading="lazy" alt="intro image" class="img-fluid">
                 </div>
             </div>
 
@@ -47,7 +47,7 @@ include 'header.php';
 
                     <div class="col-lg-5 col-md-6">
                         <div class="about-img">
-                            <img src="img/about-img.jpg" alt="">
+                            <img src="img/about-img.webp" loading="lazy" alt="about image">
                         </div>
                     </div>
 
@@ -228,7 +228,7 @@ include 'header.php';
                         <div class="owl-carousel testimonials-carousel wow fadeInUp">
 
                             <div class="testimonial-item">
-                                <img src="img/testimonials/testimonial-9.jpeg" class="testimonial-img" alt="">
+                                <img src="img/testimonials/testimonial-9.jpeg" loading="lazy" class="testimonial-img" alt="testimonial-1">
                                 <h3>Jessica</h3>
                                 <h4>SharePoint Development</h4>
                                 <p>
@@ -241,7 +241,7 @@ include 'header.php';
                             </div>
 
                             <div class="testimonial-item">
-                                <img src="img/testimonials/testimonial-3.jpg" class="testimonial-img" alt="">
+                                <img src="img/testimonials/testimonial-3.jpg" loading="lazy" class="testimonial-img" alt="testimonial-2">
                                 <h3>Svjelnicpohl_dm</h3>
                                 <h4>SharePoint Development</h4>
                                 <p>
@@ -251,7 +251,7 @@ include 'header.php';
                             </div>
 
                             <div class="testimonial-item">
-                                <img src="img/testimonials/testimonial-5.jpg" class="testimonial-img" alt="">
+                                <img src="img/testimonials/testimonial-5.jpg" class="testimonial-img" loading="lazy" alt="testimonial-3">
                                 <h3>Peterripperger</h3>
                                 <h4>Web Development + hosting</h4>
                                 <p>
@@ -265,7 +265,7 @@ include 'header.php';
 
 
                             <div class="testimonial-item">
-                                <img src="img/testimonials/testimonial-4.jpg" class="testimonial-img" alt="">
+                                <img src="img/testimonials/testimonial-4.jpg" loading="lazy" class="testimonial-img" alt="testimonial-4">
                                 <h3>Davidvelazqu884</h3>
                                 <h4>SharePoint Development</h4>
                                 <p>
@@ -274,7 +274,7 @@ include 'header.php';
                                 </p>
                             </div>
                             <div class="testimonial-item">
-                                <img src="img/testimonials/testimonial-1.jpg" class="testimonial-img" alt="">
+                                <img src="img/testimonials/testimonial-1.jpg" loading="lazy" class="testimonial-img" alt="testimonial-5">
                                 <h3>Nicolaipetterse</h3>
                                 <h4>Web Development + hosting</h4>
                                 <p>
@@ -282,7 +282,7 @@ include 'header.php';
                             </div>
 
                             <div class="testimonial-item">
-                                <img src="img/testimonials/testimonial-8.jpg" class="testimonial-img" alt="">
+                                <img src="img/testimonials/testimonial-8.jpg" loading="lazy" class="testimonial-img" alt="testimonial-6">
                                 <h3>Henriquearajo</h3>
                                 <h4>Web Development</h4>
                                 <p>
@@ -293,7 +293,7 @@ include 'header.php';
 
 
                             <div class="testimonial-item">
-                                <img src="img/testimonials/testimonial-7.jpg" class="testimonial-img" alt="">
+                                <img src="img/testimonials/testimonial-7.jpg" loading="lazy" class="testimonial-img" alt="testimonial-7">
                                 <h3>Bashaeir</h3>
                                 <h4>Web Development + hosting</h4>
                                 <p>
@@ -304,7 +304,7 @@ include 'header.php';
 
 
                             <div class="testimonial-item">
-                                <img src="img/testimonials/testimonial-6.jpg" class="testimonial-img" alt="">
+                                <img src="img/testimonials/testimonial-6.jpg" loading="lazy" class="testimonial-img" alt="testimonial-8">
                                 <h3>Luis</h3>
                                 <h4>Web Development</h4>
                                 <p>
@@ -339,7 +339,7 @@ include 'header.php';
 
                 <div class="row">
                     <div class="col-md-6">
-                        <img src="img/contact.png" class="img-fluid mt-3" alt="Contact Us">
+                        <img src="img/contact.png" loading="lazy" class="img-fluid mt-3" alt="Contact RapiSol4Tech">
                     </div>
                     <div class="col-md-6">
                         <form action="actions/send_email.php" method="post" role="form">
@@ -426,17 +426,17 @@ include 'header.php';
                 </header>
 
                 <div class="owl-carousel clients-carousel">
-                    <img src="img/techstack/tech-1.png" alt="">
-                    <img src="img/techstack/tech-2.png" alt="">
-                    <img src="img/techstack/tech-3.png" alt="">
-                    <img src="img/techstack/tech-4.png" alt="">
-                    <img src="img/techstack/tech-5.png" alt="">
-                    <img src="img/techstack/tech-6.png" alt="">
-                    <img src="img/techstack/tech-7.webp" alt="">
-                    <img src="img/techstack/tech-8.png" alt="">
-                    <img src="img/techstack/tech-9.png" alt="">
-                    <img src="img/techstack/tech-10.jpg" alt="">
-                    <img src="img/techstack/tech-11.png" alt="">
+                    <img src="img/techstack/tech-1.png" loading="lazy" alt="tech-1">
+                    <img src="img/techstack/tech-2.png" loading="lazy" alt="tech-2">
+                    <img src="img/techstack/tech-3.png" loading="lazy" alt="tech-3">
+                    <img src="img/techstack/tech-4.png" loading="lazy" alt="tech-4">
+                    <img src="img/techstack/tech-5.png" loading="lazy" alt="tech-5">
+                    <img src="img/techstack/tech-6.png" loading="lazy" alt="tech-6">
+                    <img src="img/techstack/tech-7.webp" loading="lazy" alt="tech-7">
+                    <img src="img/techstack/tech-8.png" loading="lazy" alt="tech-8">
+                    <img src="img/techstack/tech-9.png" loading="lazy" alt="tech-9">
+                    <img src="img/techstack/tech-10.jpg" loading="lazy" alt="tech-10">
+                    <img src="img/techstack/tech-11.png" loading="lazy" alt="tech-11">
                 </div>
 
             </div>

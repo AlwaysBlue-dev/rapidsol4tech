@@ -35,7 +35,7 @@ include 'header.php';
         <section class="thankyou">
             <div class="container">
                 <div class="thankyou_box text-center">
-                    <img src="img/thank-you.webp" alt="Thank You" class="img-fluid">
+                    <img src="img/thank-you.webp" loading="lazy" alt="Thank You" class="img-fluid">
                     <h2>We’ve Noted That Down!</h2>
                     <p>
                         Our Team will contact you soon through email, chat (depending upon your avalibilty)

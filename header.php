@@ -21,8 +21,8 @@
     <meta property="og:url" content="<?php echo isset($ogUrl) ? $ogUrl : 'https://rapidsol4tech.com'; ?>">
 
     <!-- Favicons -->
-    <link href="img/favicon.png" rel="icon">
-    <link href="img/favicon.png" rel="apple-touch-icon">
+    <link href="img/favicon.webp" rel="icon">
+    <link href="img/favicon.webp" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link
@@ -84,7 +84,7 @@
         <div class="logo float-left">
 
             <a href="/" class="scrollto">
-                <img src="img/favicon.png" alt="RapidSol4Tech Logo" style="height: auto;">
+                <img src="img/favicon.webp" loading="lazy" alt="RapidSol4Tech Logo" style="height: auto;">
             </a>
         </div>
 

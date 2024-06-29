@@ -22,9 +22,9 @@ include 'header.php';
 
             <div class="row feature-item mt-5">
                 <div class="col-lg-6 wow fadeInUp">
-                    <img src="img/features-2.svg" class="img-fluid" alt="">
-                    <img src="img/features-4.png" class="mt-2 img-fluid d-none d-lg-block" alt="">
-                    <img src="img/features-5.png" class="mt-2 img-fluid d-none d-lg-block" alt="">
+                    <img src="img/features-2.svg" loading="lazy" class="img-fluid" alt="service-1">
+                    <img src="img/features-4.png" loading="lazy" class="mt-2 img-fluid d-none d-lg-block" alt="service-2">
+                    <img src="img/features-5.png" loading="lazy" class="mt-2 img-fluid d-none d-lg-block" alt="service-3">
                 </div>
                 <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0 mt-5">
                     <h4><b>Our SharePoint Development Service</b></h4>
@@ -80,8 +80,8 @@ include 'header.php';
 
             <div class="row feature-item mt-5 pt-5">
                 <div class="col-lg-6 wow fadeInUp order-1 order-lg-2">
-                    <img src="img/features-6.avif" class="img-fluid d-none d-lg-block" alt="">
-                    <img src="img/features-7.jpg" class="img-fluid" alt="">
+                    <img src="img/features-6.avif" loading="lazy" class="img-fluid d-none d-lg-block" alt="service-4">
+                    <img src="img/features-7.jpg" loading="lazy" class="img-fluid" alt="service-5">
                 </div>
 
 

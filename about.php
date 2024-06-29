@@ -25,7 +25,7 @@ include 'header.php';
 
                 <div class="col-lg-5 col-md-6 mt-5">
                     <div class="about-img">
-                        <img src="img/about-img.jpg" alt="">
+                        <img src="img/about-img.jpg" loading="lazy" alt="about image">
                     </div>
                 </div>
 
@@ -83,9 +83,9 @@ include 'header.php';
 
                 <div class="col-lg-6">
                     <div class="why-us-img">
-                        <img src="img/why-us.jpg" alt="" class="img-fluid">
-                        <img src="img/why-us-2.jpg" alt="" class="mt-2 img-fluid d-none d-lg-block">
-                        <img src="img/why-us-3.jpg" alt="" class="mt-2 img-fluid d-none d-lg-block">
+                        <img src="img/why-us.jpg" loading="lazy" alt="why us image 1" class="img-fluid">
+                        <img src="img/why-us-2.jpg" loading="lazy" alt="why us image 2" class="mt-2 img-fluid d-none d-lg-block">
+                        <img src="img/why-us-3.jpg" loading="lazy" alt="why us image3" class="mt-2 img-fluid d-none d-lg-block">
                     </div>
                 </div>
 
