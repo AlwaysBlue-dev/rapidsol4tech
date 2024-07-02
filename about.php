@@ -25,7 +25,7 @@ include 'header.php';
 
                 <div class="col-lg-5 col-md-6 mt-5">
                     <div class="about-img">
-                        <img src="img/about-img.jpg" loading="lazy" alt="about image">
+                        <img src="img/about-img.webp" loading="lazy" alt="about image">
                     </div>
                 </div>
 
