@@ -8,6 +8,7 @@ $ogTitle = "RapidSol4Tech - Home";
 $ogDescription = "Welcome to RapidSol4Tech. Your one-stop solution for web development, hosting, and SharePoint development needs.";
 $ogImage = "https://rapidsol4tech.com/img/logo.png";
 $ogUrl = "https://rapidsol4tech.com/";
+$canonicalUrl = "https://rapidsol4tech.com/";
 
 // Include header.php for consistent structure
 include 'header.php';
@@ -228,7 +229,8 @@ include 'header.php';
                         <div class="owl-carousel testimonials-carousel wow fadeInUp">
 
                             <div class="testimonial-item">
-                                <img src="img/testimonials/testimonial-9.jpeg" loading="lazy" class="testimonial-img" alt="testimonial-1">
+                                <img src="img/testimonials/testimonial-9.jpeg" loading="lazy" class="testimonial-img"
+                                    alt="testimonial-1">
                                 <h3>Jessica</h3>
                                 <h4>SharePoint Development</h4>
                                 <p>
@@ -241,7 +243,8 @@ include 'header.php';
                             </div>
 
                             <div class="testimonial-item">
-                                <img src="img/testimonials/testimonial-3.jpg" loading="lazy" class="testimonial-img" alt="testimonial-2">
+                                <img src="img/testimonials/testimonial-3.jpg" loading="lazy" class="testimonial-img"
+                                    alt="testimonial-2">
                                 <h3>Svjelnicpohl_dm</h3>
                                 <h4>SharePoint Development</h4>
                                 <p>
@@ -251,7 +254,8 @@ include 'header.php';
                             </div>
 
                             <div class="testimonial-item">
-                                <img src="img/testimonials/testimonial-5.jpg" class="testimonial-img" loading="lazy" alt="testimonial-3">
+                                <img src="img/testimonials/testimonial-5.jpg" class="testimonial-img" loading="lazy"
+                                    alt="testimonial-3">
                                 <h3>Peterripperger</h3>
                                 <h4>Web Development + hosting</h4>
                                 <p>
@@ -265,7 +269,8 @@ include 'header.php';
 
 
                             <div class="testimonial-item">
-                                <img src="img/testimonials/testimonial-4.jpg" loading="lazy" class="testimonial-img" alt="testimonial-4">
+                                <img src="img/testimonials/testimonial-4.jpg" loading="lazy" class="testimonial-img"
+                                    alt="testimonial-4">
                                 <h3>Davidvelazqu884</h3>
                                 <h4>SharePoint Development</h4>
                                 <p>
@@ -274,7 +279,8 @@ include 'header.php';
                                 </p>
                             </div>
                             <div class="testimonial-item">
-                                <img src="img/testimonials/testimonial-1.jpg" loading="lazy" class="testimonial-img" alt="testimonial-5">
+                                <img src="img/testimonials/testimonial-1.jpg" loading="lazy" class="testimonial-img"
+                                    alt="testimonial-5">
                                 <h3>Nicolaipetterse</h3>
                                 <h4>Web Development + hosting</h4>
                                 <p>
@@ -282,7 +288,8 @@ include 'header.php';
                             </div>
 
                             <div class="testimonial-item">
-                                <img src="img/testimonials/testimonial-8.jpg" loading="lazy" class="testimonial-img" alt="testimonial-6">
+                                <img src="img/testimonials/testimonial-8.jpg" loading="lazy" class="testimonial-img"
+                                    alt="testimonial-6">
                                 <h3>Henriquearajo</h3>
                                 <h4>Web Development</h4>
                                 <p>
@@ -293,7 +300,8 @@ include 'header.php';
 
 
                             <div class="testimonial-item">
-                                <img src="img/testimonials/testimonial-7.jpg" loading="lazy" class="testimonial-img" alt="testimonial-7">
+                                <img src="img/testimonials/testimonial-7.jpg" loading="lazy" class="testimonial-img"
+                                    alt="testimonial-7">
                                 <h3>Bashaeir</h3>
                                 <h4>Web Development + hosting</h4>
                                 <p>
@@ -304,7 +312,8 @@ include 'header.php';
 
 
                             <div class="testimonial-item">
-                                <img src="img/testimonials/testimonial-6.jpg" loading="lazy" class="testimonial-img" alt="testimonial-8">
+                                <img src="img/testimonials/testimonial-6.jpg" loading="lazy" class="testimonial-img"
+                                    alt="testimonial-8">
                                 <h3>Luis</h3>
                                 <h4>Web Development</h4>
                                 <p>

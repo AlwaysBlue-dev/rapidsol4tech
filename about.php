@@ -7,7 +7,8 @@ $pageKeywords = "RapidSol4Tech, web development, hosting, SharePoint development
 $ogTitle = "RapidSol4Tech - About Us";
 $ogDescription = "Learn more about RapidSol4Tech, a forward-thinking software company dedicated to delivering cutting-edge web development and hosting services.";
 $ogImage = "https://rapidsol4tech.com/img/about-img.jpg";
-$ogUrl = "https://rapidsol4tech.com/about";
+$ogUrl = "https://rapidsol4tech.com/about.php";
+$canonicalUrl = "https://rapidsol4tech.com/about.php";
 
 // Include header.php for consistent structure
 include 'header.php';
@@ -84,8 +85,10 @@ include 'header.php';
                 <div class="col-lg-6">
                     <div class="why-us-img">
                         <img src="img/why-us.jpg" loading="lazy" alt="why us image 1" class="img-fluid">
-                        <img src="img/why-us-2.jpg" loading="lazy" alt="why us image 2" class="mt-2 img-fluid d-none d-lg-block">
-                        <img src="img/why-us-3.jpg" loading="lazy" alt="why us image3" class="mt-2 img-fluid d-none d-lg-block">
+                        <img src="img/why-us-2.jpg" loading="lazy" alt="why us image 2"
+                            class="mt-2 img-fluid d-none d-lg-block">
+                        <img src="img/why-us-3.jpg" loading="lazy" alt="why us image3"
+                            class="mt-2 img-fluid d-none d-lg-block">
                     </div>
                 </div>
 

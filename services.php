@@ -7,7 +7,8 @@ $pageKeywords = "RapidSol4Tech, services, web development, hosting, SharePoint d
 $ogTitle = "RapidSol4Tech - Services";
 $ogDescription = "Discover RapidSol4Tech's comprehensive range of services including web development, hosting, and SharePoint development.";
 $ogImage = "https://rapidsol4tech.com/img/features-4.png";
-$ogUrl = "https://rapidsol4tech.com/services";
+$ogUrl = "https://rapidsol4tech.com/services.php";
+$canonicalUrl = "https://rapidsol4tech.com/services.php";
 
 // Include header.php for consistent structure
 include 'header.php';
@@ -23,8 +24,10 @@ include 'header.php';
             <div class="row feature-item mt-5">
                 <div class="col-lg-6 wow fadeInUp">
                     <img src="img/features-2.svg" loading="lazy" class="img-fluid" alt="service-1">
-                    <img src="img/features-4.png" loading="lazy" class="mt-2 img-fluid d-none d-lg-block" alt="service-2">
-                    <img src="img/features-5.png" loading="lazy" class="mt-2 img-fluid d-none d-lg-block" alt="service-3">
+                    <img src="img/features-4.png" loading="lazy" class="mt-2 img-fluid d-none d-lg-block"
+                        alt="service-2">
+                    <img src="img/features-5.png" loading="lazy" class="mt-2 img-fluid d-none d-lg-block"
+                        alt="service-3">
                 </div>
                 <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0 mt-5">
                     <h4><b>Our SharePoint Development Service</b></h4>

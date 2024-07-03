@@ -12,6 +12,10 @@
     <meta name="author" content="RapidSol4Tech">
     <title><?php echo isset($pageTitle) ? $pageTitle : 'RapidSol4Tech'; ?></title>
 
+    <!-- Canonical URL -->
+    <link rel="canonical"
+        href="<?php echo isset($canonicalUrl) ? $canonicalUrl : 'https://www.rapidsol4tech.com' . $_SERVER['REQUEST_URI']; ?>">
+
     <!-- Open Graph tags -->
     <meta property="og:title"
         content="<?php echo isset($ogTitle) ? $ogTitle : 'RapidSol4Tech - Rapid Solutions For Your Business'; ?>">

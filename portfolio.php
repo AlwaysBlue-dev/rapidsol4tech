@@ -7,7 +7,8 @@ $pageKeywords = "RapidSol4Tech, portfolio, projects, web development, hosting, S
 $ogTitle = "RapidSol4Tech - Our Portfolio";
 $ogDescription = "Explore RapidSol4Tech's portfolio showcasing our latest projects and achievements.";
 $ogImage = "https://rapidsol4tech.com/img/portfolio/sharepoint7.PNG";
-$ogUrl = "https://rapidsol4tech.com/portfolio";
+$ogUrl = "https://rapidsol4tech.com/portfolio.php";
+$canonicalUrl = "https://rapidsol4tech.com/portfolio.php";
 
 // Include header.php for consistent structure
 include 'header.php';

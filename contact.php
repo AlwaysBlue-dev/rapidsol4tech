@@ -7,7 +7,8 @@ $pageKeywords = "RapidSol4Tech, contact us, web development, hosting, SharePoint
 $ogTitle = "RapidSol4Tech - Contact Us";
 $ogDescription = "Get in touch with RapidSol4Tech for all your web development, hosting, and SharePoint development needs.";
 $ogImage = "https://rapidsol4tech.com/img/contact.png";
-$ogUrl = "https://rapidsol4tech.com/contact";
+$ogUrl = "https://rapidsol4tech.com/contact.php";
+$canonicalUrl = "https://rapidsol4tech.com/contact.php";
 
 // Include header.php for consistent structure
 include 'header.php';
@@ -98,7 +99,7 @@ include 'header.php';
                             <button type="submit" class="btn btn-primary" id="submit">Let's Start</button>
                             <div id="loader" class="loader" style="display:none;">
                                 <!-- Loader animation -->
-                                <img src="img/loader.gif"  alt="Loading..." />
+                                <img src="img/loader.gif" alt="Loading..." />
                             </div>
                         </div>
                     </form>
