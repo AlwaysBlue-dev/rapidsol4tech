@@ -70,10 +70,8 @@ include 'header.php';
                     <a data-toggle="collapse" href="#faq11" class="collapsed">What payment methods do you accept?<i
                             class="ion-android-remove"></i></a>
                     <div id="faq11" class="collapse" data-parent="#faq-list">
-                        <p>
-                            We accept various payment methods including <b>Apple Pay</b>, <b>Google Pay</b>, and major
-                            credit/debit cards such as <b>Mastercard</b> and <b>VISA</b>.
-                        </p>
+                        We accept various payment methods including <b>Apple Pay</b>, <b>Google Pay</b>,
+                        <b>Payoneer</b>, and major credit/debit cards such as <b>Mastercard</b> and <b>VISA</b>.
                     </div>
                 </li>
 
