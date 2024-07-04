@@ -42,6 +42,19 @@ include 'header.php';
                 </li>
 
                 <li>
+                    <a data-toggle="collapse" href="#faq12" class="collapsed">Can I schedule an online meeting?<i
+                            class="ion-android-remove"></i></a>
+                    <div id="faq12" class="collapse" data-parent="#faq-list">
+                        <p>
+                            Absolutely! We can schedule an online meeting using either <b>Google Meet</b> or
+                            <b>Zoom</b>. After you contact us, we'll arrange a consultation and send you a meeting link
+                            for your preferred platform. This way, we can discuss your project requirements and tailor a
+                            solution to meet your business goals.
+                        </p>
+                    </div>
+                </li>
+
+                <li>
                     <a data-toggle="collapse" href="#faq10" class="collapsed"> How do I request a quote for your
                         services?<i class="ion-android-remove"></i></a>
                     <div id="faq10" class="collapse" data-parent="#faq-list">
