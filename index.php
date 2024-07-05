@@ -2,10 +2,11 @@
 <?php
 // Meta tags
 $pageTitle = "RapidSol4Tech - Rapid Solutions For Your Business";
-$pageDescription = "Welcome to RapidSol4Tech. Your one-stop solution for web development, hosting, and SharePoint development needs.";
-$pageKeywords = "RapidSol4Tech, web development, hosting, SharePoint development, software company, digital solutions";
+$pageDescription = "Welcome to RapidSol4Tech. Your one-stop solution for web development, hosting, and sharepoint intranet needs.";
+$pageKeywords = "RapidSol4Tech, web development, hosting, sharePoint development, software company, digital solutions, sharepoint intranet,
+custom sharepoint, dynamic sharepoint, responsive webiste, responsive sharepoint, wix, ecommerce, wordpress, CMS,  database website, custom website, mern stack, django";
 $ogTitle = "RapidSol4Tech - Home";
-$ogDescription = "Welcome to RapidSol4Tech. Your one-stop solution for web development, hosting, and SharePoint development needs.";
+$ogDescription = "Welcome to RapidSol4Tech. Your one-stop solution for web development, hosting, and sharepoint intranet needs.";
 $ogImage = "https://rapidsol4tech.com/img/logo.png";
 $ogUrl = "https://rapidsol4tech.com/";
 $canonicalUrl = "https://rapidsol4tech.com/";

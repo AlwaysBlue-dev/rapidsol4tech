@@ -6,7 +6,7 @@
 // Meta tags
 $pageTitle = "RapidSol4Tech - Thank You";
 $pageDescription = "Thank you for contacting RapidSol4Tech. We've received your message and will be in touch shortly.";
-$pageKeywords = "RapidSol4Tech, thank you page, contact confirmation";
+$pageKeywords = "RapidSol4Tech, thank you page, contact confirmation,";
 $ogTitle = "RapidSol4Tech - Thank You";
 $ogDescription = "Thank you for contacting RapidSol4Tech. We've received your message and will be in touch shortly.";
 $ogImage = "https://rapidsol4tech.com/img/thank-you.webp";

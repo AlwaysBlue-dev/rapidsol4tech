@@ -3,7 +3,7 @@
 // Meta tags
 $pageTitle = "RapidSol4Tech - Our Portfolio";
 $pageDescription = "Explore RapidSol4Tech's portfolio showcasing our latest projects and achievements.";
-$pageKeywords = "RapidSol4Tech, portfolio, projects, web development, hosting, SharePoint development";
+$pageKeywords = "RapidSol4Tech, portfolio, projects, web development, hosting, sharePoint development, sharepoint intranet";
 $ogTitle = "RapidSol4Tech - Our Portfolio";
 $ogDescription = "Explore RapidSol4Tech's portfolio showcasing our latest projects and achievements.";
 $ogImage = "https://rapidsol4tech.com/img/portfolio/sharepoint7.PNG";

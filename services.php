@@ -3,7 +3,8 @@
 // Meta tags
 $pageTitle = "RapidSol4Tech - Services";
 $pageDescription = "Discover RapidSol4Tech's comprehensive range of services including web development, hosting, and SharePoint development.";
-$pageKeywords = "RapidSol4Tech, services, web development, hosting, SharePoint development";
+$pageKeywords = "RapidSol4Tech, services, web development, hosting, sharePoint development, custom sharepoint, sharepoint intranet, responsive website, responsive sharepoint,
+dynamic sharepoint, CMS, wix, ecommerce, wordpress, database website, custom website, mern stack, django";
 $ogTitle = "RapidSol4Tech - Services";
 $ogDescription = "Discover RapidSol4Tech's comprehensive range of services including web development, hosting, and SharePoint development.";
 $ogImage = "https://rapidsol4tech.com/img/features-4.png";
@@ -38,6 +39,17 @@ include 'header.php';
                         experience of
                         your SharePoint environment.
                     </p>
+                    <p><b>SharePoint Intranet Development:</b> Enhance internal communication and collaboration with a
+                        custom SharePoint intranet. We design and implement intranet solutions that are user-friendly,
+                        secure, and tailored to your organization's needs.
+                    </p>
+                    <p><b>Custom SharePoint Development:</b> From custom web parts to complex workflows and
+                        applications, we
+                        develop responsive SharePoint solutions tailored to your specific requirements. Our custom
+                        development
+                        services
+                        ensure you get the functionality you need.</p>
+
                     <p>
                         <b>Power Automate Integration:</b> Automate your workflows and business processes with Power
                         Automate. We
@@ -55,16 +67,6 @@ include 'header.php';
                         forms. We design and develop forms that are easy to use, ensuring accurate data entry and
                         streamlined
                         processes.</p>
-                    <p><b>SharePoint Consulting:</b> We provide expert consulting services to help you plan and
-                        implement
-                        effective SharePoint strategies. Our consultants work closely with you to understand your
-                        business needs
-                        and recommend the best solutions.</p>
-                    <p><b>Custom SharePoint Development:</b> From custom web parts to complex workflows and
-                        applications, we
-                        develop SharePoint solutions tailored to your specific requirements. Our custom development
-                        services
-                        ensure you get the functionality you need.</p>
                     <p><b>SharePoint Migration:</b> We offer seamless migration services to move your existing content
                         and
                         applications to SharePoint. Our migration process minimizes downtime and ensures data integrity.
@@ -73,6 +75,11 @@ include 'header.php';
                         applications to create a cohesive digital workplace. Our integration services enhance
                         collaboration and
                         productivity.</p>
+                    <p><b>SharePoint Consulting:</b> We provide expert consulting services to help you plan and
+                        implement
+                        effective SharePoint strategies. Our consultants work closely with you to understand your
+                        business needs
+                        and recommend the best solutions.</p>
                     <p><b>SharePoint Support and Maintenance:</b> We provide ongoing support and maintenance services to
                         ensure
                         your SharePoint environment remains secure, updated, and efficient. Our support team is always
@@ -105,7 +112,7 @@ include 'header.php';
                     </p>
                     <p>
                         <b>Content Management Systems (CMS):</b> We implement and customize CMS platforms like
-                        WordPress, Drupal,
+                        WordPress, Drupal, Wix
                         and Joomla, empowering you to easily manage and update your website content.
 
                     </p>

@@ -3,7 +3,7 @@
 // Meta tags
 $pageTitle = "RapidSol4Tech - Contact Us";
 $pageDescription = "Get in touch with RapidSol4Tech for all your web development, hosting, and SharePoint development needs.";
-$pageKeywords = "RapidSol4Tech, contact us, web development, hosting, SharePoint development";
+$pageKeywords = "RapidSol4Tech, contact us, web development, hosting, sharePoint development, sharepoint intranet";
 $ogTitle = "RapidSol4Tech - Contact Us";
 $ogDescription = "Get in touch with RapidSol4Tech for all your web development, hosting, and SharePoint development needs.";
 $ogImage = "https://rapidsol4tech.com/img/contact.png";
