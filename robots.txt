@@ -1,0 +1,5 @@
+# robots.txt file of https://www.rapidsol4tech.com/
+User-agent: *
+Disallow:
+
+sitemap: https://www.rapidsol4tech.com/sitemap.xml
