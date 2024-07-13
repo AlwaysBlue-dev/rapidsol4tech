@@ -13,13 +13,9 @@
     <title><?php echo isset($pageTitle) ? $pageTitle : 'RapidSol4Tech'; ?></title>
 
     <link rel="canonical" href="<?php
-        // Get the current URL without query parameters
-        $currentUrl = 'https://www.rapidsol4tech.com' . strtok($_SERVER['REQUEST_URI'], '?');
-        // Ensure trailing slash consistency
-        $currentUrl = rtrim($currentUrl, '/') . '/';
-        echo isset($canonicalUrl) ? $canonicalUrl : $currentUrl;
-    ?>">
-
+    $currentUrl = 'https://' . $_SERVER['HTTP_HOST'] . strtok($_SERVER['REQUEST_URI'], '?');
+    echo isset($canonicalUrl) ? htmlspecialchars($canonicalUrl) : htmlspecialchars($currentUrl);
+?>">
     <!-- Open Graph tags -->
     <meta property="og:title"
         content="<?php echo isset($ogTitle) ? $ogTitle : 'RapidSol4Tech - Rapid Solutions For Your Business'; ?>">
