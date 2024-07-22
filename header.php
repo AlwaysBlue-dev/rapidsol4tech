@@ -12,17 +12,17 @@
     <meta name="author" content="RapidSol4Tech">
     <title><?php echo isset($pageTitle) ? $pageTitle : 'RapidSol4Tech'; ?></title>
 
-    <link rel="canonical" href="<?php
-    $currentUrl = 'https://' . $_SERVER['HTTP_HOST'] . strtok($_SERVER['REQUEST_URI'], '?');
-    echo isset($canonicalUrl) ? htmlspecialchars($canonicalUrl) : htmlspecialchars($currentUrl);
-?>">
+    <!-- Canonical URL for the page to prevent duplicate content issues -->
+    <link rel="canonical" href="<?php echo htmlspecialchars($canonicalUrl); ?>">
+
     <!-- Open Graph tags -->
     <meta property="og:title"
         content="<?php echo isset($ogTitle) ? $ogTitle : 'RapidSol4Tech - Rapid Solutions For Your Business'; ?>">
     <meta property="og:description"
         content="<?php echo isset($ogDescription) ? $ogDescription : 'Learn more about RapidSol4Tech, a forward-thinking software company dedicated to delivering cutting-edge web development and hosting services.'; ?>">
-    <meta property="og:image" content="<?php echo isset($ogImage) ? $ogImage : 'https://rapidsol4tech.com/img/'; ?>">
-    <meta property="og:url" content="<?php echo isset($ogUrl) ? $ogUrl : 'https://rapidsol4tech.com'; ?>">
+    <meta property="og:image"
+        content="<?php echo isset($ogImage) ? $ogImage : 'https://www.rapidsol4tech.com/img/'; ?>">
+    <meta property="og:url" content="<?php echo isset($ogUrl) ? $ogUrl : 'https://www.rapidsol4tech.com'; ?>">
 
     <!-- Favicons -->
     <link href="img/favicon.webp" rel="icon">

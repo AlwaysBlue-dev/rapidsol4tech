@@ -6,9 +6,9 @@ $pageDescription = "Get in touch with RapidSol4Tech for all your web development
 $pageKeywords = "RapidSol4Tech, contact us, web development, hosting, sharePoint development, sharepoint intranet";
 $ogTitle = "RapidSol4Tech - Contact Us";
 $ogDescription = "Get in touch with RapidSol4Tech for all your web development, hosting, and SharePoint development needs.";
-$ogImage = "https://rapidsol4tech.com/img/contact.png";
-$ogUrl = "https://rapidsol4tech.com/contact.php";
-$canonicalUrl = "https://rapidsol4tech.com/contact.php";
+$ogImage = "https://www.rapidsol4tech.com/img/contact.png";
+$ogUrl = "https://www.rapidsol4tech.com/contact.php";
+$canonicalUrl = "https://www.rapidsol4tech.com/contact.php";
 
 // Include header.php for consistent structure
 include 'header.php';

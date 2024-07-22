@@ -6,9 +6,9 @@ $pageDescription = "Learn more about RapidSol4Tech, a forward-thinking software 
 $pageKeywords = "RapidSol4Tech, web development, hosting, SharePoint development, software company, digital solutions, sharepoint intranet";
 $ogTitle = "RapidSol4Tech - About Us";
 $ogDescription = "Learn more about RapidSol4Tech, a forward-thinking software company dedicated to delivering cutting-edge web development and hosting services.";
-$ogImage = "https://rapidsol4tech.com/img/about-img.jpg";
-$ogUrl = "https://rapidsol4tech.com/about.php";
-$canonicalUrl = "https://rapidsol4tech.com/about.php";
+$ogImage = "https://www.rapidsol4tech.com/img/about-img.jpg";
+$ogUrl = "https://www.rapidsol4tech.com/about.php";
+$canonicalUrl = "https://www.rapidsol4tech.com/about.php";
 
 // Include header.php for consistent structure
 include 'header.php';

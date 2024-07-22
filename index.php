@@ -7,9 +7,9 @@ $pageKeywords = "RapidSol4Tech, web development, hosting, sharePoint development
 custom sharepoint, dynamic sharepoint, responsive webiste, responsive sharepoint, wix, ecommerce, wordpress, CMS,  database website, custom website, mern stack, django";
 $ogTitle = "RapidSol4Tech - Home";
 $ogDescription = "Welcome to RapidSol4Tech. Your one-stop solution for web development, hosting, and sharepoint intranet needs.";
-$ogImage = "https://rapidsol4tech.com/img/logo.png";
-$ogUrl = "https://rapidsol4tech.com/";
-$canonicalUrl = "https://rapidsol4tech.com/";
+$ogImage = "https://www.rapidsol4tech.com/img/logo.png";
+$ogUrl = "https://www.rapidsol4tech.com/";
+$canonicalUrl = "https://www.rapidsol4tech.com/";
 
 // Include header.php for consistent structure
 include 'header.php';

@@ -9,9 +9,9 @@ $pageDescription = "Thank you for contacting RapidSol4Tech. We've received your 
 $pageKeywords = "RapidSol4Tech, thank you page, contact confirmation,";
 $ogTitle = "RapidSol4Tech - Thank You";
 $ogDescription = "Thank you for contacting RapidSol4Tech. We've received your message and will be in touch shortly.";
-$ogImage = "https://rapidsol4tech.com/img/thank-you.webp";
-$ogUrl = "https://rapidsol4tech.com/thank-you.php";
-$canonicalUrl = "https://rapidsol4tech.com/thank-you.php";
+$ogImage = "https://www.rapidsol4tech.com/img/thank-you.webp";
+$ogUrl = "https://www.rapidsol4tech.com/thank-you.php";
+$canonicalUrl = "https://www.rapidsol4tech.com/thank-you.php";
 
 // Include header.php for consistent structure
 include 'header.php';

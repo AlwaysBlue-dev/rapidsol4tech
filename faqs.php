@@ -6,9 +6,9 @@ $pageDescription = "Find answers to frequently asked questions about RapidSol4Te
 $pageKeywords = "RapidSol4Tech, FAQs, web development, hosting, sharePoint development, sharepoint intranet";
 $ogTitle = "RapidSol4Tech - FAQs";
 $ogDescription = "Find answers to frequently asked questions about RapidSol4Tech's web development, hosting, and SharePoint development services.";
-$ogImage = "https://rapidsol4tech.com/img/logo.png";
-$ogUrl = "https://rapidsol4tech.com/faqs.php";
-$canonicalUrl = "https://rapidsol4tech.com/faqs.php";
+$ogImage = "https://www.rapidsol4tech.com/img/logo.png";
+$ogUrl = "https://www.rapidsol4tech.com/faqs.php";
+$canonicalUrl = "https://www.rapidsol4tech.com/faqs.php";
 
 // Include header.php for consistent structure
 include 'header.php';
