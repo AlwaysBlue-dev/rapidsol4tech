@@ -123,7 +123,13 @@ h6 {
 /*--------------------------------------------------------------
 # Top Bar
 --------------------------------------------------------------*/
-
+/* Hover effects */
+a.facebook:hover {
+  transform: scale(1.1); /* Slightly enlarge icon on hover */
+}
+a.linkedin:hover {
+  transform: scale(1.1); /* Slightly enlarge icon on hover */
+}
 #topbar {
   padding: 0 0 10px 0;
   font-size: 14px;
@@ -155,25 +161,22 @@ h6 {
 
 #header {
   height: 110px;
-  transition: all 0.5s;
   z-index: 997;
-  transition: all 0.5s;
   padding: 20px 0;
   position: fixed;
   left: 0;
   top: 0;
   right: 0;
   transition: all 0.5s;
-  z-index: 997;
 }
 
 #header.header-scrolled,
 #header.header-pages {
-  height: 100px;
+  height: 110px;
   padding: 15px 0;
-  background-color: #fff;
+  background-color: #000;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
-}
+} 
 
 #header.header-scrolled #topbar,
 #header.header-pages #topbar {
@@ -215,12 +218,22 @@ h6 {
   width: 100%;
   height: 100vh;
   position: relative;
-  background: #f5f8fd url("../img/intro-bg.webp") center top no-repeat;
+  background: #f5f8fd url("../img/top.gif") center center fixed;
   background-size: cover;
+}
+#intro::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+
 }
 
 #intro .intro-info h2 {
-  color: #413e66;
+  color: #ffffff;
   margin-bottom: 40px;
   font-size: 48px;
   font-weight: 700;
@@ -250,16 +263,121 @@ h6 {
 #intro .intro-info .btn-services:hover {
   background: #0a98c0;
 }
+/*--------------------------------------------------------------
+# Cards
+--------------------------------------------------------------*/
+.intro-img .card-deck {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between cards */
+  flex-wrap: wrap; /* Allow wrapping of cards on smaller screens */
+}
+
+.card {
+  border: none; /* Remove default card border */
+  border-radius: 15px; /* More rounded corners */
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Deeper shadow for more prominence */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transform and shadow transitions */
+  flex: 1 1 calc(50% - 20px); /* Ensure cards take up 50% width minus gap on medium screens */
+  max-width: calc(50% - 20px); /* Ensure cards don’t exceed 50% width */
+}
+
+.card:hover {
+  transform: translateY(-10px); /* Slight lift effect on hover */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+.card-body {
+  padding: 20px;
+  background: linear-gradient(135deg, #f5f5f5, #ffffff); /* Light gradient background */
+  position: relative;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  font-weight: 700;
+  color: #333; /* Darker text color */
+}
+
+.card-text {
+  margin-bottom: 20px;
+  color: #555; /* Slightly darker text color */
+}
+
+.card .btn-primary, .card .btn-success {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.card .btn-primary {
+  background-color: #5a67d8; /* Modern Indigo Blue */
+  border: none;
+  color: #ffffff;
+  box-shadow: 0 4px 10px rgba(90, 103, 216, 0.4); /* Soft shadow */
+  transition: all 0.3s ease;
+}
+
+.card .btn-primary:hover {
+  background-color: #4c51bf; /* Slightly darker indigo on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+  box-shadow: 0 6px 12px rgba(76, 81, 191, 0.4); /* Shadow becomes more prominent on hover */
+}
+
+.card .btn-success {
+  background-color: #48bb78; /* Modern Emerald Green */
+  border: none;
+  color: #ffffff;
+  box-shadow: 0 4px 10px rgba(72, 187, 120, 0.4); /* Soft shadow */
+  transition: all 0.3s ease;
+}
+
+.card .btn-success:hover {
+  background-color: #38a169; /* Slightly darker emerald on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+  box-shadow: 0 6px 12px rgba(56, 161, 105, 0.4); /* Shadow becomes more prominent on hover */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 991.98px) { /* For medium screens and below */
+  .card {
+    flex: 1 1 calc(50% - 20px); /* 2 cards per row on medium screens */
+    max-width: calc(50% - 20px); /* Ensure cards don’t exceed 50% width */
+  }
+}
+
+@media (max-width: 575.98px) { /* For small screens */
+  .card {
+    flex: 1 1 100%; /* 1 card per row on small screens */
+    max-width: 100%; /* Ensure cards take full width */
+  }
+}
+
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Navbar Menu
+--------------------------------------------------------------*/
+
 
 /* Desktop Navigation */
 
 .main-nav {
   /* Drop Down */
   /* Deep Drop Down */
+  
 }
 
 .main-nav,
@@ -278,15 +396,17 @@ h6 {
 .main-nav a {
   display: block;
   position: relative;
-  color: #413e66;
-  padding: 10px 15px;
+  color: #000;
+  padding: 30px 20px;
   transition: 0.3s;
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
   font-weight: 600;
 }
-
+.main-nav a.black-text {
+  color: #000000; /* Black color */
+}
 .main-nav a:hover,
 .main-nav .active>a,
 .main-nav li:hover>a {
@@ -496,6 +616,105 @@ h6 {
 
 .section-bg {
   background: #f5f8fd;
+}
+/* Custom Web Section
+--------------------------------*/
+/* Custom Banner Styling */
+.custom-banner {
+  background: linear-gradient(135deg, #ff0044cf 0%, #ff8c00e2 100%);
+  color: white;
+  padding: 120px 0;
+  margin-top: 180px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center align text for better appearance */
+}
+
+.custom-banner-heading {
+  color: #413e66;
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.custom-banner-text {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 0;
+}
+
+.custom-icon {
+  margin-top: 30px;
+  font-size: 4rem;
+  color: white;
+}
+
+.custom-icon i {
+  transition: color 0.3s ease;
+}
+
+.custom-icon i:hover {
+  color: #1bb1dc; /* Change color on hover */
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 1200px) {
+  .custom-banner-heading {
+    font-size: 3rem;
+  }
+  .custom-banner-text {
+    font-size: 1.3rem;
+  }
+  .custom-icon {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .custom-banner-heading {
+    font-size: 2.5rem;
+  }
+  .custom-banner-text {
+    font-size: 1.2rem;
+  }
+  .custom-icon {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .custom-banner {
+    padding: 80px 0;
+    margin-top: 120px;
+  }
+  .custom-banner-heading {
+    font-size: 2rem;
+  }
+  .custom-banner-text {
+    font-size: 1rem;
+  }
+  .custom-icon {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .custom-banner {
+    padding: 60px 0;
+    margin-top: 80px;
+  }
+  .custom-banner-heading {
+    font-size: 1.75rem;
+  }
+  .custom-banner-text {
+    font-size: 0.9rem;
+  }
+  .custom-icon {
+    font-size: 2rem;
+  }
 }
 
 /* About Us Section

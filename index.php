@@ -16,26 +16,61 @@ include 'header.php';
 ?>
 
 <body>
+
     <!--==========================
     Intro Section
   ============================-->
     <section id="intro" class="clearfix">
         <div class="container d-flex h-100">
-            <div class="row justify-content-center align-self-center">
-                <div class="col-md-6 intro-info order-md-first order-last">
+            <div class="row justify-content-center align-items-center">
+                <!-- Text Column -->
+                <div class="col-md-6 intro-info mt-5">
                     <h2>Rapid Solutions<br>for Your <span>Business!</span></h2>
                     <div>
                         <a href="contact.php" class="btn-get-started scrollto">Get Started</a>
                     </div>
                 </div>
 
-                <div class="col-md-6 intro-img order-md-last order-first">
-                    <img src="img/intro-img.webp" loading="lazy" alt="intro image" class="img-fluid">
+
+                <!-- Cards Column -->
+                <div class="col-md-6 intro-img" style="margin-top:150px;">
+                    <div class="card-deck mt-2">
+                        <div class="card">
+
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <i class="fas fa-comments"></i> Chat Now
+                                </h5>
+                                <img src="img/chat.webp" class="card-img-top" alt="Chat Image">
+                                <p class="card-text">Let's chat and bring your ideas to life.</p>
+                                <a href="https://tawk.to/chat/6676f1f69d7f358570d2570e/1i10a2bmc" target="_blank"
+                                    class="btn btn-primary">
+                                    Chat Now
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    <i class="fas fa-file-invoice-dollar"></i> Get Quote
+                                </h5>
+                                <img src="img/quote.webp" class="card-img-top" alt="Quote Image">
+                                <p class="card-text">Get a custom quote for tailored solutions.</p>
+                                <a href="contact.php" class="btn btn-success">
+                                    Get Quote
+                                </a>
+
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
-
         </div>
     </section><!-- #intro -->
+
 
     <main id="main">
         <!--==========================

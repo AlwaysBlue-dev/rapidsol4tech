@@ -20,10 +20,10 @@ include 'header.php';
 
 <body>
     <section id="portfolio" class="section-bg">
-        <div class="container mt-5">
+        <div class="container" style="margin-top:100px">
 
-            <header class="section-header">
-                <h3 class="section-title">Our Portfolio</h3>
+            <header class="section-header ">
+                <h3 class="section-title ">Our Portfolio</h3>
             </header>
 
             <div class="row">

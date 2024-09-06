@@ -13,6 +13,7 @@ $canonicalUrl = "https://www.rapidsol4tech.com/contact.php";
 // Include header.php for consistent structure
 include 'header.php';
 ?>
+
 <!--==========================
      Contact Section
     ============================-->

@@ -87,32 +87,59 @@
         <div class="container">
             <div class="social-links">
                 <!-- <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> -->
-                <a href="https://www.facebook.com/profile.php?id=61561315598597" class="facebook" target="_blank"><i
-                        class="fa fa-facebook"></i></a>
-                <a href="https://www.linkedin.com/company/rapidsol4tech" class="linkedin" target="_blank"><i
-                        class="fa fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=61561315598597" class="facebook text-white bg-dark"
+                    target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/company/rapidsol4tech" class="linkedin text-white bg-dark"
+                    target="_blank"><i class="fa fa-linkedin"></i></a>
                 <!-- <a href="#" class="instagram"><i class="fa fa-instagram"></i></a> -->
             </div>
         </div>
     </div>
-
     <div class="container ">
 
-        <div class="logo float-left">
+        <div class="logo float-left bg-light">
 
             <a href="/" class="scrollto">
-                <img src="img/favicon.webp" loading="lazy" alt="RapidSol4Tech Logo" style="height: auto;">
+                <img src="img/logo.png" loading="lazy" alt="RapidSol4Tech Logo" style="height: auto;">
             </a>
         </div>
 
-        <nav class="main-nav float-right d-none d-lg-block">
+        <nav class="main-nav float-right d-none d-lg-block bg-light">
             <ul>
                 <?php 
                 $currentPage = basename($_SERVER['SCRIPT_FILENAME']); 
                 ?>
                 <li class="<?= ($currentPage == 'index.php') ? 'active' : '' ?>"><a href="/">Home</a></li>
                 <li class="<?= ($currentPage == 'about.php') ? 'active' : '' ?>"><a href="about.php">About Us</a></li>
-                <li class="<?= ($currentPage == 'services.php') ? 'active' : '' ?>"><a href="services.php">Services</a>
+                <li class="<?= ($currentPage == 'services.php') ? 'active' : '' ?> drop-down"><a href="#">Services</a>
+                    <ul>
+                        <li class="drop-down"><a href="#">Web Development</a>
+                            <ul>
+                                <li><a href="custom-web.php">Custom Web Development</a></li>
+                                <li><a href="ecommerce.php">E-Commerce Solutions</a></li>
+                                <li><a href="cms.php">Content Management System (CMS)</a></li>
+                                <li><a href="web-hosting.php">Web Hosting</a></li>
+                                <li><a href="seo.php">SEO Optimization</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="drop-down"><a href="#">SharePoint Development</a>
+                            <ul>
+                                <li><a href="sharepoint-intranet.php">SharePoint Intranet
+                                        Development</a></li>
+                                <li><a href="custom-sharepoint.php">Custom ShrePoint
+                                        Development</a></li>
+                                <li><a href="power-automate.php">Power Automate</a></li>
+                                <li><a href="sharepoint-lists-customization.php">SharePoint Lists
+                                        Customization</a></li>
+                                <li><a href="sharepoint-custom-forms.php">Custom Forms Development</a></li>
+
+                            </ul>
+                        </li>
+
+                    </ul>
+
+                </li>
                 </li>
                 <li class="<?= ($currentPage == 'portfolio.php') ? 'active' : '' ?>"><a href="portfolio.php">Our
                         Portfolio</a></li>
@@ -123,4 +150,11 @@
         </nav><!-- .main-nav -->
 
     </div>
-</header><!-- #header -->
+</header><!-- #header -->
+
+<script>
+
+</script>
+
+<!-- Bootstrap Bundle JS (includes Popper.js) -->
+<script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>

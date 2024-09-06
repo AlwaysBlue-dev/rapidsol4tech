@@ -16,6 +16,7 @@ $canonicalUrl = "https://www.rapidsol4tech.com/thank-you.php";
 // Include header.php for consistent structure
 include 'header.php';
 ?>
+  
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
