@@ -11,9 +11,174 @@ $ogImage = "https://www.rapidsol4tech.com/img/logo.png";
 $ogUrl = "https://www.rapidsol4tech.com/";
 $canonicalUrl = "https://www.rapidsol4tech.com/";
 
+
 // Include header.php for consistent structure
 include 'header.php';
 ?>
+
+<style>
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.tree-container {
+    position: relative;
+    padding: 50px 0;
+}
+
+.tree-container::before {
+    content: '';
+    background: #007bff;
+    width: 4px;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+}
+
+.tree-node {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+    width: 100%;
+}
+
+.tree-node-content {
+    width: 45%;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+
+.tree-node:hover .tree-node-img {
+    background: #0056b3;
+    transform: scale(1.2);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+
+}
+
+.tree-node:hover .tree-node-content {
+    transform: translateY(-15px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+
+.tree-node-content::before {
+    content: '';
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 30px;
+    background: #007bff;
+    z-index: -1;
+    transition: all 0.3s ease;
+}
+
+.tree-node-content::after {
+    content: '';
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 30px;
+    background: #007bff;
+    z-index: -1;
+    transition: all 0.3s ease;
+}
+
+.tree-node-content:first-of-type::before {
+    display: none;
+}
+
+.tree-node-content:last-of-type::after {
+    display: none;
+}
+
+.tree-node-img {
+    width: 60px;
+    height: 60px;
+    background: #007bff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 24px;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    z-index: 999;
+}
+
+.tree-node-content:hover .tree-node-img {
+    background: #0056b3;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.tree-node-content:nth-child(even) .tree-node-img {
+    top: auto;
+    bottom: -30px;
+}
+
+@media screen and (max-width: 768px) {
+    .tree-node-content {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .tree-node-content::before,
+    .tree-node-content::after {
+        width: 1px;
+    }
+
+    .tree-node-img {
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+    }
+}
+
+h1 {
+    font-weight: 300;
+    color: #007bff;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.25rem;
+    color: #007bff;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tree-node-content h2 i {
+    margin-right: 10px;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #6c757d;
+}
+</style>
 
 <body>
 
@@ -132,7 +297,7 @@ include 'header.php';
         <!--==========================
       Services Section
     ============================-->
-        <section id="services" class="section-bg">
+        <section id="services" class="wow fadeInUp section-bg">
             <div class="container">
 
                 <header class="section-header">
@@ -142,62 +307,57 @@ include 'header.php';
 
                 <div class="row">
 
-                    <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
-                        <div class="box">
-                            <div class="icon" style="background: #fceef3;"><i class="ion-ios-analytics-outline"
-                                    style="color: #ff689b;"></i></div>
-                            <h4 class="title"><a href=""> Web Development</a></h4>
-                            <p class="description">Drive engagement and achieve your business goals with our custom web
-                                development
-                                services. We create responsive, user-friendly websites and applications that captivate
-                                audiences and
-                                enhance user experience.</p>
-                        </div>
-                    </div>
-
                     <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
                         <div class="box">
-                            <div class="icon" style="background: #ecebff;"><i class="ion-ios-clock-outline"
+                            <div class="icon" style="background: #ecebff;"><i class="ion-ios-cog-outline"
                                     style="color: #8660fe;"></i></div>
-                            <h4 class="title"><a href="">Custom Web Applications</a></h4>
-                            <p class="description">Drive innovation with our custom web application development. Whether
-                                you need a
-                                CRM system, e-commerce platform, or specialized business application, we deliver
-                                scalable solutions that
-                                align with your strategic objectives.</p>
+                            <h4 class="title"><a href="custom-web.php">Custom Web Applications</a></h4>
+                            <p class="description">Accelerate business growth with our tailored web application
+                                development services. From CRM systems to complex business platforms, we build secure,
+                                scalable, and intuitive applications that enhance efficiency.</p>
                         </div>
                     </div>
 
                     <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
                         <div class="box">
-                            <div class="icon" style="background: #fff0da;"><i class="ion-ios-bookmarks-outline"
+                            <div class="icon" style="background: #e0f7fa;"><i class="ion-ios-cart-outline"
+                                    style="color: #00bfa5;"></i></div>
+                            <h4 class="title"><a href="ecommerce.php">E-Commerce Solutions</a></h4>
+                            <p class="description">Elevate your online business with our custom eCommerce solutions. We
+                                provide secure, scalable, and feature-rich online stores that are optimized for
+                                conversions and designed to deliver a seamless shopping experience.</p>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
+                        <div class="box">
+                            <div class="icon" style="background: #fff0da;"><i class="ion-ios-cloud-outline"
                                     style="color: #e98e06;"></i></div>
-                            <h4 class="title"><a href="">Web Hosting</a></h4>
+                            <h4 class="title"><a href="web-hosting.php">Web Hosting</a></h4>
                             <p class="description">Keep your website online with our secure and scalable hosting
-                                solutions. Whether
-                                you're a startup needing shared hosting or an enterprise requiring dedicated servers, we
-                                offer reliable
-                                plans to maximize performance and reliability.</p>
+                                solutions. Whether you're a startup needing shared hosting or an enterprise requiring
+                                dedicated servers, we offer reliable plans to maximize performance and reliability.</p>
                         </div>
                     </div>
 
                     <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
                         <div class="box">
-                            <div class="icon" style="background: #e6fdfc;"><i class="ion-ios-paper-outline"
+                            <div class="icon" style="background: #e6fdfc;"><i class="ion-ios-briefcase-outline"
                                     style="color: #3fcdc7;"></i></div>
-                            <h4 class="title"><a href="">SharePoint Development</a></h4>
+                            <h4 class="title"><a href="custom-sharepoint.php">SharePoint Development</a></h4>
                             <p class="description">Optimize collaboration and productivity with our SharePoint
-                                development services.
-                                We design and implement customized SharePoint solutions, including document management,
-                                intranet
-                                portals, and workflow automation.</p>
+                                development services. We design and implement customized SharePoint solutions, including
+                                document management, intranet portals, and workflow automation.</p>
                         </div>
                     </div>
+
+
                     <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
                         <div class="box">
-                            <div class="icon" style="background: #eafde7;"><i class="ion-ios-speedometer-outline"
+                            <div class="icon" style="background: #eafde7;"><i class="fas fa-code"
                                     style="color:#41cf2e;"></i></div>
-                            <h4 class="title"><a href=""> SharePoint Framework (SPFx)</a></h4>
+                            <h4 class="title"><a href="custom-sharepoint.php"> SharePoint Framework (SPFx)</a></h4>
                             <p class="description">Enhance your SharePoint environment with our SPFx development
                                 services. We build
                                 modern web parts and extensions that improve functionality and user engagement,
@@ -208,9 +368,9 @@ include 'header.php';
 
                     <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
                         <div class="box">
-                            <div class="icon" style="background: #e1eeff;"><i class="ion-ios-world-outline"
+                            <div class="icon" style="background: #e1eeff;"><i class="fa fa-cogs"
                                     style="color: #2282ff;"></i></div>
-                            <h4 class="title"><a href="">Power Automate Integration</a></h4>
+                            <h4 class="title"><a href="power-automate.php">Power Automate Integration</a></h4>
                             <p class="description">Streamline workflows and automate tasks with our Power Automate
                                 integration
                                 services. We develop custom workflows that integrate with SharePoint and other Microsoft
@@ -225,7 +385,129 @@ include 'header.php';
             </div>
         </section><!-- #services -->
 
+        <!--==========================
+      Steps in Tree Node
+    ============================-->
+        <section id="tree" class="wow fadeInUp">
+            <div class="container">
+                <h1 class="my-5 animate__animated animate__fadeIn">Client Journey With Us</h1>
+                <div class="tree-container">
+                    <div class="tree-node">
+                        <div class="tree-node-img">
+                            1
+                        </div>
+                        <div class="tree-node-content animate__animated animate__fadeInLeft mt-5">
+                            <h2><i class="fas fa-globe"></i> Initial Contact</h2>
+                            <p>When you first explore our services, you reach out via contact forms, email, or phone for
+                                an
+                                initial consultation to discuss your needs and goals. This helps us understand your
+                                requirements
+                                and how we can assist you best.</p>
+                        </div>
+                    </div>
 
+                    <div class="tree-node">
+                        <div class="tree-node-img">
+                            2
+                        </div>
+                        <div class="tree-node-content animate__animated animate__fadeInRight mt-5">
+                            <h2><i class="fas fa-user-circle"></i> Discovery Meeting</h2>
+                            <p>We hold a detailed discovery meeting to delve into your project's specifics, ensuring we
+                                align
+                                our solutions with your business objectives and challenges.</p>
+                        </div>
+                    </div>
+
+                    <div class="tree-node">
+                        <div class="tree-node-img">
+                            3
+                        </div>
+                        <div class="tree-node-content animate__animated animate__fadeInLeft mt-5">
+                            <h2><i class="fas fa-file-alt"></i> Proposal and Planning</h2>
+                            <p>We draft a comprehensive proposal outlining the project scope, timeline, and costs. This
+                                plan
+                                is
+                                reviewed and refined until it meets your expectations and is approved.</p>
+                        </div>
+                    </div>
+
+                    <div class="tree-node">
+                        <div class="tree-node-img">
+                            4
+                        </div>
+                        <div class="tree-node-content animate__animated animate__fadeInRight mt-5">
+                            <h2><i class="fas fa-pencil-ruler"></i> Design Phase</h2>
+                            <p>In this phase, we focus on creating visual designs and prototypes. Your feedback helps us
+                                refine
+                                the design to ensure it meets your vision and requirements.</p>
+                        </div>
+                    </div>
+
+                    <div class="tree-node">
+                        <div class="tree-node-img">
+                            5
+                        </div>
+                        <div class="tree-node-content animate__animated animate__fadeInLeft mt-5">
+                            <h2><i class="fas fa-code"></i> Development Phase</h2>
+                            <p>Our development team builds the product based on the approved design. We implement
+                                features,
+                                integrate systems, and ensure the functionality aligns with the agreed-upon
+                                specifications.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="tree-node">
+                        <div class="tree-node-img">
+                            6
+                        </div>
+                        <div class="tree-node-content animate__animated animate__fadeInRight mt-5">
+                            <h2><i class="fas fa-vial"></i> Testing and QA</h2>
+                            <p>We conduct thorough testing to ensure the product meets high standards of quality and
+                                functionality. This phase includes both automated and manual testing processes.</p>
+                        </div>
+                    </div>
+
+                    <div class="tree-node">
+                        <div class="tree-node-img">
+                            7
+                        </div>
+                        <div class="tree-node-content animate__animated animate__fadeInLeft mt-5">
+                            <h2><i class="fas fa-check-circle"></i> Client Review</h2>
+                            <p>Once the product is ready, you review it and provide feedback. We make necessary
+                                adjustments
+                                to
+                                ensure everything is perfect before final delivery.</p>
+                        </div>
+                    </div>
+
+                    <div class="tree-node">
+                        <div class="tree-node-img">
+                            8
+                        </div>
+                        <div class="tree-node-content animate__animated animate__fadeInRight mt-5">
+                            <h2><i class="fas fa-rocket"></i> Launch</h2>
+                            <p>After final approval, we proceed with the launch of the product. We ensure a smooth
+                                transition
+                                and provide ongoing support to address any post-launch issues.</p>
+                        </div>
+                    </div>
+
+                    <div class="tree-node">
+                        <div class="tree-node-img">
+                            9
+                        </div>
+                        <div class="tree-node-content animate__animated animate__fadeInLeft mt-5">
+                            <h2><i class="fas fa-headset"></i> Ongoing Support</h2>
+                            <p>We offer continuous support to ensure the product operates smoothly and address any
+                                issues
+                                that
+                                arise. Our goal is to provide long-term value and satisfaction.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- #tree -->
 
         <!--==========================
       Call To Action Section
