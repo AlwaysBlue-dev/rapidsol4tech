@@ -20,7 +20,7 @@ include 'header.php';
     <!--==========================
         Web Hosting Banner Section
     ============================-->
-    <section id="web-hosting-banner" class="custom-banner text-center">
+    <section id="web-hosting-banner" class="custom-banner text-center wow fadeInUp">
         <div class="container custom-content">
             <h1 class="custom-banner-heading">Web Hosting</h1>
             <p class="custom-banner-text">Reliable and secure hosting solutions tailored to your needs</p>
@@ -33,33 +33,49 @@ include 'header.php';
     <!--==========================
         Web Hosting Content Section
     ============================-->
-    <section id="web-hosting-content" style="padding: 50px 0;">
+    <section id="web-hosting-content" style="padding: 50px 0;" class="wow fadeInUp">
         <div class="container">
             <h2>Our Web Hosting Solutions</h2>
             <p>
-                <b>Web Hosting Plans:</b> At RapidSol4Tech, we offer a variety of web hosting plans designed to meet the diverse needs of businesses and individuals. Our hosting solutions include shared hosting, VPS hosting, and dedicated servers, each providing unique benefits to ensure optimal website performance and security.
+                <b>Web Hosting Plans:</b> At RapidSol4Tech, we offer a variety of web hosting plans designed to meet the
+                diverse needs of businesses and individuals. Our hosting solutions include shared hosting, VPS hosting,
+                and dedicated servers, each providing unique benefits to ensure optimal website performance and
+                security.
             </p>
             <p>
-                <b>Shared Hosting:</b> Ideal for small to medium-sized websites, our shared hosting plans provide a cost-effective solution with reliable performance. Perfect for personal blogs, small business sites, and startups.
+                <b>Shared Hosting:</b> Ideal for small to medium-sized websites, our shared hosting plans provide a
+                cost-effective solution with reliable performance. Perfect for personal blogs, small business sites, and
+                startups.
             </p>
             <p>
-                <b>VPS Hosting:</b> For those needing more control and resources, our VPS hosting plans offer a scalable solution with dedicated server capabilities. Enjoy enhanced performance and increased security for growing websites and applications.
+                <b>VPS Hosting:</b> For those needing more control and resources, our VPS hosting plans offer a scalable
+                solution with dedicated server capabilities. Enjoy enhanced performance and increased security for
+                growing websites and applications.
             </p>
             <p>
-                <b>Dedicated Servers:</b> Our dedicated server hosting is tailored for large enterprises and high-traffic websites. Benefit from maximum performance, complete control, and advanced security features.
+                <b>Dedicated Servers:</b> Our dedicated server hosting is tailored for large enterprises and
+                high-traffic websites. Benefit from maximum performance, complete control, and advanced security
+                features.
             </p>
             <p>
-                All our hosting plans are equipped with robust security features, including SSL certificates, firewalls, and regular backups to ensure your data is safe and your website remains online.
+                All our hosting plans are equipped with robust security features, including SSL certificates, firewalls,
+                and regular backups to ensure your data is safe and your website remains online.
             </p>
             <h3>Why Choose Our Hosting Services?</h3>
             <ul>
-                <li><b>Performance:</b> Fast loading times and reliable uptime to keep your website accessible and performant.</li>
-                <li><b>Security:</b> Advanced security measures to protect your website from threats and vulnerabilities.</li>
-                <li><b>Scalability:</b> Easily upgrade your hosting plan as your website grows and requires more resources.</li>
-                <li><b>24/7 Support:</b> Our dedicated support team is available around the clock to assist with any hosting issues.</li>
+                <li><b>Performance:</b> Fast loading times and reliable uptime to keep your website accessible and
+                    performant.</li>
+                <li><b>Security:</b> Advanced security measures to protect your website from threats and
+                    vulnerabilities.</li>
+                <li><b>Scalability:</b> Easily upgrade your hosting plan as your website grows and requires more
+                    resources.</li>
+                <li><b>24/7 Support:</b> Our dedicated support team is available around the clock to assist with any
+                    hosting issues.</li>
             </ul>
             <p>
-                <b>Get Started:</b> Choose the right hosting plan for your needs and experience superior performance and security. Contact us today to discuss your hosting requirements and find the perfect solution for your website.
+                <b>Get Started:</b> Choose the right hosting plan for your needs and experience superior performance and
+                security. Contact us today to discuss your hosting requirements and find the perfect solution for your
+                website.
             </p>
         </div>
     </section>

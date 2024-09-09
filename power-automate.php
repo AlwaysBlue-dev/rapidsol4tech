@@ -20,7 +20,7 @@ include 'header.php';
     <!--==========================
         Power Automate Banner Section
     ============================-->
-    <section id="power-automate-banner" class="custom-banner text-center">
+    <section id="power-automate-banner" class="custom-banner text-center wow fadeInUp">
         <div class="container custom-content">
             <h1 class="custom-banner-heading">Power Automate Integration</h1>
             <p class="custom-banner-text">Streamline your business processes with automated workflows</p>
@@ -33,36 +33,54 @@ include 'header.php';
     <!--==========================
         Power Automate Content Section
     ============================-->
-    <section id="power-automate-content" style="padding: 50px 0;">
+    <section id="power-automate-content" style="padding: 50px 0;" class="wow fadeInUp">
         <div class="container">
             <h2>Enhance Efficiency with Power Automate</h2>
             <p>
-                <b>Power Automate Integration:</b> At RapidSol4Tech, we leverage Microsoft Power Automate to create custom workflows that automate your business processes. Our expertise in integrating Power Automate with SharePoint and other systems ensures that your operations run smoothly, minimizing manual intervention and enhancing overall efficiency.
+                <b>Power Automate Integration:</b> At RapidSol4Tech, we leverage Microsoft Power Automate to create
+                custom workflows that automate your business processes. Our expertise in integrating Power Automate with
+                SharePoint and other systems ensures that your operations run smoothly, minimizing manual intervention
+                and enhancing overall efficiency.
             </p>
             <p>
-                <b>Custom Workflows:</b> We design and implement custom flows that are tailored to your specific business needs. These workflows automate repetitive tasks, streamline complex processes, and improve accuracy by reducing human error.
+                <b>Custom Workflows:</b> We design and implement custom flows that are tailored to your specific
+                business needs. These workflows automate repetitive tasks, streamline complex processes, and improve
+                accuracy by reducing human error.
             </p>
             <p>
-                <b>Seamless Integration:</b> Our Power Automate solutions integrate seamlessly with SharePoint and other applications in your tech stack. This integration allows for real-time data synchronization, automated notifications, and efficient task management.
+                <b>Seamless Integration:</b> Our Power Automate solutions integrate seamlessly with SharePoint and other
+                applications in your tech stack. This integration allows for real-time data synchronization, automated
+                notifications, and efficient task management.
             </p>
             <p>
-                <b>Boost Productivity:</b> By automating routine tasks and business processes, you can focus on more strategic activities. Power Automate helps you boost productivity, enhance collaboration, and ensure that your team spends less time on manual tasks and more time on value-added activities.
+                <b>Boost Productivity:</b> By automating routine tasks and business processes, you can focus on more
+                strategic activities. Power Automate helps you boost productivity, enhance collaboration, and ensure
+                that your team spends less time on manual tasks and more time on value-added activities.
             </p>
             <p>
-                <b>Scalable Solutions:</b> Our Power Automate services are designed to scale with your business. Whether you need automation for a small team or an enterprise-wide solution, we provide scalable workflows that grow with your business needs.
+                <b>Scalable Solutions:</b> Our Power Automate services are designed to scale with your business. Whether
+                you need automation for a small team or an enterprise-wide solution, we provide scalable workflows that
+                grow with your business needs.
             </p>
             <p>
-                <b>Ongoing Support:</b> We offer comprehensive support and maintenance for our Power Automate solutions. Our team ensures that your workflows continue to perform optimally and adapts to any changes in your business processes.
+                <b>Ongoing Support:</b> We offer comprehensive support and maintenance for our Power Automate solutions.
+                Our team ensures that your workflows continue to perform optimally and adapts to any changes in your
+                business processes.
             </p>
             <h3>Why Choose Our Power Automate Integration Services?</h3>
             <ul>
-                <li><b>Expertise:</b> Our team has extensive experience in designing and implementing Power Automate solutions, ensuring high-quality and effective workflows.</li>
-                <li><b>Customization:</b> We focus on creating tailored solutions that meet your unique business requirements and integrate seamlessly with your existing systems.</li>
-                <li><b>Efficiency:</b> Our solutions are designed to improve operational efficiency, reduce manual tasks, and enhance productivity.</li>
-                <li><b>Customer-Centric Approach:</b> We work closely with you to understand your needs and deliver solutions that provide real value to your organization.</li>
+                <li><b>Expertise:</b> Our team has extensive experience in designing and implementing Power Automate
+                    solutions, ensuring high-quality and effective workflows.</li>
+                <li><b>Customization:</b> We focus on creating tailored solutions that meet your unique business
+                    requirements and integrate seamlessly with your existing systems.</li>
+                <li><b>Efficiency:</b> Our solutions are designed to improve operational efficiency, reduce manual
+                    tasks, and enhance productivity.</li>
+                <li><b>Customer-Centric Approach:</b> We work closely with you to understand your needs and deliver
+                    solutions that provide real value to your organization.</li>
             </ul>
             <p>
-                <b>Get Started:</b> Ready to automate your business processes with Power Automate? Contact us today to discuss how our integration services can streamline your operations and boost your productivity.
+                <b>Get Started:</b> Ready to automate your business processes with Power Automate? Contact us today to
+                discuss how our integration services can streamline your operations and boost your productivity.
             </p>
         </div>
     </section>
@@ -72,7 +90,8 @@ include 'header.php';
             <div class="row">
                 <div class="col-lg-9 text-center text-lg-left">
                     <h3 class="cta-title">Call To Action</h3>
-                    <p class="cta-text"> Transform your business processes with our Power Automate integration services.</p>
+                    <p class="cta-text"> Transform your business processes with our Power Automate integration services.
+                    </p>
                 </div>
                 <div class="col-lg-3 cta-btn-container text-center">
                     <a class="cta-btn align-middle" href="portfolio.php" target="_blank">Check Portfolio</a>

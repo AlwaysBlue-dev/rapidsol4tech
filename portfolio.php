@@ -19,7 +19,7 @@ include 'header.php';
     ============================-->
 
 <body>
-    <section id="portfolio" class="section-bg">
+    <section id="portfolio" class="section-bg wow fadeInUp">
         <div class="container" style="margin-top:100px">
 
             <header class="section-header ">

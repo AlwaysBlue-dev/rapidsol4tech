@@ -20,10 +20,11 @@ include 'header.php';
     <!--==========================
         CMS Banner Section
     ============================-->
-    <section id="cms-banner" class="custom-banner text-center">
+    <section id="cms-banner" class="custom-banner text-center wow fadeInUp">
         <div class="container custom-content">
             <h1 class="custom-banner-heading">Content Management Systems (CMS)</h1>
-            <p class="custom-banner-text">Empowering you to easily manage and update your website content with top CMS platforms</p>
+            <p class="custom-banner-text">Empowering you to easily manage and update your website content with top CMS
+                platforms</p>
             <div class="custom-icon">
                 <i class="fas fa-cogs"></i>
             </div>
@@ -33,28 +34,39 @@ include 'header.php';
     <!--==========================
         CMS Content Section
     ============================-->
-    <section id="cms-content" style="padding: 50px 0;">
+    <section id="cms-content" style="padding: 50px 0;" class="wow fadeInUp">
         <div class="container">
             <h2>Why Choose Our CMS Solutions?</h2>
             <p>
-                <b>Content Management Systems (CMS):</b> At RapidSol4Tech, we specialize in implementing and customizing CMS platforms to meet your unique needs. Whether you're looking to set up a new website or improve an existing one, our CMS solutions empower you to easily manage and update your content.
+                <b>Content Management Systems (CMS):</b> At RapidSol4Tech, we specialize in implementing and customizing
+                CMS platforms to meet your unique needs. Whether you're looking to set up a new website or improve an
+                existing one, our CMS solutions empower you to easily manage and update your content.
             </p>
             <p>
-                We work with leading CMS platforms such as WordPress, Drupal, Wix, and Joomla. Our team ensures that your CMS is tailored to your requirements, offering user-friendly interfaces, scalable features, and robust performance.
+                We work with leading CMS platforms such as WordPress, Drupal, Wix, and Joomla. Our team ensures that
+                your CMS is tailored to your requirements, offering user-friendly interfaces, scalable features, and
+                robust performance.
             </p>
             <h3>Our Key CMS Development Services</h3>
             <ul>
-                <li><b>WordPress Development:</b> Create and manage a highly customizable and scalable website with WordPress.</li>
-                <li><b>Drupal Customization:</b> Develop complex and flexible websites with Drupal's powerful features.</li>
-                <li><b>Wix Website Setup:</b> Build visually appealing and easy-to-manage sites with Wix's intuitive platform.</li>
-                <li><b>Joomla Development:</b> Implement a versatile CMS solution with Joomla for a variety of website needs.</li>
-                <li><b>CMS Integration:</b> Seamlessly integrate your CMS with other systems and tools to enhance functionality.</li>
+                <li><b>WordPress Development:</b> Create and manage a highly customizable and scalable website with
+                    WordPress.</li>
+                <li><b>Drupal Customization:</b> Develop complex and flexible websites with Drupal's powerful features.
+                </li>
+                <li><b>Wix Website Setup:</b> Build visually appealing and easy-to-manage sites with Wix's intuitive
+                    platform.</li>
+                <li><b>Joomla Development:</b> Implement a versatile CMS solution with Joomla for a variety of website
+                    needs.</li>
+                <li><b>CMS Integration:</b> Seamlessly integrate your CMS with other systems and tools to enhance
+                    functionality.</li>
             </ul>
             <p>
-                <b>SEO Optimized:</b> Our CMS solutions are designed with SEO best practices to ensure your website ranks well in search engines, driving more traffic and engagement.
+                <b>SEO Optimized:</b> Our CMS solutions are designed with SEO best practices to ensure your website
+                ranks well in search engines, driving more traffic and engagement.
             </p>
             <p>
-                Ready to streamline your website management? Contact us today to explore how our CMS solutions can benefit your business.
+                Ready to streamline your website management? Contact us today to explore how our CMS solutions can
+                benefit your business.
             </p>
         </div>
     </section>

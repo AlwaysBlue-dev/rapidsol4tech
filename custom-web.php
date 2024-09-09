@@ -20,7 +20,7 @@ include 'header.php';
     <!--==========================
         Custom Web Development Banner Section
     ============================-->
-    <section id="custom-web-dev-banner" class="custom-banner text-center">
+    <section id="custom-web-dev-banner" class="custom-banner text-center wow fadeInUp">
         <div class="container custom-content">
             <h1 class="custom-banner-heading">Custom Web Development</h1>
             <p class="custom-banner-text">Tailored web solutions for your unique business needs</p>
@@ -34,7 +34,7 @@ include 'header.php';
     <!--==========================
         Custom Web Development Content Section
     ============================-->
-    <section id="custom-web-dev-content" style="padding: 50px 0;">
+    <section id="custom-web-dev-content" style="padding: 50px 0;" class="wow fadeInUps">
         <div class="container">
             <h2>Why Choose Our Custom Web Development Services?</h2>
             <p>

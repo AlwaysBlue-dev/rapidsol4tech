@@ -20,10 +20,11 @@ include 'header.php';
     <!--==========================
         SharePoint Intranet Banner Section
     ============================-->
-    <section id="sharepoint-intranet-banner" class="custom-banner text-center">
+    <section id="sharepoint-intranet-banner" class="custom-banner text-center wow fadeInUp">
         <div class="container custom-content">
             <h1 class="custom-banner-heading">SharePoint Intranet Development</h1>
-            <p class="custom-banner-text">Enhance internal communication and collaboration with a custom SharePoint intranet</p>
+            <p class="custom-banner-text">Enhance internal communication and collaboration with a custom SharePoint
+                intranet</p>
             <div class="custom-icon">
                 <i class="fas fa-network-wired"></i>
             </div>
@@ -33,36 +34,57 @@ include 'header.php';
     <!--==========================
         SharePoint Intranet Content Section
     ============================-->
-    <section id="sharepoint-intranet-content" style="padding: 50px 0;">
+    <section id="sharepoint-intranet-content" style="padding: 50px 0;" class="wow fadeInUp">
         <div class="container">
             <h2>Custom SharePoint Intranet Solutions</h2>
             <p>
-                <b>SharePoint Intranet Development:</b> At RapidSol4Tech, we specialize in designing and implementing custom SharePoint intranet solutions that enhance internal communication and collaboration. Our intranet systems are built to be user-friendly, secure, and tailored to meet the specific needs of your organization.
+                <b>SharePoint Intranet Development:</b> At RapidSol4Tech, we specialize in designing and implementing
+                custom SharePoint intranet solutions that enhance internal communication and collaboration. Our intranet
+                systems are built to be user-friendly, secure, and tailored to meet the specific needs of your
+                organization.
             </p>
             <p>
-                <b>Enhanced Collaboration:</b> Our SharePoint intranet solutions are designed to foster collaboration among team members, streamline communication, and facilitate efficient information sharing. Features such as team sites, document libraries, and collaboration tools help improve productivity and teamwork.
+                <b>Enhanced Collaboration:</b> Our SharePoint intranet solutions are designed to foster collaboration
+                among team members, streamline communication, and facilitate efficient information sharing. Features
+                such as team sites, document libraries, and collaboration tools help improve productivity and teamwork.
             </p>
             <p>
-                <b>User-Friendly Interface:</b> We prioritize ease of use in our SharePoint intranet designs, ensuring that the interface is intuitive and accessible for all users. Customizable dashboards, user-friendly navigation, and personalized content make it easy for employees to find the information they need and stay engaged.
+                <b>User-Friendly Interface:</b> We prioritize ease of use in our SharePoint intranet designs, ensuring
+                that the interface is intuitive and accessible for all users. Customizable dashboards, user-friendly
+                navigation, and personalized content make it easy for employees to find the information they need and
+                stay engaged.
             </p>
             <p>
-                <b>Security and Compliance:</b> Security is a top priority in our SharePoint intranet solutions. We implement robust security measures to protect sensitive data and ensure compliance with industry standards. Access controls, encryption, and regular updates help safeguard your organization’s information.
+                <b>Security and Compliance:</b> Security is a top priority in our SharePoint intranet solutions. We
+                implement robust security measures to protect sensitive data and ensure compliance with industry
+                standards. Access controls, encryption, and regular updates help safeguard your organization’s
+                information.
             </p>
             <p>
-                <b>Integration with Existing Systems:</b> Our SharePoint intranet solutions can be seamlessly integrated with your existing systems and applications. This ensures a cohesive digital environment where all your tools and data work together efficiently.
+                <b>Integration with Existing Systems:</b> Our SharePoint intranet solutions can be seamlessly integrated
+                with your existing systems and applications. This ensures a cohesive digital environment where all your
+                tools and data work together efficiently.
             </p>
             <p>
-                <b>Scalability and Customization:</b> We design intranet solutions that are scalable and adaptable to your organization’s changing needs. Whether you are a small team or a large enterprise, our SharePoint intranet can grow with you and be customized to fit your specific requirements.
+                <b>Scalability and Customization:</b> We design intranet solutions that are scalable and adaptable to
+                your organization’s changing needs. Whether you are a small team or a large enterprise, our SharePoint
+                intranet can grow with you and be customized to fit your specific requirements.
             </p>
             <h3>Why Choose Our SharePoint Intranet Solutions?</h3>
             <ul>
-                <li><b>Expertise:</b> Our team has extensive experience in SharePoint development and understands the nuances of creating effective intranet solutions.</li>
-                <li><b>Tailored Solutions:</b> We provide customized solutions that align with your organization’s goals and enhance your internal processes.</li>
-                <li><b>Commitment to Quality:</b> We are dedicated to delivering high-quality, reliable, and scalable SharePoint intranet solutions.</li>
-                <li><b>Ongoing Support:</b> Our support doesn’t end at implementation. We offer ongoing maintenance and support to ensure your intranet continues to perform optimally.</li>
+                <li><b>Expertise:</b> Our team has extensive experience in SharePoint development and understands the
+                    nuances of creating effective intranet solutions.</li>
+                <li><b>Tailored Solutions:</b> We provide customized solutions that align with your organization’s goals
+                    and enhance your internal processes.</li>
+                <li><b>Commitment to Quality:</b> We are dedicated to delivering high-quality, reliable, and scalable
+                    SharePoint intranet solutions.</li>
+                <li><b>Ongoing Support:</b> Our support doesn’t end at implementation. We offer ongoing maintenance and
+                    support to ensure your intranet continues to perform optimally.</li>
             </ul>
             <p>
-                <b>Get Started:</b> Transform your internal communication and collaboration with our SharePoint intranet development services. Contact us today to discuss your project and discover how our solutions can benefit your organization.
+                <b>Get Started:</b> Transform your internal communication and collaboration with our SharePoint intranet
+                development services. Contact us today to discuss your project and discover how our solutions can
+                benefit your organization.
             </p>
         </div>
     </section>

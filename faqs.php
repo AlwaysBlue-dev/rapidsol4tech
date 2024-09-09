@@ -19,8 +19,8 @@ include 'header.php';
     ============================-->
 
 <body>
-    <section id="faq">
-        <div class="container"  style="margin-top:100px">
+    <section id="faq" class="wow fadeInUp">
+        <div class="container" style="margin-top:100px">
             <header class="section-header">
                 <h3>Frequently Asked Questions</h3>
                 <p>Have questions? We have answers! Below are some of the most frequently asked questions about our

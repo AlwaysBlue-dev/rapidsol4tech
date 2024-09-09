@@ -20,10 +20,11 @@ include 'header.php';
     <!--==========================
         E-commerce Banner Section
     ============================-->
-    <section id="ecommerce-banner" class="custom-banner text-center">
+    <section id="ecommerce-banner" class="custom-banner text-center wow fadeInUp">
         <div class="container custom-content">
             <h1 class="custom-banner-heading">E-commerce Solutions</h1>
-            <p class="custom-banner-text">Build and manage your online store with our expert e-commerce development services</p>
+            <p class="custom-banner-text">Build and manage your online store with our expert e-commerce development
+                services</p>
             <div class="custom-icon">
                 <i class="fas fa-shopping-cart"></i>
             </div>
@@ -33,28 +34,39 @@ include 'header.php';
     <!--==========================
         E-commerce Content Section
     ============================-->
-    <section id="ecommerce-content" style="padding: 50px 0;">
+    <section id="ecommerce-content" style="padding: 50px 0;" class="wow fadeInUp">
         <div class="container">
             <h2>Why Choose Our E-commerce Development Services?</h2>
             <p>
-                <b>E-commerce Solutions:</b> At RapidSol4Tech, we specialize in creating robust and scalable e-commerce platforms tailored to your business needs. Our solutions are designed to enhance user experience, increase sales, and streamline operations.
+                <b>E-commerce Solutions:</b> At RapidSol4Tech, we specialize in creating robust and scalable e-commerce
+                platforms tailored to your business needs. Our solutions are designed to enhance user experience,
+                increase sales, and streamline operations.
             </p>
             <p>
-                We offer a comprehensive range of e-commerce services including secure payment gateway integration, inventory management systems, and user-friendly shopping carts. Our expertise ensures that your online store operates smoothly and efficiently.
+                We offer a comprehensive range of e-commerce services including secure payment gateway integration,
+                inventory management systems, and user-friendly shopping carts. Our expertise ensures that your online
+                store operates smoothly and efficiently.
             </p>
             <h3>Our Key E-commerce Development Services</h3>
             <ul>
-                <li><b>Custom Online Stores:</b> We build tailored online stores that reflect your brand and meet your business objectives.</li>
-                <li><b>Secure Payment Integration:</b> Implement reliable and secure payment gateways to provide a safe shopping experience.</li>
-                <li><b>Inventory Management:</b> Efficiently manage your products and inventory with advanced systems and tools.</li>
-                <li><b>Shopping Cart Solutions:</b> Create intuitive and user-friendly shopping carts to enhance customer satisfaction.</li>
-                <li><b>Responsive Design:</b> Ensure that your e-commerce site is fully responsive and optimized for all devices.</li>
+                <li><b>Custom Online Stores:</b> We build tailored online stores that reflect your brand and meet your
+                    business objectives.</li>
+                <li><b>Secure Payment Integration:</b> Implement reliable and secure payment gateways to provide a safe
+                    shopping experience.</li>
+                <li><b>Inventory Management:</b> Efficiently manage your products and inventory with advanced systems
+                    and tools.</li>
+                <li><b>Shopping Cart Solutions:</b> Create intuitive and user-friendly shopping carts to enhance
+                    customer satisfaction.</li>
+                <li><b>Responsive Design:</b> Ensure that your e-commerce site is fully responsive and optimized for all
+                    devices.</li>
             </ul>
             <p>
-                <b>SEO Optimized:</b> Our e-commerce solutions are developed with SEO best practices to help your store rank higher in search engine results, attract more visitors, and boost sales.
+                <b>SEO Optimized:</b> Our e-commerce solutions are developed with SEO best practices to help your store
+                rank higher in search engine results, attract more visitors, and boost sales.
             </p>
             <p>
-                Ready to elevate your online business? Contact us today to discuss how our e-commerce development services can transform your store and drive success.
+                Ready to elevate your online business? Contact us today to discuss how our e-commerce development
+                services can transform your store and drive success.
             </p>
         </div>
     </section>

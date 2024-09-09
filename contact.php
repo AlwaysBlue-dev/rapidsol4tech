@@ -6,7 +6,7 @@ $pageDescription = "Get in touch with RapidSol4Tech for all your web development
 $pageKeywords = "RapidSol4Tech, contact us, web development, hosting, sharePoint development, sharepoint intranet";
 $ogTitle = "RapidSol4Tech - Contact Us";
 $ogDescription = "Get in touch with RapidSol4Tech for all your web development, hosting, and SharePoint development needs.";
-$ogImage = "https://www.rapidsol4tech.com/img/contact.png";
+$ogImage = "https://www.rapidsol4tech.com/img/contact.webp";
 $ogUrl = "https://www.rapidsol4tech.com/contact.php";
 $canonicalUrl = "https://www.rapidsol4tech.com/contact.php";
 
@@ -19,7 +19,7 @@ include 'header.php';
     ============================-->
 
 <body>
-    <section id="pricing" class="wow fadeInUp section-bg ">
+    <section id="pricing" class="wow fadeInUp section-bg">
 
         <div class="container mt-5">
 
@@ -30,7 +30,7 @@ include 'header.php';
 
             <div class="row">
                 <div class="col-md-6">
-                    <img src="img/contact.png" loading="lazy" class="img-fluid mt-3" alt="Contact RapidSol4Tech">
+                    <img src="img/contact.webp" loading="lazy" class="img-fluid mt-3" alt="Contact RapidSol4Tech">
                 </div>
                 <div class="col-md-6">
                     <form id="contact-form-talk" action="actions/send_email.php" method="post" role="form">

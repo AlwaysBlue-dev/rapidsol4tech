@@ -20,7 +20,7 @@ include 'header.php';
     <!--==========================
         SEO Optimization Banner Section
     ============================-->
-    <section id="seo-banner" class="custom-banner text-center">
+    <section id="seo-banner" class="custom-banner text-center wow fadeInUp">
         <div class="container custom-content">
             <h1 class="custom-banner-heading">SEO Optimization</h1>
             <p class="custom-banner-text">Enhance your online presence and drive more organic traffic</p>
@@ -33,36 +33,55 @@ include 'header.php';
     <!--==========================
         SEO Optimization Content Section
     ============================-->
-    <section id="seo-content" style="padding: 50px 0;">
+    <section id="seo-content" style="padding: 50px 0;" class="wow fadeInUp">
         <div class="container">
             <h2>Comprehensive SEO Optimization</h2>
             <p>
-                <b>SEO Optimization:</b> At RapidSol4Tech, we offer comprehensive SEO optimization services designed to improve your website’s visibility and search engine rankings. Our team of SEO experts utilizes the latest strategies and techniques to help your business attract more organic traffic and achieve a stronger online presence.
+                <b>SEO Optimization:</b> At RapidSol4Tech, we offer comprehensive SEO optimization services designed to
+                improve your website’s visibility and search engine rankings. Our team of SEO experts utilizes the
+                latest strategies and techniques to help your business attract more organic traffic and achieve a
+                stronger online presence.
             </p>
             <p>
-                <b>Keyword Optimization:</b> We conduct thorough keyword research to identify the most relevant and high-performing keywords for your industry. By strategically incorporating these keywords into your website’s content, meta tags, and headings, we enhance your site’s relevance and search engine ranking.
+                <b>Keyword Optimization:</b> We conduct thorough keyword research to identify the most relevant and
+                high-performing keywords for your industry. By strategically incorporating these keywords into your
+                website’s content, meta tags, and headings, we enhance your site’s relevance and search engine ranking.
             </p>
             <p>
-                <b>Content Creation:</b> High-quality, engaging content is crucial for SEO success. Our content creation services focus on producing valuable and relevant content that resonates with your target audience and aligns with SEO best practices. This includes blog posts, articles, infographics, and more.
+                <b>Content Creation:</b> High-quality, engaging content is crucial for SEO success. Our content creation
+                services focus on producing valuable and relevant content that resonates with your target audience and
+                aligns with SEO best practices. This includes blog posts, articles, infographics, and more.
             </p>
             <p>
-                <b>Link Building:</b> Building a robust backlink profile is essential for improving your website’s authority and search engine ranking. We employ ethical and effective link building strategies to acquire high-quality backlinks from reputable sources, enhancing your site's credibility and visibility.
+                <b>Link Building:</b> Building a robust backlink profile is essential for improving your website’s
+                authority and search engine ranking. We employ ethical and effective link building strategies to acquire
+                high-quality backlinks from reputable sources, enhancing your site's credibility and visibility.
             </p>
             <p>
-                <b>Technical SEO:</b> Our technical SEO services ensure that your website is optimized for search engine crawlers and provides a seamless user experience. This includes optimizing site speed, mobile responsiveness, URL structure, and fixing any technical issues that may hinder your SEO performance.
+                <b>Technical SEO:</b> Our technical SEO services ensure that your website is optimized for search engine
+                crawlers and provides a seamless user experience. This includes optimizing site speed, mobile
+                responsiveness, URL structure, and fixing any technical issues that may hinder your SEO performance.
             </p>
             <p>
-                <b>Analytics and Reporting:</b> We provide detailed analytics and performance reports to track the success of our SEO efforts. Our reporting includes key metrics such as keyword rankings, traffic growth, and conversion rates, helping you understand the impact of our SEO strategies on your business.
+                <b>Analytics and Reporting:</b> We provide detailed analytics and performance reports to track the
+                success of our SEO efforts. Our reporting includes key metrics such as keyword rankings, traffic growth,
+                and conversion rates, helping you understand the impact of our SEO strategies on your business.
             </p>
             <h3>Why Choose Our SEO Services?</h3>
             <ul>
-                <li><b>Expert Team:</b> Our SEO professionals have extensive experience and stay up-to-date with the latest SEO trends and algorithm updates.</li>
-                <li><b>Customized Strategies:</b> We tailor our SEO strategies to meet your specific business goals and target audience.</li>
-                <li><b>Results-Driven:</b> Our focus is on delivering measurable results that contribute to your business’s growth and success.</li>
-                <li><b>Transparent Communication:</b> We maintain open communication and provide regular updates on the progress of your SEO campaign.</li>
+                <li><b>Expert Team:</b> Our SEO professionals have extensive experience and stay up-to-date with the
+                    latest SEO trends and algorithm updates.</li>
+                <li><b>Customized Strategies:</b> We tailor our SEO strategies to meet your specific business goals and
+                    target audience.</li>
+                <li><b>Results-Driven:</b> Our focus is on delivering measurable results that contribute to your
+                    business’s growth and success.</li>
+                <li><b>Transparent Communication:</b> We maintain open communication and provide regular updates on the
+                    progress of your SEO campaign.</li>
             </ul>
             <p>
-                <b>Get Started:</b> Take your online presence to the next level with our expert SEO optimization services. Contact us today to discuss your SEO needs and learn how we can help you achieve better search engine rankings and increased organic traffic.
+                <b>Get Started:</b> Take your online presence to the next level with our expert SEO optimization
+                services. Contact us today to discuss your SEO needs and learn how we can help you achieve better search
+                engine rankings and increased organic traffic.
             </p>
         </div>
     </section>

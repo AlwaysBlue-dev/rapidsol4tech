@@ -20,10 +20,11 @@ include 'header.php';
     <!--==========================
         Custom Forms Development Banner Section
     ============================-->
-    <section id="custom-forms-banner" class="custom-banner text-center">
+    <section id="custom-forms-banner" class="custom-banner text-center wow fadeInUp">
         <div class="container custom-content">
             <h1 class="custom-banner-heading">SharePoint Custom Forms</h1>
-            <p class="custom-banner-text">Improve data collection and user interaction with tailored SharePoint forms</p>
+            <p class="custom-banner-text">Improve data collection and user interaction with tailored SharePoint forms
+            </p>
             <div class="custom-icon">
                 <i class="fas fa-pencil-alt"></i>
             </div>
@@ -33,36 +34,53 @@ include 'header.php';
     <!--==========================
         Custom Forms Development Content Section
     ============================-->
-    <section id="custom-forms-content" style="padding: 50px 0;">
+    <section id="custom-forms-content" style="padding: 50px 0;" class="wow fadeInUp">
         <div class="container">
             <h2>Enhance Data Collection with Custom SharePoint Forms</h2>
             <p>
-                <b>Custom Forms Development:</b> At RapidSol4Tech, we specialize in designing and developing custom SharePoint forms that enhance data collection and user interaction. Our forms are crafted to be intuitive and user-friendly, ensuring accurate data entry and efficient process management.
+                <b>Custom Forms Development:</b> At RapidSol4Tech, we specialize in designing and developing custom
+                SharePoint forms that enhance data collection and user interaction. Our forms are crafted to be
+                intuitive and user-friendly, ensuring accurate data entry and efficient process management.
             </p>
             <p>
-                <b>Tailored Design:</b> We work with you to understand your specific requirements and create forms that are tailored to your needs. Our custom forms are designed to be visually appealing and easy to navigate, improving user experience and data accuracy.
+                <b>Tailored Design:</b> We work with you to understand your specific requirements and create forms that
+                are tailored to your needs. Our custom forms are designed to be visually appealing and easy to navigate,
+                improving user experience and data accuracy.
             </p>
             <p>
-                <b>Streamlined Processes:</b> Our forms are designed to streamline data collection processes, reducing manual entry and minimizing errors. We integrate advanced features such as validation rules, conditional formatting, and automated workflows to enhance efficiency.
+                <b>Streamlined Processes:</b> Our forms are designed to streamline data collection processes, reducing
+                manual entry and minimizing errors. We integrate advanced features such as validation rules, conditional
+                formatting, and automated workflows to enhance efficiency.
             </p>
             <p>
-                <b>Integration Capabilities:</b> We ensure that your custom forms integrate seamlessly with your existing SharePoint environment and other systems. This integration allows for real-time data synchronization and automated updates.
+                <b>Integration Capabilities:</b> We ensure that your custom forms integrate seamlessly with your
+                existing SharePoint environment and other systems. This integration allows for real-time data
+                synchronization and automated updates.
             </p>
             <p>
-                <b>Enhanced Functionality:</b> Beyond basic form design, we add functionality to support complex data collection needs. This includes multi-step forms, dynamic fields, and custom actions based on user input.
+                <b>Enhanced Functionality:</b> Beyond basic form design, we add functionality to support complex data
+                collection needs. This includes multi-step forms, dynamic fields, and custom actions based on user
+                input.
             </p>
             <p>
-                <b>Responsive Design:</b> Our custom forms are designed to be fully responsive, ensuring a consistent and user-friendly experience across all devices, including desktops, tablets, and smartphones.
+                <b>Responsive Design:</b> Our custom forms are designed to be fully responsive, ensuring a consistent
+                and user-friendly experience across all devices, including desktops, tablets, and smartphones.
             </p>
             <h3>Why Choose Our Custom Forms Development Services?</h3>
             <ul>
-                <li><b>Expert Design:</b> Our team has extensive experience in developing custom SharePoint forms that meet a variety of business needs.</li>
-                <li><b>User-Friendly:</b> We focus on creating forms that are easy to use and navigate, enhancing user interaction and data accuracy.</li>
-                <li><b>Seamless Integration:</b> We ensure that your forms integrate smoothly with your SharePoint environment and other systems.</li>
-                <li><b>Advanced Features:</b> Our forms include advanced features and functionalities to support complex data collection requirements.</li>
+                <li><b>Expert Design:</b> Our team has extensive experience in developing custom SharePoint forms that
+                    meet a variety of business needs.</li>
+                <li><b>User-Friendly:</b> We focus on creating forms that are easy to use and navigate, enhancing user
+                    interaction and data accuracy.</li>
+                <li><b>Seamless Integration:</b> We ensure that your forms integrate smoothly with your SharePoint
+                    environment and other systems.</li>
+                <li><b>Advanced Features:</b> Our forms include advanced features and functionalities to support complex
+                    data collection requirements.</li>
             </ul>
             <p>
-                <b>Get Started:</b> Ready to enhance your data collection processes with custom SharePoint forms? Contact us today to learn how our tailored solutions can improve your data management and user interaction.
+                <b>Get Started:</b> Ready to enhance your data collection processes with custom SharePoint forms?
+                Contact us today to learn how our tailored solutions can improve your data management and user
+                interaction.
             </p>
         </div>
     </section>
@@ -72,7 +90,8 @@ include 'header.php';
             <div class="row">
                 <div class="col-lg-9 text-center text-lg-left">
                     <h3 class="cta-title">Call To Action</h3>
-                    <p class="cta-text"> Improve your data collection and user interaction with our custom forms development services.</p>
+                    <p class="cta-text"> Improve your data collection and user interaction with our custom forms
+                        development services.</p>
                 </div>
                 <div class="col-lg-3 cta-btn-container text-center">
                     <a class="cta-btn align-middle" href="portfolio.php" target="_blank">Check Portfolio</a>

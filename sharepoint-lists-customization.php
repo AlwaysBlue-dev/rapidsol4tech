@@ -20,7 +20,7 @@ include 'header.php';
     <!--==========================
         SharePoint Lists Customization Banner Section
     ============================-->
-    <section id="sharepoint-lists-banner" class="custom-banner text-center">
+    <section id="sharepoint-lists-banner" class="custom-banner text-center wow fadeInUp">
         <div class="container custom-content">
             <h1 class="custom-banner-heading">SharePoint Lists Customization</h1>
             <p class="custom-banner-text">Optimize your data management with tailored SharePoint lists</p>
@@ -33,36 +33,55 @@ include 'header.php';
     <!--==========================
         SharePoint Lists Customization Content Section
     ============================-->
-    <section id="sharepoint-lists-content" style="padding: 50px 0;">
+    <section id="sharepoint-lists-content" style="padding: 50px 0;" class="wow fadeInUp">
         <div class="container">
             <h2>Enhance Data Management with Custom SharePoint Lists</h2>
             <p>
-                <b>SharePoint Lists Customization:</b> At RapidSol4Tech, we specialize in customizing SharePoint lists to fit your unique data management needs. Our tailored solutions ensure that your lists are optimized for efficient data entry, management, and retrieval, providing you with a streamlined and user-friendly experience.
+                <b>SharePoint Lists Customization:</b> At RapidSol4Tech, we specialize in customizing SharePoint lists
+                to fit your unique data management needs. Our tailored solutions ensure that your lists are optimized
+                for efficient data entry, management, and retrieval, providing you with a streamlined and user-friendly
+                experience.
             </p>
             <p>
-                <b>Tailored Solutions:</b> We work closely with you to understand your specific data requirements and customize SharePoint lists accordingly. Whether you need custom columns, views, or filters, our solutions are designed to enhance your data management processes.
+                <b>Tailored Solutions:</b> We work closely with you to understand your specific data requirements and
+                customize SharePoint lists accordingly. Whether you need custom columns, views, or filters, our
+                solutions are designed to enhance your data management processes.
             </p>
             <p>
-                <b>Improved Data Access:</b> Our custom lists are designed to make data access and management intuitive and efficient. By creating user-friendly interfaces and optimizing list views, we ensure that you can easily navigate and manage your information.
+                <b>Improved Data Access:</b> Our custom lists are designed to make data access and management intuitive
+                and efficient. By creating user-friendly interfaces and optimizing list views, we ensure that you can
+                easily navigate and manage your information.
             </p>
             <p>
-                <b>Integration and Automation:</b> We integrate SharePoint lists with other SharePoint features and external systems to automate workflows and data synchronization. This integration improves data accuracy and reduces manual data entry.
+                <b>Integration and Automation:</b> We integrate SharePoint lists with other SharePoint features and
+                external systems to automate workflows and data synchronization. This integration improves data accuracy
+                and reduces manual data entry.
             </p>
             <p>
-                <b>Enhanced Reporting:</b> Our customization services include creating custom views and reports that provide valuable insights into your data. With enhanced reporting capabilities, you can make informed decisions based on accurate and up-to-date information.
+                <b>Enhanced Reporting:</b> Our customization services include creating custom views and reports that
+                provide valuable insights into your data. With enhanced reporting capabilities, you can make informed
+                decisions based on accurate and up-to-date information.
             </p>
             <p>
-                <b>Scalability:</b> Our SharePoint lists customization is designed to scale with your business. Whether you’re managing a small team or a large organization, our solutions are built to handle growing data needs and adapt to changing requirements.
+                <b>Scalability:</b> Our SharePoint lists customization is designed to scale with your business. Whether
+                you’re managing a small team or a large organization, our solutions are built to handle growing data
+                needs and adapt to changing requirements.
             </p>
             <h3>Why Choose Our SharePoint Lists Customization Services?</h3>
             <ul>
-                <li><b>Expert Customization:</b> Our team has extensive experience in customizing SharePoint lists to meet a variety of data management needs.</li>
-                <li><b>User-Friendly:</b> We design solutions that enhance the usability of SharePoint lists, making data management more intuitive and efficient.</li>
-                <li><b>Integration Capabilities:</b> We integrate SharePoint lists with other systems and automate processes to streamline data management.</li>
-                <li><b>Comprehensive Support:</b> We provide ongoing support and maintenance to ensure your SharePoint lists continue to perform optimally.</li>
+                <li><b>Expert Customization:</b> Our team has extensive experience in customizing SharePoint lists to
+                    meet a variety of data management needs.</li>
+                <li><b>User-Friendly:</b> We design solutions that enhance the usability of SharePoint lists, making
+                    data management more intuitive and efficient.</li>
+                <li><b>Integration Capabilities:</b> We integrate SharePoint lists with other systems and automate
+                    processes to streamline data management.</li>
+                <li><b>Comprehensive Support:</b> We provide ongoing support and maintenance to ensure your SharePoint
+                    lists continue to perform optimally.</li>
             </ul>
             <p>
-                <b>Get Started:</b> Ready to optimize your data management with customized SharePoint lists? Contact us today to learn how our tailored solutions can enhance your data management processes and improve overall efficiency.
+                <b>Get Started:</b> Ready to optimize your data management with customized SharePoint lists? Contact us
+                today to learn how our tailored solutions can enhance your data management processes and improve overall
+                efficiency.
             </p>
         </div>
     </section>
@@ -72,7 +91,8 @@ include 'header.php';
             <div class="row">
                 <div class="col-lg-9 text-center text-lg-left">
                     <h3 class="cta-title">Call To Action</h3>
-                    <p class="cta-text"> Optimize your data management with our expert SharePoint lists customization services.</p>
+                    <p class="cta-text"> Optimize your data management with our expert SharePoint lists customization
+                        services.</p>
                 </div>
                 <div class="col-lg-3 cta-btn-container text-center">
                     <a class="cta-btn align-middle" href="portfolio.php" target="_blank">Check Portfolio</a>
