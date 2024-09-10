@@ -52,9 +52,9 @@
                             <div class="footer-links">
                                 <h4>Contact Us</h4>
                                 <p>
-                                    Gulistan-e-Jauhar<br>
                                     Karachi, 75290<br>
                                     Pakistan<br>
+
                                     <strong>Phone:</strong> +923123634163<br>
                                     <strong>Email:</strong> info@rapidsol4tech.com<br>
                                 </p>
