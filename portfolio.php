@@ -19,19 +19,21 @@ include 'header.php';
     ============================-->
 
 <body>
-    <section id="portfolio" class="section-bg wow fadeInUp">
-        <div class="container" style="margin-top:100px">
-
-            <header class="section-header ">
-                <h3 class="section-title ">Our Portfolio</h3>
+    <section id="portfolio" class="wow fadeInUp section-bg bg-dark" style="margin-top:200px;">
+        <div class="container">
+            <header class="section-header">
+                <h3 class="text-white">Our Portfolio</h3>
+                <p class="text-white">Browse through our successful projects and see how we've delivered excellence for
+                    our clients!</p>
             </header>
+
 
             <div class="row">
                 <div class="col-lg-12">
                     <ul id="portfolio-flters">
-                        <li data-filter="*" class="filter-active">All</li>
-                        <li data-filter=".filter-app">SharePoint Development </li>
-                        <li data-filter=".filter-web">Web Development</li>
+                        <li data-filter="*" class="filter-active text-white">All</li>
+                        <li data-filter=".filter-app" class="text-white">SharePoint Development </li>
+                        <li data-filter=".filter-web" class="text-white">Web Development</li>
 
                     </ul>
                 </div>

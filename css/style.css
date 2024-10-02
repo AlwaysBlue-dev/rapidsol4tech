@@ -273,7 +273,7 @@ a.linkedin:hover {
   flex-wrap: wrap; /* Allow wrapping of cards on smaller screens */
 }
 
-.card {
+.card-intro {
   border: none; /* Remove default card border */
   border-radius: 15px; /* More rounded corners */
   overflow: hidden;
@@ -283,25 +283,25 @@ a.linkedin:hover {
   max-width: calc(50% - 20px); /* Ensure cards don’t exceed 50% width */
 }
 
-.card:hover {
+.intro-img .card:hover {
   transform: translateY(-10px); /* Slight lift effect on hover */
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
 }
 
-.card-body {
+.intro-img .card-body {
   padding: 20px;
   background: linear-gradient(135deg, #f5f5f5, #ffffff); /* Light gradient background */
   position: relative;
 }
 
-.card-title {
+.intro-img .card-title {
   font-size: 1.5rem;
   margin-bottom: 15px;
   font-weight: 700;
   color: #333; /* Darker text color */
 }
 
-.card-text {
+.intro-img .card-text {
   margin-bottom: 20px;
   color: #555; /* Slightly darker text color */
 }
@@ -592,6 +592,7 @@ a.linkedin:hover {
   font-weight: 700;
   position: relative;
   font-family: "Montserrat", sans-serif;
+  padding-top: 50px;
 }
 
 .section-header p {
@@ -1136,7 +1137,7 @@ a.linkedin:hover {
 
 #portfolio #portfolio-flters li:hover,
 #portfolio #portfolio-flters li.filter-active {
-  color: #1bb1dc;
+  color: #1bb1dc !important;
 }
 
 #portfolio #portfolio-flters li:last-child {
@@ -1426,108 +1427,151 @@ a.linkedin:hover {
   background-color: #1bb1dc;
 }
 
-/* Pricing Section
+/* Packages Section
 --------------------------------*/
+.pricing-container {
 
-#pricing {
-  padding: 80px 0;
 }
 
-#pricing .card {
-  border: 0;
-  border-radius: 0px;
-  box-shadow: 0 3px 0px 0 rgba(65, 62, 102, 0.08);
-  transition: all .3s ease-in-out;
-  padding: 36px 0;
-  position: relative;
+.pricing-container .pricing-header {
+  max-width: 700px;
 }
 
-#pricing .card:after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 0%;
-  height: 5px;
-  background-color: #1bb1dc;
-  transition: 0.5s;
+.pricing-container .nav-tabs {
+  border: none;
+  justify-content: center;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem; /* Slightly rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
 }
 
-#pricing .card:hover {
-  -webkit-transform: scale(1.05);
-  transform: scale(1.05);
-  box-shadow: 0 20px 35px 0 rgba(0, 0, 0, 0.08);
+.pricing-container .nav-tabs .nav-link {
+  border: none;
+  color: #495057;
+  font-weight: 600;
+  padding: 1rem 2rem;
+  transition: all 0.3s ease;
+  border-radius: 0.25rem; /* Rounded corners for individual tabs */
+  margin: 0 0.5rem; /* Space between tabs */
+  background-color: #ffffff; /* White background for each tab */
+  position: relative; /* Position for pseudo-elements */
+  z-index: 1; /* Ensure tabs are on top */
 }
 
-#pricing .card:hover:after {
-  width: 100%;
+/* Active tab styles */
+.pricing-container .nav-tabs .nav-link.active {
+  background-color: #5a67d8; /* Indigo blue for active tab */
+  color: #ffffff; /* White text for active tab */
+  box-shadow: 0 4px 10px rgba(90, 103, 216, 0.4); /* Deeper shadow for active tab */
 }
 
-#pricing .card .card-header {
-  background-color: white;
-  border-bottom: 0px;
-  -moz-text-align-last: center;
-  text-align-last: center;
+/* Hover effects */
+.pricing-container .nav-tabs .nav-link:hover {
+  color: #ffffff; /* White text on hover */
+  background-color: #4c51bf; /* Slightly darker blue on hover */
+  transform: translateY(-2px); /* Lift effect on hover */
+  box-shadow: 0 4px 20px rgba(76, 81, 191, 0.3); /* Enhanced shadow on hover */
 }
 
-#pricing .card .card-title {
-  margin-bottom: 16px;
-  color: #535074;
+
+/* On hover, expand the underline effect */
+.pricing-container .nav-tabs .nav-link:hover:before,
+.pricing-container .nav-tabs .nav-link.active:before {
+  width: 100%; /* Full width on hover and active */
+  left: 0; /* Align to the left */
 }
 
-#pricing .card .card-block {
-  padding-top: 0;
-  text-align: center;
-}
-
-#pricing .card .list-group-item {
-  border: 0px;
-  padding: 6px;
-  color: #413e66;
-  font-weight: 300;
-}
-
-#pricing .card h3 {
-  font-size: 64px;
-  margin-bottom: 0px;
-  color: #535074;
-}
-
-#pricing .card h3 .currency {
-  font-size: 30px;
-  position: relative;
-  font-weight: 400;
-  top: -30px;
-  letter-spacing: 0px;
-}
-
-#pricing .card h3 .period {
-  font-size: 16px;
-  color: #6c67a3;
-  letter-spacing: 0px;
-}
-
-#pricing .card .list-group {
-  margin-bottom: 15px;
-}
-
-#pricing .card .btn {
-  text-transform: uppercase;
-  font-size: 13px;
-  font-weight: 500;
-  color: #5f5b96;
-  border-radius: 0;
-  padding: 10px 24px;
-  letter-spacing: 1px;
-  border-radius: 3px;
-  display: inline-block;
-  background: #1bb1dc;
+.pricing-container .nav-tabs .nav-link.active {
   color: #fff;
+  background: linear-gradient(45deg, #007bff, #00c6ff);
+  border-radius: 25px;
 }
 
-#pricing .card .btn:hover {
-  background: #0a98c0;
+.pricing-container .pricing-card {
+  border: none;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+  overflow: hidden;
 }
+
+.pricing-container .pricing-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+
+.pricing-container .pricing-card-header {
+  background: linear-gradient(45deg, #007bff, #00c6ff);
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.pricing-container .pricing-card-body {
+  padding: 2rem;
+}
+
+.pricing-container .pricing-card-title {
+  color: #f1c40f;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.pricing-container .btn-pricing-custom {
+  background: linear-gradient(45deg, #007bff, #00c6ff);
+  border: none;
+  border-radius: 25px;
+  padding: 0.75rem 2rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.pricing-container .btn-pricing-custom:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0,123,255,0.4);
+}
+
+
+.pricing-container .pricing-list-group-item {
+  border: none;
+  padding: 0.75rem 0;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pricing-container .pricing-feature-icon {
+  width: 20px;
+  text-align: center;
+  margin-right: 0.5rem;
+
+  
+}
+
+.pricing-container .pricing-feature-icon.included {
+  color: #28a745;
+}
+
+.pricing-container .pricing-feature-icon.not-included {
+  color: #dc3545;
+}
+
+.pricing-container .pricing-popular-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #ffc107;
+  color: #000;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+
 
 /* Frequently Asked Questions Section
 --------------------------------*/

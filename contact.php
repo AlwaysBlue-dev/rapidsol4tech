@@ -19,13 +19,13 @@ include 'header.php';
     ============================-->
 
 <body>
-    <section id="pricing" class="wow fadeInUp section-bg">
+    <section id="pricing" class="wow fadeInUp section-bg bg-dark"  style="margin-top:200px;">
 
-        <div class="container mt-5">
+        <div class="container">
 
             <header class="section-header">
-                <h3>Let's Talk About Your Project</h3>
-                <p>Discuss your vision with us and let's bring your project to life!</p>
+                <h3 class="text-white ">Let's Talk About Your Project</h3>
+                <p  class="text-white">Discuss your vision with us and let's bring your project to life!</p>
             </header>
 
             <div class="row">
@@ -97,7 +97,7 @@ include 'header.php';
 
                         <!-- Submit btn -->
                         <div class="text-center col-md-12 col-10">
-                            <button type="submit" class="btn btn-primary" id="submit">Let's Start</button>
+                            <button type="submit" class="btn btn-primary mb-2" id="submit">Let's Start</button>
                             <div id="loader" class="loader" style="display:none;">
                                 <!-- Loader animation -->
                                 <img src="img/loader.gif" alt="Loading..." />

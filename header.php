@@ -111,7 +111,6 @@
                 $currentPage = basename($_SERVER['SCRIPT_FILENAME']); 
                 ?>
                 <li class="<?= ($currentPage == 'index.php') ? 'active' : '' ?>"><a href="/">Home</a></li>
-                <li class="<?= ($currentPage == 'about.php') ? 'active' : '' ?>"><a href="about.php">About Us</a></li>
                 <li class="<?= ($currentPage == 'services.php') ? 'active' : '' ?> drop-down"><a href="#">Services</a>
                     <ul>
                         <li class="drop-down"><a href="#">Web Development</a>
@@ -144,7 +143,9 @@
                 </li>
                 <li class="<?= ($currentPage == 'portfolio.php') ? 'active' : '' ?>"><a href="portfolio.php">Our
                         Portfolio</a></li>
+                <li class="<?= ($currentPage == 'packages.php') ? 'active' : '' ?>"><a href="packages.php">Packages</a>
                 <li class="<?= ($currentPage == 'contact.php') ? 'active' : '' ?>"><a href="contact.php">Let's Start</a>
+                <li class="<?= ($currentPage == 'about.php') ? 'active' : '' ?>"><a href="about.php">About Us</a></li>
                 <li class="<?= ($currentPage == 'faqs.php') ? 'active' : '' ?>"><a href="faqs.php">FAQ's</a>
 
             </ul>

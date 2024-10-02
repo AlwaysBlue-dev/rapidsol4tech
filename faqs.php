@@ -19,7 +19,7 @@ include 'header.php';
     ============================-->
 
 <body>
-    <section id="faq" class="wow fadeInUp">
+    <section id="faq" class="wow fadeInUp ">
         <div class="container" style="margin-top:100px">
             <header class="section-header">
                 <h3>Frequently Asked Questions</h3>
