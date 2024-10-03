@@ -5,10 +5,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="<?php echo isset($pageDescription) ? $pageDescription : 'Welcome to RapidSol4Tech. Your one-stop solution for web development, hosting, and sharepoint intranet needs.'; ?>">
-    <meta name="keywords"
-        content="<?php echo isset($pageKeywords) ? $pageKeywords : 'RapidSol4Tech, web development, hosting, SharePoint development, software company, digital solutions'; ?>">
+    <meta name="description" content="<?php echo isset($pageDescription) ? $pageDescription : 'Welcome to RapidSol4Tech. Your one-stop solution for web development, hosting, and sharepoint intranet needs.'; ?>">
+    <meta name="keywords" content="<?php echo isset($pageKeywords) ? $pageKeywords : 'RapidSol4Tech, web development, hosting, SharePoint development, software company, digital solutions'; ?>">
     <meta name="author" content="RapidSol4Tech">
     <title><?php echo isset($pageTitle) ? $pageTitle : 'RapidSol4Tech'; ?></title>
 
@@ -96,6 +94,8 @@
             </div>
         </div>
     </div>
+   
+
     <div class="container ">
 
         <div class="logo float-left bg-light">

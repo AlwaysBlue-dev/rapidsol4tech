@@ -1,7 +1,19 @@
 <!--==========================
     Footer
   ============================-->
-<footer id="footer" class="section-bg">
+  <style>
+.payment-logos {
+        margin-top: 20px;
+        gap: 20px;
+    
+    }
+
+    .payment-logo {
+        width: 60px;
+        margin: 0 10px;
+    }
+    </style>
+  <footer id="footer" class="section-bg">
     <div class="footer-top">
         <div class="container">
 
@@ -25,16 +37,11 @@
                                     meet your specific requirements.</p>
                             </div>
 
-
                             <div class="social-links">
-                                <!-- <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> -->
-                                <a href="https://www.facebook.com/profile.php?id=61561315598597" class="facebook"
-                                    target="_blank"><i class="fa fa-facebook"></i></a>
-                                <!-- <a href="#" class="instagram"><i class="fa fa-instagram"></i></a> -->
-                                <a href="https://www.linkedin.com/company/rapidsol4tech" class="linkedin"
-                                    target="_blank"><i class="fa fa-linkedin"></i></a>
+                                <a href="https://www.facebook.com/profile.php?id=61561315598597" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+                                <a href="https://www.linkedin.com/company/rapidsol4tech" class="linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
                             </div>
-
+                               
                         </div>
 
                         <div class="col-sm-6">
@@ -45,7 +52,6 @@
                                     <li><a href="about.php">About us</a></li>
                                     <li><a href="services.php">Services</a></li>
                                     <li><a href="faqs.php">FAQ's</a></li>
-
                                 </ul>
                             </div>
 
@@ -54,14 +60,10 @@
                                 <p>
                                     Karachi, 75290<br>
                                     Pakistan<br>
-
                                     <strong>Phone:</strong> +923123634163<br>
                                     <strong>Email:</strong> info@rapidsol4tech.com<br>
                                 </p>
                             </div>
-
-
-
                         </div>
 
                     </div>
@@ -69,11 +71,8 @@
                 </div>
 
                 <div class="col-lg-6">
-
                     <div class="form">
-
                         <h4>Send us a message</h4>
-
                         <form id="contact-form" action="actions/send_email.php" method="post" role="form">
                             <div class="form-group col-md-12 col-10">
                                 <input type="text" name="name" class="form-control" placeholder="Your Name" required />
@@ -99,11 +98,23 @@
                             </div>
                         </form>
                     </div>
-
                 </div>
 
+            </div>
 
-
+            <!-- Payment Method Logos -->
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h4>Accepted Payment Methods</h4>
+                    <div class="payment-logos d-flex justify-content-center">
+                        <img src="img/payment-methods/visa.webp" alt="Visa" class="payment-logo">
+                        <img src="img/payment-methods/mastercard.webp" alt="MasterCard" class="payment-logo">
+                        <img src="img/payment-methods/paypal.webp" alt="PayPal" class="payment-logo">
+                        <img src="img/payment-methods/payoneer.webp" alt="Payoneer" class="payment-logo">
+                        <img src="img/payment-methods/applepay.webp" alt="ApplePay" class="payment-logo">
+                        <img src="img/payment-methods/gpay.webp" alt="GooglePay" class="payment-logo">
+                    </div>
+                </div>
             </div>
 
         </div>
@@ -114,7 +125,7 @@
             &copy; Copyright <strong>RapidSol4Tech</strong>. All Rights Reserved
         </div>
     </div>
-</footer><!-- #footer -->
+</footer>
 
 <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 <!-- preloader -->
