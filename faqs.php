@@ -71,7 +71,7 @@ include 'header.php';
                             class="ion-android-remove"></i></a>
                     <div id="faq11" class="collapse" data-parent="#faq-list">
                         We accept various payment methods including <b>Apple Pay</b>, <b>Google Pay</b>,
-                        <b>Payoneer</b>, and major credit/debit cards such as <b>Mastercard</b> and <b>VISA</b>.
+                        <b>Payoneer</b>, <b>PayPal</b>, and major credit/debit cards such as <b>Mastercard</b> and <b>VISA</b>.
                     </div>
                 </li>
 

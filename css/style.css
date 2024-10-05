@@ -1251,6 +1251,164 @@ a.linkedin:hover {
   opacity: 1;
 }
 
+/* Enhanced Modal Styles */
+.modal-content {
+  border-radius: 15px;
+  /* Rounded corners */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  /* Shadow effect */
+}
+
+.modal-header {
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  /* Gradient background */
+  color: #fff;
+  border-bottom: none;
+  /* Remove border */
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.modal-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  /* Larger font size */
+}
+
+.modal-body {
+  background-color: #f8f9fa;
+  /* Light background */
+  font-family: 'Arial', sans-serif;
+  /* Change font for a modern look */
+  padding: 20px;
+  /* Increased padding */
+}
+
+.modal-body p {
+  margin-bottom: 1.5rem;
+  /* Spacing between paragraphs */
+}
+
+.modal-body ul {
+  list-style: none;
+  /* Remove default list styling */
+  padding: 0;
+  /* Remove padding */
+}
+
+.modal-body ul li {
+  margin-bottom: 10px;
+  /* Spacing between list items */
+}
+
+.modal-body ul li i {
+  color: #007bff;
+  /* Icon color */
+  margin-right: 8px;
+  /* Spacing between icon and text */
+}
+
+.modal-footer {
+  background-color: #f1f1f1;
+  border-top: none;
+  /* Remove border */
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+/* Button Styles */
+.btn-primary {
+  background-color: #007bff;
+  /* Bootstrap primary color */
+  border: none;
+  border-radius: 5px;
+  /* Rounded corners */
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  /* Darker on hover */
+}
+
+.btn-secondary {
+  border-radius: 5px;
+  /* Rounded corners */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .modal-body {
+      padding: 15px;
+      /* Reduce padding on smaller screens */
+  }
+}
+
+.features-list {
+  list-style: none;
+  /* Remove default list styling */
+  padding: 20px;
+  /* Add padding around the list */
+  margin: 20px 0;
+  /* Margin for spacing */
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  /* Modern gradient background */
+  border-radius: 10px;
+  /* Rounded corners for modern look */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow for depth */
+}
+
+.features-list li {
+  color: #ffffff;
+  /* White text color for contrast */
+  padding: 10px;
+  /* Internal spacing */
+  display: flex;
+  /* Flex for alignment */
+  align-items: center;
+  /* Center icons and text vertically */
+  transition: background 0.3s ease;
+  /* Smooth transition effects */
+}
+
+.features-list li:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  /* Light hover effect for list items */
+}
+
+.features-list i {
+  color: #fff;
+  /* White color for icons */
+  margin-right: 15px;
+  /* Space between icon and text */
+  font-size: 20px;
+  /* Icon size */
+}
+
+.project-description {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  /* Modern gradient background */
+  /* Light gray background */
+  padding: 20px;
+  /* Padding around the text */
+  border-radius: 8px;
+  /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow for depth */
+  margin: 20px 0;
+  /* Margin for spacing */
+}
+
+.project-description p {
+  color: #fff;
+  /* Dark text color for readability */
+  line-height: 1.6;
+  /* Improved line spacing for better readability */
+  font-size: 16px;
+  /* Font size for the paragraph */
+  font-weight: bold;
+}
 /* Testimonials Section
 --------------------------------*/
 
