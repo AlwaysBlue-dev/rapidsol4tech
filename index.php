@@ -399,7 +399,7 @@ include 'header.php';
                             <div class="row row-cols-1 row-cols-lg-3 mb-3 text-center g-4">
 
                                 <!-- Personal Website -->
-                                <div class="col mt-5 ">
+                                <div class="col-md-6 col-lg-4 mt-5">
                                     <div class="pricing-card card h-100 wow bounceInUp">
                                         <div class="pricing-card-header card-header">
                                             <h4 class="my-0 fw-normal">Personal Website</h4>
@@ -434,7 +434,7 @@ include 'header.php';
                                 </div>
 
                                 <!-- Basic Website -->
-                                <div class="col mt-5">
+                                <div class="col-md-6 col-lg-4 mt-5">
                                     <div class="pricing-card card h-100 wow bounceInUp">
                                         <div class="pricing-card-header card-header">
                                             <h4 class="my-0 fw-normal">Basic Website</h4>
@@ -469,7 +469,7 @@ include 'header.php';
                                 </div>
 
                                 <!-- Content Management System -->
-                                <div class="col mt-5">
+                                <div class="col-md-6 col-lg-4 mt-5">
                                     <div class="pricing-card card h-100 wow bounceInUp">
                                         <div class="pricing-card-header card-header">
                                             <h4 class="my-0 fw-normal">CMS</h4>
@@ -513,7 +513,7 @@ include 'header.php';
 
 
                                 <!-- E-Commerce Solutions -->
-                                <div class="col mt-5">
+                                <div class="col-md-6 col-lg-4 mt-5">
                                     <div class="pricing-card card h-100 wow bounceInUp">
                                         <div class="pricing-card-header card-header">
                                             <h4 class="my-0 fw-normal">E-Commerce Solutions</h4>
@@ -555,7 +555,7 @@ include 'header.php';
                                 </div>
 
                                 <!-- Custom Development -->
-                                <div class="col mt-5">
+                                <div class="col-md-6 col-lg-4 mt-5">
                                     <div class="pricing-card card h-100 wow bounceInUp">
                                         <div class="pricing-card-header card-header">
                                             <h4 class="my-0 fw-normal">Custom Development</h4>
@@ -598,7 +598,7 @@ include 'header.php';
                                 </div>
 
                                 <!-- Web Portal -->
-                                <div class="col mt-5">
+                                <div class="col-md-6 col-lg-4 mt-5">
                                     <div class="pricing-card card h-100 wow bounceInUp">
                                         <div class="pricing-card-header card-header">
                                             <h4 class="my-0 fw-normal">Web Portal</h4>
@@ -640,7 +640,7 @@ include 'header.php';
                                 </div>
 
                                 <!-- Point of Sale -->
-                                <div class="col mt-5">
+                                <div class="col-md-6 col-lg-4 mt-5">
                                     <div class="pricing-card card h-100 wow bounceInUp">
                                         <div class="pricing-card-header card-header">
                                             <h4 class="my-0 fw-normal">Point of Sale</h4>
@@ -681,7 +681,7 @@ include 'header.php';
                                 </div>
 
                                 <!-- CRM -->
-                                <div class="col mt-5">
+                                <div class="col-md-6 col-lg-4 mt-5">
                                     <div class="pricing-card card h-100 wow bounceInUp">
                                         <div class="pricing-card-header card-header">
                                             <h4 class="my-0 fw-normal">CRM</h4>
@@ -723,7 +723,7 @@ include 'header.php';
                                 </div>
 
                                 <!-- LMS -->
-                                <div class="col mt-5">
+                                <div class="col-md-6 col-lg-4 mt-5">
                                     <div class="pricing-card card h-100 wow bounceInUp">
                                         <div class="pricing-card-header card-header">
                                             <h4 class="my-0 fw-normal">LMS</h4>
@@ -764,7 +764,7 @@ include 'header.php';
 
                         <div class="tab-pane fade" id="sharepoint" role="tabpanel" aria-labelledby="sharepoint-tab">
                             <div class="row row-cols-1 row-cols-lg-3 mb-3 text-center g-4">
-                                <div class="col mt-5">
+                                <div class="col-md-6 col-lg-4 mt-5">
                                     <div class="pricing-card card h-100 ">
                                         <div class="pricing-card-header card-header">
                                             <h4 class="my-0 fw-normal">Basic SharePoint Setup and Development</h4>
@@ -807,7 +807,7 @@ include 'header.php';
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col mt-5">
+                                <div class="col-md-6 col-lg-4 mt-5">
                                     <div class="pricing-card card h-100 ">
                                         <div class="pricing-card-header card-header">
                                             <h4 class="my-0 fw-normal">Advanced SharePoint Solutions</h4>
@@ -850,7 +850,7 @@ include 'header.php';
                                         <span class="pricing-popular-badge">Popular</span>
                                     </div>
                                 </div>
-                                <div class="col mt-5">
+                                <div class="col-md-6 col-lg-4 mt-5">
                                     <div class="pricing-card card h-100 ">
                                         <div class="pricing-card-header card-header">
                                             <h4 class="my-0 fw-normal">Custom SharePoint Development</h4>
@@ -1059,10 +1059,10 @@ include 'header.php';
                         <img src="img/contact.webp" loading="lazy" class="img-fluid mt-3" alt="Contact RapiSol4Tech">
                     </div>
                     <div class="col-md-6">
-                        <form action="actions/send_email.php" method="post" role="form">
+                        <form id="contact-form-talk" action="actions/send_email.php" method="post" role="form">
                             <div class="form-row">
                                 <!-- Name -->
-                                <div class="form-group col-md-12 col-10">
+                                <div class="form-group col-md-12">
                                     <label for="formName">
                                         <i class="icon" data-feather="user"></i> Name
                                     </label>
@@ -1071,7 +1071,7 @@ include 'header.php';
                                 </div>
 
                                 <!-- E-mail -->
-                                <div class="form-group col-md-12 col-10">
+                                <div class="form-group col-md-12">
                                     <label for="formEmail">
                                         <i class="icon" data-feather="mail"></i> E-mail
                                     </label>
@@ -1082,7 +1082,7 @@ include 'header.php';
 
                             <div class="form-row">
                                 <!-- Service -->
-                                <div class="form-group col-md-12 col-10">
+                                <div class="form-group col-md-12">
                                     <label for="formService">
                                         <i class="icon" data-feather="briefcase"></i> Service
                                     </label>
@@ -1097,7 +1097,7 @@ include 'header.php';
                                 </div>
 
                                 <!-- How did you hear about us? -->
-                                <div class="form-group col-md-12 col-10">
+                                <div class="form-group col-md-12">
                                     <label for="formReferral">
                                         <i class="icon" data-feather="info"></i> How did you hear about us?
                                     </label>
@@ -1115,15 +1115,19 @@ include 'header.php';
                             </div>
 
                             <!-- Message -->
-                            <div class="form-group col-md-12 col-10">
+                            <div class="form-group col-md-12">
                                 <label for="formMessage">About Project</label>
                                 <textarea id="formMessage" name="message" class="form-control form-control-lg" rows="7"
                                     placeholder="About Project" required></textarea>
                             </div>
 
                             <!-- Submit btn -->
-                            <div class="text-center col-md-12 col-10">
-                                <button type="submit" class="btn btn-primary">Let's Start</button>
+                            <div class="text-center col-md-12">
+                                <button id="submit" type="submit" class="btn btn-primary">Let's Start</button>
+                                <div id="loader" class="loader" style="display:none;">
+                                <!-- Loader animation -->
+                                <img src="img/loader.gif" alt="Loading..." />
+                            </div>
                             </div>
                         </form>
                     </div>
@@ -1179,7 +1183,27 @@ include 'header.php';
     </script>
     <!--End of Tawk.to Script-->
 
+    <script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+        const form = document.getElementById('contact-form-talk'); // Make sure to select your form
+        const submitBtn = document.getElementById('submit');
+        const loader = document.getElementById('loader');
+
+        form.addEventListener('submit', (e) => {
+
+
+            // Hide the submit button and show the loader
+            submitBtn.style.display = 'none';
+            loader.style.display = 'block';
+
+
+        });
+    });
+    </script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+
+    
 </body>
 
 </html>

@@ -46,7 +46,7 @@ include 'header.php';
                         <div class="row row-cols-1 row-cols-lg-3 mb-3 text-center g-4">
 
                             <!-- Personal Website -->
-                            <div class="col mt-5">
+                            <div class="col-md-6 col-lg-4 mt-5">
                                 <div class="pricing-card card h-100">
                                     <div class="pricing-card-header card-header">
                                         <h4 class="my-0 fw-normal">Personal Website</h4>
@@ -77,7 +77,7 @@ include 'header.php';
                             </div>
 
                             <!-- Basic Website -->
-                            <div class="col mt-5">
+                            <div class="col-md-6 col-lg-4 mt-5">
                                 <div class="pricing-card card h-100">
                                     <div class="pricing-card-header card-header">
                                         <h4 class="my-0 fw-normal">Basic Website</h4>
@@ -109,7 +109,7 @@ include 'header.php';
                             </div>
 
                             <!-- Content Management System -->
-                            <div class="col mt-5">
+                            <div class="col-md-6 col-lg-4 mt-5">
                                 <div class="pricing-card card h-100">
                                     <div class="pricing-card-header card-header">
                                         <h4 class="my-0 fw-normal">CMS</h4>
@@ -148,7 +148,7 @@ include 'header.php';
 
 
                             <!-- E-Commerce Solutions -->
-                            <div class="col mt-5">
+                            <div class="col-md-6 col-lg-4 mt-5">
                                 <div class="pricing-card card h-100">
                                     <div class="pricing-card-header card-header">
                                         <h4 class="my-0 fw-normal">E-Commerce Solutions</h4>
@@ -186,7 +186,7 @@ include 'header.php';
                             </div>
 
                             <!-- Custom Development -->
-                            <div class="col mt-5">
+                            <div class="col-md-6 col-lg-4 mt-5">
                                 <div class="pricing-card card h-100">
                                     <div class="pricing-card-header card-header">
                                         <h4 class="my-0 fw-normal">Custom Development</h4>
@@ -226,7 +226,7 @@ include 'header.php';
                             </div>
 
                             <!-- Web Portal -->
-                            <div class="col mt-5">
+                            <div class="col-md-6 col-lg-4 mt-5">
                                 <div class="pricing-card card h-100">
                                     <div class="pricing-card-header card-header">
                                         <h4 class="my-0 fw-normal">Web Portal</h4>
@@ -265,7 +265,7 @@ include 'header.php';
                             </div>
 
                             <!-- Point of Sale -->
-                            <div class="col mt-5">
+                            <div class="col-md-6 col-lg-4 mt-5">
                                 <div class="pricing-card card h-100">
                                     <div class="pricing-card-header card-header">
                                         <h4 class="my-0 fw-normal">Point of Sale</h4>
@@ -301,7 +301,7 @@ include 'header.php';
                             </div>
 
                             <!-- CRM -->
-                            <div class="col mt-5">
+                            <div class="col-md-6 col-lg-4 mt-5">
                                 <div class="pricing-card card h-100">
                                     <div class="pricing-card-header card-header">
                                         <h4 class="my-0 fw-normal">CRM</h4>
@@ -340,7 +340,7 @@ include 'header.php';
                             </div>
 
                             <!-- LMS -->
-                            <div class="col mt-5">
+                            <div class="col-md-6 col-lg-4 mt-5">
                                 <div class="pricing-card card h-100">
                                     <div class="pricing-card-header card-header">
                                         <h4 class="my-0 fw-normal">LMS</h4>
@@ -378,7 +378,7 @@ include 'header.php';
 
                     <div class="tab-pane fade" id="sharepoint" role="tabpanel" aria-labelledby="sharepoint-tab">
                         <div class="row row-cols-1 row-cols-lg-3 mb-3 text-center g-4">
-                            <div class="col mt-5">
+                            <div class="col-md-6 col-lg-4 mt-5">
                                 <div class="pricing-card card h-100">
                                     <div class="pricing-card-header card-header">
                                         <h4 class="my-0 fw-normal">Basic SharePoint Setup and Development</h4>
@@ -416,7 +416,7 @@ include 'header.php';
                                     </div>
                                 </div>
                             </div>
-                            <div class="col mt-5">
+                            <div class="col-md-6 col-lg-4 mt-5">
                                 <div class="pricing-card card h-100">
                                     <div class="pricing-card-header card-header">
                                         <h4 class="my-0 fw-normal">Advanced SharePoint Solutions</h4>
@@ -456,7 +456,7 @@ include 'header.php';
                                     <span class="pricing-popular-badge">Popular</span>
                                 </div>
                             </div>
-                            <div class="col mt-5">
+                            <div class="col-md-6 col-lg-4 mt-5">
                                 <div class="pricing-card card h-100">
                                     <div class="pricing-card-header card-header">
                                         <h4 class="my-0 fw-normal">Custom SharePoint Development</h4>

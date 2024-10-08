@@ -1,47 +1,32 @@
 <!--==========================
     Footer
   ============================-->
-  <style>
-.payment-logos {
-        margin-top: 20px;
-        gap: 20px;
-    
-    }
 
-    .payment-logo {
-        width: 60px;
-        margin: 0 10px;
-    }
-    </style>
-  <footer id="footer" class="section-bg">
+<footer id="footer" class="section-bg">
     <div class="footer-top">
         <div class="container">
-
             <div class="row">
-
-                <div class="col-lg-6">
-
+                <div class="col-lg-6 col-md-12">
                     <div class="row">
-
                         <div class="col-sm-6">
-
                             <div class="footer-info">
                                 <h3>RapidSol4Tech</h3>
-                                <p>RapidSol4Tech is a forward-thinking software company dedicated to delivering
+                                <p>
+                                    RapidSol4Tech is a forward-thinking software company dedicated to delivering
                                     cutting-edge web
-                                    development,
-                                    reliable hosting services, and expert SharePoint development. Our team of
-                                    experienced professionals
-                                    is passionate about leveraging the latest technologies to build robust digital
-                                    solutions tailored to
-                                    meet your specific requirements.</p>
+                                    development, reliable hosting services, and expert SharePoint development. Our team
+                                    of experienced
+                                    professionals is passionate about leveraging the latest technologies to build robust
+                                    digital solutions
+                                    tailored to meet your specific requirements.
+                                </p>
                             </div>
-
                             <div class="social-links">
-                                <a href="https://www.facebook.com/profile.php?id=61561315598597" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a>
-                                <a href="https://www.linkedin.com/company/rapidsol4tech" class="linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
+                                <a href="https://www.facebook.com/profile.php?id=61561315598597" class="facebook"
+                                    target="_blank"><i class="fa fa-facebook"></i></a>
+                                <a href="https://www.linkedin.com/company/rapidsol4tech" class="linkedin"
+                                    target="_blank"><i class="fa fa-linkedin"></i></a>
                             </div>
-                               
                         </div>
 
                         <div class="col-sm-6">
@@ -65,32 +50,29 @@
                                 </p>
                             </div>
                         </div>
-
                     </div>
-
                 </div>
 
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-md-12">
                     <div class="form">
                         <h4>Send us a message</h4>
                         <form id="contact-form" action="actions/send_email.php" method="post" role="form">
-                            <div class="form-group col-md-12 col-10">
+                            <div class="form-group">
                                 <input type="text" name="name" class="form-control" placeholder="Your Name" required />
                             </div>
-                            <div class="form-group col-md-12 col-10">
+                            <div class="form-group">
                                 <input type="email" class="form-control" name="email" placeholder="Your Email"
                                     required />
                             </div>
-                            <div class="form-group col-md-12 col-10">
+                            <div class="form-group">
                                 <input type="text" class="form-control" name="subject" placeholder="Subject" required />
                             </div>
-                            <div class="form-group col-md-12 col-10">
+                            <div class="form-group">
                                 <textarea class="form-control" name="message" rows="5" placeholder="Message"
                                     required></textarea>
                             </div>
-
-                            <div class="text-center col-md-12 col-10">
-                                <button type="submit" title="Send Message" id="submit-btn">Send Message</button>
+                            <div class="text-center">
+                                <button id="submit-btn" type="submit" class="btn btn-primary">Send Message</button>
                                 <div id="talk" style="display:none;">
                                     <!-- Loader animation -->
                                     <img src="img/loader.gif" alt="Loading..." />
@@ -99,33 +81,34 @@
                         </form>
                     </div>
                 </div>
-
             </div>
 
-            <!-- Payment Method Logos -->
-            <div class="row">
-                <div class="col-lg-12 text-center">
+            <div class="row mt-4">
+                <div class="col text-center">
                     <h4>Accepted Payment Methods</h4>
-                    <div class="payment-logos d-flex justify-content-center">
-                        <img src="img/payment-methods/visa.webp" alt="Visa" class="payment-logo">
-                        <img src="img/payment-methods/mastercard.webp" alt="MasterCard" class="payment-logo">
-                        <img src="img/payment-methods/paypal.webp" alt="PayPal" class="payment-logo">
-                        <img src="img/payment-methods/payoneer.webp" alt="Payoneer" class="payment-logo">
-                        <img src="img/payment-methods/applepay.webp" alt="ApplePay" class="payment-logo">
-                        <img src="img/payment-methods/gpay.webp" alt="GooglePay" class="payment-logo">
-                    </div>
+                    <img src="img/payment-methods/visa.webp" alt="Visa" class="payment-logo">
+                    <img src="img/payment-methods/mastercard.webp" alt="MasterCard" class="payment-logo img-fluid">
+                    <img src="img/payment-methods/paypal.webp" alt="PayPal" class="payment-logo img-fluid">
+                    <img src="img/payment-methods/payoneer.webp" alt="Payoneer" class="payment-logo img-fluid">
+                    <img src="img/payment-methods/applepay.webp" alt="ApplePay" class="payment-logo img-fluid">
+                    <img src="img/payment-methods/gpay.webp" alt="GooglePay" class="payment-logo img-fluid">
                 </div>
             </div>
-
         </div>
     </div>
 
-    <div class="container">
-        <div class="copyright">
-            &copy; Copyright <strong>RapidSol4Tech</strong>. All Rights Reserved
+    <div class="footer-bottom py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center text-md-left">
+                    <p class="copyright">© 2024 RapidSol4Tech. All Rights Reserved.</p>
+                </div>
+
+            </div>
         </div>
     </div>
 </footer>
+
 
 <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 <!-- preloader -->
