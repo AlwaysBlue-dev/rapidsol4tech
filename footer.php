@@ -43,9 +43,12 @@
                             <div class="footer-links">
                                 <h4>Contact Us</h4>
                                 <p>
-                                    Karachi, 75290<br>
-                                    Pakistan<br>
-                                    <strong>Phone:</strong> +923123634163<br>
+                                    332 Oak Avenue, Brooklyn, NY 11218<br>
+                                    United States<br>
+
+                                   789 Birch Avenue, Calgary, AB T2P 1A2<br>
+                                    Canada<br>
+                                   
                                     <strong>Email:</strong> info@rapidsol4tech.com<br>
                                 </p>
                             </div>
