@@ -9,7 +9,7 @@ require 'PHPMailer/src/SMTP.php';
 session_start(); // Start the session for rate limiting
 
 // Define blocked IPs
-$blocked_ips = ['201.71.172.194', '202.63.244.64']; // The IPs you want to block
+$blocked_ips = isset($_SESSION['blocked_ips']) ? $_SESSION['blocked_ips'] : [];
 
 // Get the user's IP address
 $user_ip = $_SERVER['REMOTE_ADDR'];
@@ -42,7 +42,7 @@ if (in_array($user_ip, $blocked_ips)) {
             </head>
             <body>
                 <p><strong>Blocked IP:</strong> {$user_ip}</p>
-                <p><strong>Details:</strong> A blocked IP attempted to submit the form.</p>
+                <p><strong>Details:</strong> A blocked IP attempted to submit the form after exceeding rate limit.</p>
             </body>
             </html>
         ";
@@ -75,6 +75,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Check if the user has exceeded the maximum number of submissions
     if (count($_SESSION['submission_times']) >= $max_attempts) {
+        // Block the IP after exceeding the rate limit
+        $_SESSION['blocked_ips'][] = $user_ip;
+
         // Send alert email about rate limit being exceeded
         $alertMail = new PHPMailer(true);
         try {
