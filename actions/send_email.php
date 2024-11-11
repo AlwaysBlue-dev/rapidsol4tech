@@ -6,7 +6,71 @@ require 'PHPMailer/src/Exception.php';
 require 'PHPMailer/src/PHPMailer.php';
 require 'PHPMailer/src/SMTP.php';
 
+session_start(); // Start the session for rate limiting
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Rate limiting: Define time limit and max attempts
+    $time_limit = 600; // 600 seconds = 10 minutes
+    $max_attempts = 2; // Maximum allowed submissions within the time limit
+
+    // Initialize submission tracking if not already set
+    if (!isset($_SESSION['submission_times'])) {
+        $_SESSION['submission_times'] = [];
+    }
+
+    // Clean up old submission times
+    $_SESSION['submission_times'] = array_filter($_SESSION['submission_times'], function ($timestamp) use ($time_limit) {
+        return $timestamp > (time() - $time_limit);
+    });
+
+    // Check if the user has exceeded the maximum number of submissions
+    if (count($_SESSION['submission_times']) >= $max_attempts) {
+        // Send alert email about rate limit being exceeded
+        $alertMail = new PHPMailer(true);
+        try {
+            // Server settings for alert email
+            $alertMail->isSMTP();
+            $alertMail->Host = 'smtp.titan.email'; // Titan Email SMTP server
+            $alertMail->SMTPAuth = true;
+            $alertMail->Username = 'info@rapidsol4tech.com'; // Your Titan Email address
+            $alertMail->Password = 'Abd123321@'; // Your Titan Email password
+            $alertMail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // Encryption method
+            $alertMail->Port = 587; // Titan Email SMTP port
+
+            // Recipients
+            $alertMail->setFrom('info@rapidsol4tech.com', 'RapidSol4Tech');
+            $alertMail->addAddress('info@rapidsol4tech.com'); // Your email to receive the rate limit alert
+
+            // Content
+            $alertMail->isHTML(true);
+            $alertMail->Subject = "Rate Limit Exceeded Alert!";
+            $alertMail->Body = "
+                <html>
+                <head>
+                    <title>Rate Limit Exceeded</title>
+                </head>
+                <body>
+                    <p><strong>Alert:</strong> The rate limit for form submissions has been exceeded.</p>
+                    <p><strong>Details:</strong> More than {$max_attempts} submissions were made within {$time_limit} seconds.</p>
+                    <p><strong>IP Address:</strong> " . $_SERVER['REMOTE_ADDR'] . "</p>
+                </body>
+                </html>
+            ";
+
+            // Send rate limit alert email
+            $alertMail->send();
+        } catch (Exception $e) {
+            // Log or handle the error if the rate limit alert email fails
+            error_log("Rate limit alert email could not be sent. Mailer Error: {$alertMail->ErrorInfo}");
+        }
+
+        echo "You have exceeded the maximum number of submissions. Please try again later.";
+        exit();
+    }
+
+    // Log the current submission time
+    $_SESSION['submission_times'][] = time();
+
     // Honeypot field check
     if (!empty($_POST['hidden_field'])) { // Check if honeypot field is filled
         // If the honeypot field has data, it's likely spam
