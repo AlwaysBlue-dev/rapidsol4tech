@@ -60,7 +60,8 @@
                     <div class="form">
                         <h4>Send us a message</h4>
                         <form id="contact-form" action="actions/send_email.php" method="post" role="form">
-                            <div class="form-group">
+                        <input type="text" name="hidden_field" style="display: none;" autocomplete="off">    
+                        <div class="form-group">
                                 <input type="text" name="name" class="form-control" placeholder="Your Name" required />
                             </div>
                             <div class="form-group">

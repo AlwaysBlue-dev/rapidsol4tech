@@ -19,13 +19,13 @@ include 'header.php';
     ============================-->
 
 <body>
-    <section id="pricing" class="wow fadeInUp section-bg bg-dark"  style="margin-top:200px;">
+    <section id="pricing" class="wow fadeInUp section-bg bg-dark" style="margin-top:200px;">
 
         <div class="container">
 
             <header class="section-header">
                 <h3 class="text-white ">Let's Talk About Your Project</h3>
-                <p  class="text-white">Discuss your vision with us and let's bring your project to life!</p>
+                <p class="text-white">Discuss your vision with us and let's bring your project to life!</p>
             </header>
 
             <div class="row">
@@ -34,6 +34,7 @@ include 'header.php';
                 </div>
                 <div class="col-md-6">
                     <form id="contact-form-talk" action="actions/send_email.php" method="post" role="form">
+                        <input type="text" name="hidden_field" style="display: none;" autocomplete="off">
                         <div class="form-row">
                             <!-- Name -->
                             <div class="form-group col-md-12 ">
