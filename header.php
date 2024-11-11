@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+<?php
+$path = realpath(__DIR__ . '/actions/send_email.php');
+require_once $path;
+?>
 
 <html lang="en">
 
