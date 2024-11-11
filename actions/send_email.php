@@ -8,6 +8,56 @@ require 'PHPMailer/src/SMTP.php';
 
 session_start(); // Start the session for rate limiting
 
+// Define blocked IPs
+$blocked_ips = ['201.71.172.194', '202.63.244.64']; // The IPs you want to block
+
+// Get the user's IP address
+$user_ip = $_SERVER['REMOTE_ADDR'];
+
+// Check if the user's IP is in the blocked list
+if (in_array($user_ip, $blocked_ips)) {
+    // Send alert email for blocked IP
+    $alertMail = new PHPMailer(true);
+    try {
+        // Server settings for the alert email
+        $alertMail->isSMTP();
+        $alertMail->Host = 'smtp.titan.email'; // Titan Email SMTP server
+        $alertMail->SMTPAuth = true;
+        $alertMail->Username = 'info@rapidsol4tech.com'; // Your Titan Email address
+        $alertMail->Password = 'Abd123321@'; // Your Titan Email password
+        $alertMail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // Encryption method
+        $alertMail->Port = 587; // Titan Email SMTP port
+
+        // Recipients
+        $alertMail->setFrom('info@rapidsol4tech.com', 'RapidSol4Tech');
+        $alertMail->addAddress('info@rapidsol4tech.com'); // Your email to receive the blocked IP alert
+
+        // Content
+        $alertMail->isHTML(true);
+        $alertMail->Subject = "Blocked IP Attempt";
+        $alertMail->Body = "
+            <html>
+            <head>
+                <title>Blocked IP Alert</title>
+            </head>
+            <body>
+                <p><strong>Blocked IP:</strong> {$user_ip}</p>
+                <p><strong>Details:</strong> A blocked IP attempted to submit the form.</p>
+            </body>
+            </html>
+        ";
+
+        // Send alert email
+        $alertMail->send();
+    } catch (Exception $e) {
+        // Log or handle the error if the alert email fails
+        error_log("Blocked IP alert email could not be sent. Mailer Error: {$alertMail->ErrorInfo}");
+    }
+
+    echo "Your IP address is blocked from submitting the form.";
+    exit(); // Exit script after blocking
+}
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Rate limiting: Define time limit and max attempts
     $time_limit = 600; // 600 seconds = 10 minutes
