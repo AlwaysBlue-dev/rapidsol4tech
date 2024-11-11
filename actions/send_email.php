@@ -8,15 +8,25 @@ require 'PHPMailer/src/SMTP.php';
 
 session_start(); // Start the session for rate limiting
 
-// Define blocked IPs
-$blocked_ips = isset($_SESSION['blocked_ips']) ? $_SESSION['blocked_ips'] : [];
+// Define blocked users by IP or session/user ID
+$blocked_users = isset($_SESSION['blocked_users']) ? $_SESSION['blocked_users'] : [];
 
 // Get the user's IP address
 $user_ip = $_SERVER['REMOTE_ADDR'];
 
-// Check if the user's IP is in the blocked list
-if (in_array($user_ip, $blocked_ips)) {
-    // Send alert email for blocked IP
+// Generate or retrieve a unique user ID (using session or cookies)
+if (!isset($_COOKIE['user_id'])) {
+    // Create a new unique user ID if not set in cookie
+    $user_id = uniqid('user_', true);
+    setcookie('user_id', $user_id, time() + 3600, '/'); // Store user ID for 1 hour
+} else {
+    // Retrieve existing user ID from cookie
+    $user_id = $_COOKIE['user_id'];
+}
+
+// Check if the user's IP or user ID is in the blocked list
+if (in_array($user_ip, $blocked_users) || in_array($user_id, $blocked_users)) {
+    // Send alert email for blocked user
     $alertMail = new PHPMailer(true);
     try {
         // Server settings for the alert email
@@ -30,19 +40,20 @@ if (in_array($user_ip, $blocked_ips)) {
 
         // Recipients
         $alertMail->setFrom('info@rapidsol4tech.com', 'RapidSol4Tech');
-        $alertMail->addAddress('info@rapidsol4tech.com'); // Your email to receive the blocked IP alert
+        $alertMail->addAddress('info@rapidsol4tech.com'); // Your email to receive the blocked user alert
 
         // Content
         $alertMail->isHTML(true);
-        $alertMail->Subject = "Blocked IP Attempt";
+        $alertMail->Subject = "Blocked User Attempt";
         $alertMail->Body = "
             <html>
             <head>
-                <title>Blocked IP Alert</title>
+                <title>Blocked User Alert</title>
             </head>
             <body>
-                <p><strong>Blocked IP:</strong> {$user_ip}</p>
-                <p><strong>Details:</strong> A blocked IP attempted to submit the form after exceeding rate limit.</p>
+                <p><strong>Blocked User IP:</strong> {$user_ip}</p>
+                <p><strong>Blocked User ID:</strong> {$user_id}</p>
+                <p><strong>Details:</strong> A blocked user attempted to submit the form after exceeding rate limit.</p>
             </body>
             </html>
         ";
@@ -50,11 +61,10 @@ if (in_array($user_ip, $blocked_ips)) {
         // Send alert email
         $alertMail->send();
     } catch (Exception $e) {
-        // Log or handle the error if the alert email fails
-        error_log("Blocked IP alert email could not be sent. Mailer Error: {$alertMail->ErrorInfo}");
+        error_log("Blocked user alert email could not be sent. Mailer Error: {$alertMail->ErrorInfo}");
     }
 
-    echo "Your IP address is blocked from submitting the form.";
+    echo "Your submission is blocked due to exceeding the submission limit.";
     exit(); // Exit script after blocking
 }
 
@@ -64,19 +74,26 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $max_attempts = 2; // Maximum allowed submissions within the time limit
 
     // Initialize submission tracking if not already set
-    if (!isset($_SESSION['submission_times'])) {
-        $_SESSION['submission_times'] = [];
+    if (!isset($_SESSION['submission_times'][$user_ip])) {
+        $_SESSION['submission_times'][$user_ip] = [];
+    }
+    if (!isset($_SESSION['submission_times'][$user_id])) {
+        $_SESSION['submission_times'][$user_id] = [];
     }
 
-    // Clean up old submission times
-    $_SESSION['submission_times'] = array_filter($_SESSION['submission_times'], function ($timestamp) use ($time_limit) {
+    // Clean up old submission times based on both IP and user ID
+    $_SESSION['submission_times'][$user_ip] = array_filter($_SESSION['submission_times'][$user_ip], function ($timestamp) use ($time_limit) {
+        return $timestamp > (time() - $time_limit);
+    });
+    $_SESSION['submission_times'][$user_id] = array_filter($_SESSION['submission_times'][$user_id], function ($timestamp) use ($time_limit) {
         return $timestamp > (time() - $time_limit);
     });
 
-    // Check if the user has exceeded the maximum number of submissions
-    if (count($_SESSION['submission_times']) >= $max_attempts) {
-        // Block the IP after exceeding the rate limit
-        $_SESSION['blocked_ips'][] = $user_ip;
+    // Check if the user (IP or user ID) has exceeded the maximum number of submissions
+    if (count($_SESSION['submission_times'][$user_ip]) >= $max_attempts || count($_SESSION['submission_times'][$user_id]) >= $max_attempts) {
+        // Block the user (IP or user ID) after exceeding the rate limit
+        $_SESSION['blocked_users'][] = $user_ip;
+        $_SESSION['blocked_users'][] = $user_id;
 
         // Send alert email about rate limit being exceeded
         $alertMail = new PHPMailer(true);
@@ -105,7 +122,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <body>
                     <p><strong>Alert:</strong> The rate limit for form submissions has been exceeded.</p>
                     <p><strong>Details:</strong> More than {$max_attempts} submissions were made within {$time_limit} seconds.</p>
-                    <p><strong>IP Address:</strong> " . $_SERVER['REMOTE_ADDR'] . "</p>
+                    <p><strong>User IP:</strong> {$user_ip}</p>
+                    <p><strong>User ID:</strong> {$user_id}</p>
                 </body>
                 </html>
             ";
@@ -113,7 +131,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             // Send rate limit alert email
             $alertMail->send();
         } catch (Exception $e) {
-            // Log or handle the error if the rate limit alert email fails
             error_log("Rate limit alert email could not be sent. Mailer Error: {$alertMail->ErrorInfo}");
         }
 
@@ -121,14 +138,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         exit();
     }
 
-    // Log the current submission time
-    $_SESSION['submission_times'][] = time();
+    // Log the current submission time for the specific user (by IP and user ID)
+    $_SESSION['submission_times'][$user_ip][] = time();
+    $_SESSION['submission_times'][$user_id][] = time();
 
     // Honeypot field check
     if (!empty($_POST['hidden_field'])) { // Check if honeypot field is filled
         // If the honeypot field has data, it's likely spam
         
-        // Create a new PHPMailer instance to send spam alert
+        // Send spam alert
         $mail = new PHPMailer(true);
         try {
             // Server settings for spam alert
@@ -162,7 +180,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             // Send spam alert email
             $mail->send();
         } catch (Exception $e) {
-            // Log or handle the error if the spam alert email fails
             error_log("Spam alert email could not be sent. Mailer Error: {$mail->ErrorInfo}");
         }
 
@@ -179,11 +196,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $service = isset($_POST['service']) ? htmlspecialchars($_POST['service']) : '';
     $referral = isset($_POST['referral']) ? htmlspecialchars($_POST['referral']) : '';
 
-    // Create a new PHPMailer instance for the actual form submission
+    // Send the form data via email
     $mail = new PHPMailer(true);
-
     try {
-        // Server settings for the actual form submission
+        // Server settings for email
         $mail->isSMTP();
         $mail->Host = 'smtp.titan.email'; // Titan Email SMTP server
         $mail->SMTPAuth = true;
@@ -194,8 +210,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // Recipients
         $mail->setFrom('info@rapidsol4tech.com', 'RapidSol4Tech');
-        $mail->addAddress('info@rapidsol4tech.com');
-        $mail->addReplyTo($email, $name);
+        $mail->addAddress('info@rapidsol4tech.com'); // Your email
+        $mail->addReplyTo($email, $name); // Reply-to email
 
         // Content
         $mail->isHTML(true);
@@ -210,23 +226,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <p><strong>Email:</strong> {$email}</p>
                 <p><strong>Subject:</strong> {$subject}</p>
                 <p><strong>Message:</strong> {$message}</p>";
-                
+        
         if ($service) {
             $mail->Body .= "<p><strong>Service:</strong> {$service}</p>";
         }
         if ($referral) {
             $mail->Body .= "<p><strong>Referral:</strong> {$referral}</p>";
         }
-        
-        $mail->Body .= "
-            </body>
-            </html>
-        ";
+
+        $mail->Body .= "</body></html>";
 
         // Send email
         $mail->send();
 
-        // Redirect to thank you page or index
+        // Redirect to thank you page
         header("Location: ../thank-you.php");
         exit();
     } catch (Exception $e) {
@@ -235,3 +248,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 } else {
     echo "Invalid request.";
 }
+?>
