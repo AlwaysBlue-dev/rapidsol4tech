@@ -26,46 +26,12 @@ if (!isset($_COOKIE['user_id'])) {
 
 // Check if the user's IP or user ID is in the blocked list
 if (in_array($user_ip, $blocked_users) || in_array($user_id, $blocked_users)) {
-    // Send alert email for blocked user
-    $alertMail = new PHPMailer(true);
-    try {
-        // Server settings for the alert email
-        $alertMail->isSMTP();
-        $alertMail->Host = 'smtp.titan.email'; // Titan Email SMTP server
-        $alertMail->SMTPAuth = true;
-        $alertMail->Username = 'info@rapidsol4tech.com'; // Your Titan Email address
-        $alertMail->Password = 'Abd123321@'; // Your Titan Email password
-        $alertMail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // Encryption method
-        $alertMail->Port = 587; // Titan Email SMTP port
+    // Send email alert when a blocked user tries to access the site
+    sendBlockAlertEmail($user_ip, $user_id);
 
-        // Recipients
-        $alertMail->setFrom('info@rapidsol4tech.com', 'RapidSol4Tech');
-        $alertMail->addAddress('info@rapidsol4tech.com'); // Your email to receive the blocked user alert
-
-        // Content
-        $alertMail->isHTML(true);
-        $alertMail->Subject = "Blocked User Attempt";
-        $alertMail->Body = "
-            <html>
-            <head>
-                <title>Blocked User Alert</title>
-            </head>
-            <body>
-                <p><strong>Blocked User IP:</strong> {$user_ip}</p>
-                <p><strong>Blocked User ID:</strong> {$user_id}</p>
-                <p><strong>Details:</strong> A blocked user attempted to submit the form after exceeding rate limit.</p>
-            </body>
-            </html>
-        ";
-
-        // Send alert email
-        $alertMail->send();
-    } catch (Exception $e) {
-        error_log("Blocked user alert email could not be sent. Mailer Error: {$alertMail->ErrorInfo}");
-    }
-
-    echo "Your submission is blocked due to exceeding the submission limit.";
-    exit(); // Exit script after blocking
+    // If the user is blocked, show an access denied message or redirect to a blocked page
+    echo "Your access to this website has been blocked due to exceeding the submission limit or suspicious activity.";
+    exit(); // Stop further script execution
 }
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -219,33 +185,63 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->Body = "
             <html>
             <head>
-                <title>{$subject}</title>
+                <title>New Form Submission</title>
             </head>
             <body>
                 <p><strong>Name:</strong> {$name}</p>
                 <p><strong>Email:</strong> {$email}</p>
-                <p><strong>Subject:</strong> {$subject}</p>
-                <p><strong>Message:</strong> {$message}</p>";
-        
-        if ($service) {
-            $mail->Body .= "<p><strong>Service:</strong> {$service}</p>";
-        }
-        if ($referral) {
-            $mail->Body .= "<p><strong>Referral:</strong> {$referral}</p>";
-        }
-
-        $mail->Body .= "</body></html>";
+                <p><strong>Message:</strong><br>{$message}</p>
+                <p><strong>Service:</strong> {$service}</p>
+                <p><strong>Referral:</strong> {$referral}</p>
+            </body>
+            </html>
+        ";
 
         // Send email
         $mail->send();
-
-        // Redirect to thank you page
-        header("Location: ../thank-you.php");
-        exit();
+        echo "Thank you for your submission!";
     } catch (Exception $e) {
-        echo "Sorry, there was an error sending your message. Please try again later. Error: {$mail->ErrorInfo}";
+        echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
     }
-} else {
-    echo "Invalid request.";
+}
+
+// Function to send block alert email
+function sendBlockAlertEmail($user_ip, $user_id) {
+    $mail = new PHPMailer(true);
+    try {
+        // Server settings for alert email
+        $mail->isSMTP();
+        $mail->Host = 'smtp.titan.email'; // Titan Email SMTP server
+        $mail->SMTPAuth = true;
+        $mail->Username = 'info@rapidsol4tech.com'; // Your Titan Email address
+        $mail->Password = 'Abd123321@'; // Your Titan Email password
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // Encryption method
+        $mail->Port = 587; // Titan Email SMTP port
+
+        // Recipients
+        $mail->setFrom('info@rapidsol4tech.com', 'RapidSol4Tech');
+        $mail->addAddress('info@rapidsol4tech.com'); // Your email to receive the block alert
+
+        // Content
+        $mail->isHTML(true);
+        $mail->Subject = "Blocked User Attempt Alert";
+        $mail->Body = "
+            <html>
+            <head>
+                <title>Blocked User Attempt</title>
+            </head>
+            <body>
+                <p><strong>Alert:</strong> A blocked user attempted to access the site.</p>
+                <p><strong>User IP:</strong> {$user_ip}</p>
+                <p><strong>User ID:</strong> {$user_id}</p>
+            </body>
+            </html>
+        ";
+
+        // Send alert email
+        $mail->send();
+    } catch (Exception $e) {
+        error_log("Block alert email could not be sent. Mailer Error: {$mail->ErrorInfo}");
+    }
 }
 ?>
