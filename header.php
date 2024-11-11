@@ -1,7 +1,55 @@
 <!DOCTYPE html>
 <?php
-$path = realpath(__DIR__ . '/actions/send_email.php');
-require_once $path;
+$block_users_path = realpath(__DIR__ . '/actions/blocked_users.json');
+$email_path = realpath(__DIR__ . '/actions/send_email.php');
+require $email_path;
+
+// Get the user's IP address
+$user_ip = $_SERVER['REMOTE_ADDR'];
+
+// Generate or retrieve a unique user ID (using session or cookies)
+if (!isset($_COOKIE['user_id'])) {
+    // Create a new unique user ID if not set in cookie
+    $user_id = uniqid('user_', true);
+    setcookie('user_id', $user_id, time() + 3600, '/'); // Store user ID for 1 hour
+} else {
+    // Retrieve existing user ID from cookie
+    $user_id = $_COOKIE['user_id'];
+}
+
+// Load the blocked users list from file (ensure this file exists)
+$blocked_users_file = $block_users_path; // Path to the file where blocked users are stored
+
+// Check if the file exists and load the blocked users
+if (file_exists($blocked_users_file)) {
+    $file_content = file_get_contents($blocked_users_file);
+    $blocked_users = json_decode($file_content, true);
+    
+    // Check if decoding was successful and initialize empty array if necessary
+    if ($blocked_users === null) {
+        // Handle the error if JSON is invalid
+        error_log("Error decoding JSON: " . json_last_error_msg());
+        $blocked_users = []; // Initialize empty list if JSON decode fails
+    }
+} else {
+    $blocked_users = []; // Initialize empty list if the file doesn't exist
+}
+
+// Ensure $blocked_users is always an array before using in in_array
+if (!is_array($blocked_users)) {
+    $blocked_users = []; // Fallback to empty array if for some reason it's not an array
+}
+
+// Check if the user's IP or user ID is in the blocked list
+if (in_array($user_ip, $blocked_users) || in_array($user_id, $blocked_users)) {
+    // Send email alert if a blocked user attempts to access the site
+    sendBlockAlertEmail($user_ip, $user_id);
+
+    // Block access and show a message or redirect to a blocked page
+    echo "Your access to this website has been blocked due to suspicious activity.";
+    exit(); // Stop further script execution
+}
+
 ?>
 
 <html lang="en">
